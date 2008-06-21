@@ -415,7 +415,7 @@ int main(int argc, char** argv)
 
         // turn off screen is not allowed since there should be at least one monitor available.
         if( g_slist_length( monitors ) == 1 )
-            gtk_widget_hide( m->enable );
+            gtk_widget_set_sensitive( m->enable, FALSE );
 
         gtk_box_pack_start( hbox, check, FALSE, TRUE, 6 );
         if( m->active_mode >= 0 )
