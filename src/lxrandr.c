@@ -1,5 +1,5 @@
 /*
- *      lxrandr.c
+ *      lxrandr.c - Easy-to-use XRandR GUI frontend for LXDE project
  *
  *      Copyright (C) 2008 Hong Jen Yee(PCMan) <pcman.tw@gmail.com>
  *
@@ -46,6 +46,8 @@ typedef struct _Monitor
 static GSList* monitors = NULL;
 static Monitor* LVDS = NULL;
 
+static GtkWidget* dlg = NULL;
+
 static void monitor_free( Monitor* m )
 {
     g_free( m->name );
@@ -73,10 +75,18 @@ static gboolean get_xrandr_info()
     GMatchInfo* match;
     int status;
     char* output = NULL;
+    char* ori_locale;
+
+    ori_locale = g_strdup( setlocale(LC_ALL, "") );
+
+    // set locale to "C" temporarily to guarantee English output of xrandr
+    setlocale(LC_ALL, "C");
 
     if( ! g_spawn_command_line_sync( "xrandr", &output, NULL, &status, NULL ) || status )
     {
         g_free( output );
+        setlocale( LC_ALL, ori_locale );
+        g_free( ori_locale );
         return FALSE;
     }
 
@@ -146,6 +156,10 @@ static gboolean get_xrandr_info()
     }
     g_regex_unref( regex );
 
+    // restore the original locale
+    setlocale( LC_ALL, ori_locale );
+    g_free( ori_locale );
+
     return TRUE;
 }
 
@@ -205,12 +219,112 @@ static void on_about( GtkButton* btn, gpointer parent )
 
 static void set_xrandr_info()
 {
+    GSList* l;
+    GString *cmd = g_string_sized_new( 1024 );
 
+    g_string_assign( cmd, "xrandr" );
+
+    for( l = monitors; l; l = l->next )
+    {
+        Monitor* m = (Monitor*)l->data;
+        g_string_append( cmd, " --output " );
+        g_string_append( cmd, m->name );
+        g_string_append_c( cmd, ' ' );
+
+        // if the monitor is turned on
+        if( gtk_toggle_button_get_active( m->enable ) )
+        {
+            int sel_res = gtk_combo_box_get_active( m->res_combo );
+            int sel_rate = gtk_combo_box_get_active( m->rate_combo );
+
+            if( sel_res < 1 ) // auto resolution
+            {
+                g_string_append( cmd, "--auto" );
+            }
+            else
+            {
+                g_string_append( cmd, "--mode " );
+                ++sel_res;  // the fist item in the combo box is "Auto", indecis of resolutions are 1, 2, 3...
+                g_string_append( cmd, gtk_combo_box_get_active_text(m->res_combo) );
+
+                if( sel_rate >= 1 ) // not auto refresh rate
+                {
+                    g_string_append( cmd, " --rate " );
+                    g_string_append( cmd, gtk_combo_box_get_active_text(m->rate_combo) );
+                }
+            }
+
+            g_string_append( cmd, "" );
+
+        }
+        else    // turn off
+            g_string_append( cmd, "--off" );
+    }
+
+    g_spawn_command_line_sync( cmd->str, NULL, NULL, NULL, NULL );
+    g_string_free( cmd, TRUE );
+}
+
+static void on_quick_option( GtkButton* btn, gpointer data )
+{
+    GSList* l;
+    int option = GPOINTER_TO_INT(data);
+    switch( option )
+    {
+    case 1: // turn on both
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            gtk_toggle_button_set_active( m->enable, TRUE );
+        }
+        break;
+    case 2: // external monitor only
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            gtk_toggle_button_set_active( m->enable, m != LVDS );
+        }
+        break;
+    case 3: // laptop panel - LVDS only
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            gtk_toggle_button_set_active( m->enable, m == LVDS );
+        }
+        break;
+    default:
+        return;
+    }
+    gtk_dialog_response( dlg, GTK_RESPONSE_OK );
+//    set_xrandr_info();
+}
+
+static void on_response( GtkDialog* dialog, int response, gpointer user_data )
+{
+    if( response == GTK_RESPONSE_OK )
+    {
+        GtkWidget* msg;
+        GSList* l;
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            if( gtk_toggle_button_get_active( m->enable ) )
+                return;
+        }
+
+        msg = gtk_message_dialog_new( dialog, 0, GTK_MESSAGE_WARNING, GTK_BUTTONS_OK,
+                                     _("You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor.") );
+        gtk_dialog_run( msg );
+        gtk_widget_destroy( msg );
+
+        // block the response
+        g_signal_stop_emission_by_name( dialog, "response" );
+    }
 }
 
 int main(int argc, char** argv)
 {
-    GtkWidget *dlg, *notebook, *vbox, *frame, *label, *hbox, *check, *btn;
+    GtkWidget *notebook, *vbox, *frame, *label, *hbox, *check, *btn;
     GSList* l;
 
 #ifdef ENABLE_NLS
@@ -234,6 +348,7 @@ int main(int argc, char** argv)
                                        GTK_DIALOG_NO_SEPARATOR,
                                        GTK_STOCK_OK, GTK_RESPONSE_OK,
                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL );
+    g_signal_connect( dlg, "response", G_CALLBACK(on_response), NULL );
     gtk_container_set_border_width( (GtkContainer*)dlg, 8 );
     gtk_dialog_set_alternative_button_order( dlg, GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL );
 
@@ -252,15 +367,18 @@ int main(int argc, char** argv)
         gtk_container_set_border_width( vbox, 8 );
 
         btn = gtk_button_new_with_label( _("Show the same screen on both laptop LCD and external monitor") );
+        g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(1) );
         gtk_box_pack_start( vbox, btn, FALSE, TRUE , 4);
 
         btn = gtk_button_new_with_label( _("Turn off laptop LCD and use external monitor only") );
+        g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(2) );
         gtk_box_pack_start( vbox, btn, FALSE, TRUE , 4);
 
         btn = gtk_button_new_with_label( _("Turn off external monitor and use laptop LCD only") );
+        g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(3) );
         gtk_box_pack_start( vbox, btn, FALSE, TRUE , 4);
 
-        gtk_notebook_append_page( notebook, vbox, gtk_label_new("Quick Options") );
+        gtk_notebook_append_page( notebook, vbox, gtk_label_new( _("Quick Options") ) );
     }
     else
     {
@@ -269,7 +387,7 @@ int main(int argc, char** argv)
 
     vbox = gtk_vbox_new( FALSE, 4 );
     gtk_container_set_border_width( vbox, 8 );
-    gtk_notebook_append_page( notebook, vbox, gtk_label_new("Advanced") );
+    gtk_notebook_append_page( notebook, vbox, gtk_label_new(_("Advanced")) );
 
     label = gtk_label_new("");
     gtk_misc_set_alignment( label, 0.0, 0.5 );
@@ -291,7 +409,13 @@ int main(int argc, char** argv)
         gtk_container_set_border_width( hbox, 4 );
         gtk_container_add( (GtkContainer*)frame, hbox );
 
-        check = gtk_check_button_new_with_label( "Turn On" );
+        check = gtk_check_button_new_with_label( _("Turn On") );
+        m->enable = check;
+
+        // turn off screen is not allowed since there should be at least one monitor available.
+        if( g_slist_length( monitors ) == 1 )
+            gtk_widget_hide( m->enable );
+
         gtk_box_pack_start( hbox, check, FALSE, TRUE, 6 );
         if( m->active_mode >= 0 )
             gtk_toggle_button_set_active( check, TRUE );

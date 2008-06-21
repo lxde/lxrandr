@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-21 13:58+0800\n"
+"POT-Creation-Date: 2008-06-22 06:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,74 +17,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../src/lxrandr.c:59
+#: src/lxrandr.c:61
 msgid "Laptop LCD Monitor"
 msgstr ""
 
-#: ../src/lxrandr.c:61
+#: src/lxrandr.c:63
 msgid "External VGA Monitor"
 msgstr ""
 
-#: ../src/lxrandr.c:63
+#: src/lxrandr.c:65
 msgid "External DVI Monitor"
 msgstr ""
 
-#: ../src/lxrandr.c:65
+#: src/lxrandr.c:67
 msgid "TV"
 msgstr ""
 
-#: ../src/lxrandr.c:159 ../src/lxrandr.c:312
+#: src/lxrandr.c:173 src/lxrandr.c:436
 msgid "Auto"
 msgstr ""
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:184
+#: src/lxrandr.c:198
 msgid "translator-credits"
 msgstr ""
 
-#: ../src/lxrandr.c:192
+#: src/lxrandr.c:206
 msgid "LXRandR"
 msgstr ""
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:194
+#: src/lxrandr.c:208
 msgid "Copyright (C) 2008"
 msgstr ""
 
-#: ../src/lxrandr.c:195
+#: src/lxrandr.c:209
 msgid "Monitor configuration tool for LXDE"
 msgstr ""
 
-#: ../src/lxrandr.c:227
+#: src/lxrandr.c:316
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+
+#: src/lxrandr.c:341
 msgid "Unable to get monitor information!"
 msgstr ""
 
-#: ../src/lxrandr.c:233
+#: src/lxrandr.c:347
 msgid "Display Settings"
 msgstr ""
 
-#: ../src/lxrandr.c:254
+#: src/lxrandr.c:369
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr ""
 
-#: ../src/lxrandr.c:257
+#: src/lxrandr.c:373
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr ""
 
-#: ../src/lxrandr.c:260
+#: src/lxrandr.c:377
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr ""
 
-#: ../src/lxrandr.c:276
+#: src/lxrandr.c:381
+msgid "Quick Options"
+msgstr ""
+
+#: src/lxrandr.c:390
+msgid "Advanced"
+msgstr ""
+
+#: src/lxrandr.c:394
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/lxrandr.c:299
+#: src/lxrandr.c:412
+msgid "Turn On"
+msgstr ""
+
+#: src/lxrandr.c:423
 msgid "Resolution:"
 msgstr ""
 
-#: ../src/lxrandr.c:306
+#: src/lxrandr.c:430
 msgid "Refresh Rate:"
 msgstr ""
