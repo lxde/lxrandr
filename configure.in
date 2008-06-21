@@ -20,11 +20,12 @@ AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
 dnl Add the languages which your application supports here.
-ALL_LINGUAS="zh_TW"
+ALL_LINGUAS="zh_TW hu"
 AM_GLIB_GNU_GETTEXT
 
 AC_OUTPUT([
 Makefile
 src/Makefile
 po/Makefile.in
+data/lxrandr.desktop
 ])

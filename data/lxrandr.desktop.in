@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Monitor Settings
+Name[zh_TW]=螢幕設定
+Comment=Change screen resolution and configure external monitors
+Comment[zh_TW]=變更螢幕解析度以及設定外接顯示器
+Exec=lxrandr
+Encoding=UTF-8
+Type=Applications
+Categories=Settings;
