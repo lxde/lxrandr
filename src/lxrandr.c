@@ -125,7 +125,12 @@ static gboolean get_xrandr_info()
                     {
                         char *star, *plus;
                         str = g_strdup( str );
-                        g_ptr_array_add( strv, str );
+
+                        // sometimes, + goes after a space
+                        if( 0 == strcmp( str, "+" ) )
+                            --irate;
+                        else
+                            g_ptr_array_add( strv, str );
 
                         if( star = strchr( str, '*' ) )
                         {
@@ -141,7 +146,7 @@ static gboolean get_xrandr_info()
                             *star = '\0';
                         if( plus )
                             *plus = '\0';
-                        ++imode;
+                        ++irate;
                     }
                 }
                 g_ptr_array_add( strv, NULL );
