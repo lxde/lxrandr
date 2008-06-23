@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-22 06:40+0800\n"
+"POT-Creation-Date: 2005-01-02 14:36+0800\n"
 "PO-Revision-Date: 2008-06-21 09:22+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
@@ -29,76 +29,81 @@ msgstr "Külső DVI Monitor"
 msgid "TV"
 msgstr "TV"
 
-#: src/lxrandr.c:174 src/lxrandr.c:437
+#: src/lxrandr.c:70
+#, fuzzy
+msgid "Default Monitor"
+msgstr "Külső VGA Monitor"
+
+#: src/lxrandr.c:181 src/lxrandr.c:453
 msgid "Auto"
 msgstr "Auto"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: src/lxrandr.c:199
+#: src/lxrandr.c:206
 msgid "translator-credits"
 msgstr "SZERVÁC Attila"
 
-#: src/lxrandr.c:207
+#: src/lxrandr.c:214
 msgid "LXRandR"
 msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: src/lxrandr.c:209
+#: src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "Copyright (C) 2008"
 
-#: src/lxrandr.c:210
+#: src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
 msgstr "Monitor beállító eszköz az LXDE-hez"
 
-#: src/lxrandr.c:317
+#: src/lxrandr.c:333
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable whithout monitor."
 msgstr ""
 
-#: src/lxrandr.c:342
+#: src/lxrandr.c:358
 msgid "Unable to get monitor information!"
 msgstr "Nem tudom lekérdezni a monitor adatait!"
 
-#: src/lxrandr.c:348
+#: src/lxrandr.c:364
 msgid "Display Settings"
 msgstr "Kijelző beállítások"
 
-#: src/lxrandr.c:370
+#: src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Egyazon képernyő mutatása a laptop LCD és külső monitoron"
 
-#: src/lxrandr.c:374
+#: src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Laptop LCD kikapcsolása és csak a külső monitor használata"
 
-#: src/lxrandr.c:378
+#: src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Külső monitor kikapcsolása és csak a laptop LCD használata"
 
-#: src/lxrandr.c:382
+#: src/lxrandr.c:398
 msgid "Quick Options"
 msgstr ""
 
-#: src/lxrandr.c:391
+#: src/lxrandr.c:407
 msgid "Advanced"
 msgstr ""
 
-#: src/lxrandr.c:395
+#: src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Az alábbi monitort találtam:"
 msgstr[1] "Az alábbi monitorokat találtam:"
 
-#: src/lxrandr.c:413
+#: src/lxrandr.c:429
 msgid "Turn On"
 msgstr ""
 
-#: src/lxrandr.c:424
+#: src/lxrandr.c:440
 msgid "Resolution:"
 msgstr "Felbontás:"
 
-#: src/lxrandr.c:431
+#: src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Frissítés:"

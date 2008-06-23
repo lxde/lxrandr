@@ -66,6 +66,8 @@ static const char* get_human_readable_name( Monitor* m )
         return _( LVDS ? "External DVI Monitor" : "DVI Monitor");
     else if( g_str_has_prefix( m->name, "TV" ) || g_str_has_prefix(m->name, "S-Video") )
         return _("TV");
+    else if( strcmp( m->name, "default" ) == 0 )
+        return _( "Default Monitor");
 
     return m->name;
 }
@@ -91,7 +93,7 @@ static gboolean get_xrandr_info()
         return FALSE;
     }
 
-    regex = g_regex_new( "([A-Z]+[-0-9]*) +connected .*((\n +[0-9]+x[0-9]+[^\n]+)+)",
+    regex = g_regex_new( "([a-zA-Z]+[-0-9]*) +connected .*((\n +[0-9]+x[0-9]+[^\n]+)+)",
                          0, 0, NULL );
     if( g_regex_match( regex, output, 0, &match ) )
     {
@@ -271,6 +273,12 @@ static void set_xrandr_info()
     g_string_free( cmd, TRUE );
 }
 
+static void choose_max_resolution( Monitor* m )
+{
+    if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(m->res_combo), NULL ) > 1 )
+        gtk_combo_box_set_active( m->res_combo, 1 );
+}
+
 static void on_quick_option( GtkButton* btn, gpointer data )
 {
     GSList* l;
@@ -281,6 +289,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
         for( l = monitors; l; l = l->next )
         {
             Monitor* m = (Monitor*)l->data;
+            choose_max_resolution( m );
             gtk_toggle_button_set_active( m->enable, TRUE );
         }
         break;
@@ -288,6 +297,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
         for( l = monitors; l; l = l->next )
         {
             Monitor* m = (Monitor*)l->data;
+            choose_max_resolution( m );
             gtk_toggle_button_set_active( m->enable, m != LVDS );
         }
         break;
@@ -295,6 +305,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
         for( l = monitors; l; l = l->next )
         {
             Monitor* m = (Monitor*)l->data;
+            choose_max_resolution( m );
             gtk_toggle_button_set_active( m->enable, m == LVDS );
         }
         break;

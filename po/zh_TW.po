@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-22 06:40+0800\n"
+"POT-Creation-Date: 2005-01-02 14:36+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hong Jen Yee <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW\n"
@@ -27,29 +27,33 @@ msgstr "外接 DVI 顯示器"
 msgid "TV"
 msgstr "電視"
 
-#: src/lxrandr.c:174 src/lxrandr.c:437
+#: src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "預設顯示器"
+
+#: src/lxrandr.c:181 src/lxrandr.c:453
 msgid "Auto"
 msgstr "自動"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: src/lxrandr.c:199
+#: src/lxrandr.c:206
 msgid "translator-credits"
 msgstr "洪任諭 (PCMan) <pcman.tw@gmail.com>"
 
-#: src/lxrandr.c:207
+#: src/lxrandr.c:214
 msgid "LXRandR"
 msgstr ""
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: src/lxrandr.c:209
+#: src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "版權所有 (C) 2008"
 
-#: src/lxrandr.c:210
+#: src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE 的螢幕設定工具"
 
-#: src/lxrandr.c:317
+#: src/lxrandr.c:333
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable whithout monitor."
@@ -57,47 +61,47 @@ msgstr ""
 "你不能關閉所有螢幕，否則，你將無法重新再開啟它們，因為這個工具無法在沒有螢幕"
 "的狀況下操作。"
 
-#: src/lxrandr.c:342
+#: src/lxrandr.c:358
 msgid "Unable to get monitor information!"
 msgstr "無法取得螢幕資訊！"
 
-#: src/lxrandr.c:348
+#: src/lxrandr.c:364
 msgid "Display Settings"
 msgstr "顯示器設定"
 
-#: src/lxrandr.c:370
+#: src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "在筆記型電腦螢幕和外接顯示器顯示相同畫面"
 
-#: src/lxrandr.c:374
+#: src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "關閉筆記型電腦 LCD 螢幕，只使用外接顯示器"
 
-#: src/lxrandr.c:378
+#: src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "關閉外接顯示器，只使用筆記型電腦 LCD 螢幕"
 
-#: src/lxrandr.c:382
+#: src/lxrandr.c:398
 msgid "Quick Options"
 msgstr "快速選項"
 
-#: src/lxrandr.c:391
+#: src/lxrandr.c:407
 msgid "Advanced"
 msgstr "進階"
 
-#: src/lxrandr.c:395
+#: src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "偵測到下列螢幕："
 
-#: src/lxrandr.c:413
+#: src/lxrandr.c:429
 msgid "Turn On"
 msgstr "開啟"
 
-#: src/lxrandr.c:424
+#: src/lxrandr.c:440
 msgid "Resolution:"
 msgstr "解析度："
 
-#: src/lxrandr.c:431
+#: src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "更新頻率："
