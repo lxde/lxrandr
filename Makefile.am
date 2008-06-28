@@ -1,4 +1,4 @@
-SUBDIRS = src po
+SUBDIRS = src po man
 
 #datafiledir=$(datadir)/lxrandr
 #datafile_DATA=data/
