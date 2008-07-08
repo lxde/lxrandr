@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-02 14:36+0800\n"
+"PO-Revision-Date: 2008-07-08 20:17+0200\n"
+"Last-Translator: Elias Julkunen <elias.julkunen@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Kannettavan tietokoneen LCD-näyttö"
+
+#: src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Ulkoinen VGA-näyttö"
+
+#: src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Ulkoinen DVI-näyttö"
+
+#: src/lxrandr.c:68
+msgid "TV"
+msgstr "Televisio"
+
+#: src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Oletusnäyttö"
+
+#: src/lxrandr.c:181
+#: src/lxrandr.c:453
+msgid "Auto"
+msgstr "Automaattinen"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Elias Julkunen <elias.julkunen@gmail.com>"
+
+#: src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Tekijänoikeudet (C) 2008"
+
+#: src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Näytön asetusten tekemisen työkalu LXDE:lle"
+
+#: src/lxrandr.c:333
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Et voi sulkea kaikkia näyttöjä. Muuten et voi laittaa niitä takaisin päälle, koska tätä työkalua ei voi käyttää ilman näyttöä."
+
+#: src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Näytön tietoja ei saatu."
+
+#: src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Näytön asetukset"
+
+#: src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Näytä sama kuva kannettavan tietokoneen näytöllä ja ulkoisella näytöllä"
+
+#: src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Kytke kannettavan tietokoneen näyttö pois päältä ja käytä vain ulkoista näyttöä"
+
+#: src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Kytke ulkoinen näyttö pois päältä ja käytä ainoastaan kannettavan näyttöä"
+
+#: src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Pika-asetukset"
+
+#: src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Seuraava näyttö havaittiin:"
+msgstr[1] "Seuraavat näytöt havaittiin:"
+
+#: src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Kytke päälle"
+
+#: src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Resoluutio:"
+
+#: src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Virkistystaajuus:"
+
