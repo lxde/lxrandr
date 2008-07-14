@@ -367,7 +367,7 @@ int main(int argc, char** argv)
                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL );
     g_signal_connect( dlg, "response", G_CALLBACK(on_response), NULL );
     gtk_container_set_border_width( (GtkContainer*)dlg, 8 );
-    gtk_dialog_set_alternative_button_order( dlg, GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL );
+    gtk_dialog_set_alternative_button_order( dlg, GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL, -1 );
 
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
     gtk_box_pack_start( GTK_DIALOG(dlg)->action_area, btn, FALSE, TRUE, 0 );
