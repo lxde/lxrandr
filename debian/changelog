@@ -1,0 +1,12 @@
+lxrandr (0.1+svn20080716-1) unstable; urgency=high
+
+  * Solved segmentaion fault problem (Closes: #490766)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Wed, 16 Jul 2008 06:47:32 +0800
+
+lxrandr (0.1+svn20080704-1) unstable; urgency=low
+
+  * Initial release (Closes: #488311)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Fri, 04 Jul 2008 00:26:18 +0800
+
