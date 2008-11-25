@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-01-02 14:36+0800\n"
-"PO-Revision-Date: 2008-11-09 12:39+0200\n"
+"PO-Revision-Date: 2008-11-25 21:33+0200\n"
 "Last-Translator: Elias Julkunen <elias.julkunen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr "Työkalu näyttöasetusten tekemiseen LXDE:lle"
 
 #: src/lxrandr.c:333
 msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Et voi kytkeä kaikkia näyttöjä pois käytöstä, sillä muuten et voi laittaa niitä takaisin päälle, koska tätä työkalua ei voi käyttää ilman näyttöä."
+msgstr "Koska tätä työkalua ei voi käyttää ilman näyttöä, kaikkia näyttöjä ei voi kytkeä pois käytöstä, sillä muuten niitä ei voi laittaa takaisin päälle."
 
 #: src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -103,7 +103,7 @@ msgstr "Kytke päälle"
 
 #: src/lxrandr.c:440
 msgid "Resolution:"
-msgstr "Resoluutio:"
+msgstr "Tarkkuus:"
 
 #: src/lxrandr.c:447
 msgid "Refresh Rate:"
