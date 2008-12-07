@@ -7,5 +7,5 @@ Comment[zh_TW]=變更螢幕解析度以及設定外接顯示器
 Comment[fi]=Muuta näytön tarkkuutta ja aseta ulkoiset näytöt
 Exec=lxrandr
 Encoding=UTF-8
-Type=Applications
+Type=Application
 Categories=Settings;
