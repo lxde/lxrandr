@@ -1,0 +1,113 @@
+# Spanish translation of lxlrandr
+# Copyright (C) 2008 THE lxlrandr'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxlrandr package.
+#
+# Julio Napurí Carlos <julionc@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-09 13:19-0500\n"
+"PO-Revision-Date: 2008-12-09 21:25-0500\n"
+"Last-Translator: Julio Napurí Carlos <julionc@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Spanish\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Monitor LCD del portátil"
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Monitor VGA externo"
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Monitor DVI externo"
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Monitor predeterminado"
+
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "Automático"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Julio Napurí Carlos <julionc@gmail.com>, 2008"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Copyright (C) 2008"
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Herramienta de configuración de monitores para LXDE"
+
+#: ../src/lxrandr.c:333
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "No puedes apagar todos los monitores. De lo contrario, no podrá encenderlos otra vez ya que esta herramienta no es accesible sin monitor."
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "¡No se puede obtener información del monitor!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Mostrar ajustes"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Mostrar la misma pantalla en ambos LCD del portátil y monitor externo"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Apague el portátil y sólo use un monitor externo"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Apague el monitor externo y use sólo el LCD de la portátil"
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Opciones rápidas"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "El siguiente monitor ha sido detectado:"
+msgstr[1] "Los siguientes monitores han sido detectados:"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Activar"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Resolución:"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Tasa de refresco:"
+
