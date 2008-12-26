@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-01-02 14:36+0800\n"
-"PO-Revision-Date: 2008-06-21 09:22+0100\n"
+"PO-Revision-Date: 2008-12-26 11:42+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,11 +30,11 @@ msgid "TV"
 msgstr "TV"
 
 #: src/lxrandr.c:70
-#, fuzzy
 msgid "Default Monitor"
-msgstr "Külső VGA Monitor"
+msgstr "Alap monitor"
 
-#: src/lxrandr.c:181 src/lxrandr.c:453
+#: src/lxrandr.c:181
+#: src/lxrandr.c:453
 msgid "Auto"
 msgstr "Auto"
 
@@ -57,9 +57,7 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Monitor beállító eszköz az LXDE-hez"
 
 #: src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
 msgstr ""
 
 #: src/lxrandr.c:358
@@ -84,11 +82,11 @@ msgstr "Külső monitor kikapcsolása és csak a laptop LCD használata"
 
 #: src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "Gyors lehetőségek"
 
 #: src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "Haladó"
 
 #: src/lxrandr.c:411
 msgid "The following monitor is detected:"
@@ -98,7 +96,7 @@ msgstr[1] "Az alábbi monitorokat találtam:"
 
 #: src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "Bekapcsolás"
 
 #: src/lxrandr.c:440
 msgid "Resolution:"
@@ -107,3 +105,4 @@ msgstr "Felbontás:"
 #: src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Frissítés:"
+
