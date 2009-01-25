@@ -1,0 +1,114 @@
+# Translation of lxrandr to Italian
+# Copyright (C) 2009 Fabio Barone <phonky at gmx.net>
+# This file is distributed under the same license as the lxrandr package
+# Fabio Barone <phonky at gmx.net>, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-02 14:36+0800\n"
+"PO-Revision-Date: 2009-01-07 00:22+0100\n"
+"Last-Translator: Fabio Barone <phonky@gmx.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language-Team: \n"
+
+#: src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Monitor LCD portatile"
+
+#: src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Monitor VGA esterno"
+
+#: src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Monitor DVI esterno"
+
+#: src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Monitor standard"
+
+#: src/lxrandr.c:181
+#: src/lxrandr.c:453
+msgid "Auto"
+msgstr "Automatico"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Fabio Barone <phonky@gmx.net>"
+
+#: src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Copyright (C) 2008"
+
+#: src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Strumento di configurazione monitor per LXDE"
+
+#: src/lxrandr.c:333
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Non é permesso disattivare tutti i monitor. Altrimenti, non sarà possibile di riattivarli dopo già che questo strumento non é accessibile senza monitor"
+
+#: src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Impossibile reperire informazioni sul monitor!"
+
+#: src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Impostazioni del display"
+
+#: src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Mostrare lo stesso schermo sul LCD del portatile e sul monitor esterno"
+
+#: src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Disattivare il LCD del portatile ed usare solo il monitor esterno"
+
+#: src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Disattivare il monitor esterno ed usare solo il LCD del portatile"
+
+#: src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Semplice"
+
+#: src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Il seguente monitor é stato rilevato"
+msgstr[1] "I seguenti monitor sono stati rilevati"
+
+#: src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Rata di "
+
+#: src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Risoluzione:"
+
+#: src/lxrandr.c:447
+#, fuzzy
+msgid "Refresh Rate:"
+msgstr "Rata di ripetizione immagine:"
+
