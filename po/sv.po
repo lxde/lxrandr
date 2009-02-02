@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-05 02:18+0100\n"
+"POT-Creation-Date: 2009-02-02 04:48+0100\n"
 "PO-Revision-Date: 2009-01-06 19:46+0100\n"
 "Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -36,8 +36,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Standardskärm"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automatisk"
 
@@ -64,8 +63,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Verktyg för skärminställningar för LXDE"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Du kan inte stänga av alla skärmar, då kan du inte sätta igång de igen eftersom du inte kan se det här verktyget."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Du kan inte stänga av alla skärmar, då kan du inte sätta igång de igen "
+"eftersom du inte kan se det här verktyget."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -77,7 +80,8 @@ msgstr "Visningsinställningar"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Visa samma bild på både den bärbara datorns LCD-skärm och den externa skärmen"
+msgstr ""
+"Visa samma bild på både den bärbara datorns LCD-skärm och den externa skärmen"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
@@ -85,7 +89,8 @@ msgstr "Stäng av LCD-skärmen och använd endast en extern skärm."
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Stäng av den externa skärmen och använd endast den bärbara datorns LCD-skärm"
+msgstr ""
+"Stäng av den externa skärmen och använd endast den bärbara datorns LCD-skärm"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
@@ -112,4 +117,3 @@ msgstr "Upplösning:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Uppdateringsfrekvens:"
-
