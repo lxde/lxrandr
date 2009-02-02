@@ -1,0 +1,114 @@
+# Czech translations for lxrandr package.
+# Copyright (C) 2009 THE lxrandr'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxrandr package.
+# Michal Várady <miko.vaji@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-02 14:36+0800\n"
+"PO-Revision-Date: 2009-01-09 01:09+0100\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Monitor LCD laptopu"
+
+#: src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Externí monitor VGA"
+
+#: src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Externí monitor DVI"
+
+#: src/lxrandr.c:68
+msgid "TV"
+msgstr "Televizor"
+
+#: src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Výchozí monitor"
+
+#: src/lxrandr.c:181 src/lxrandr.c:453
+msgid "Auto"
+msgstr "Automatický"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Michal Várady <miko.vaji@gmail.com>"
+
+#: src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Copyright (C) 2008"
+
+#: src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Nástroj pro konfiguraci monitorů pro prostředí LXDE"
+
+#: src/lxrandr.c:333
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Není možné vypnout všechny monitor. Bez dostupného monitoru by nebylo možné "
+"je opět zapnout."
+
+#: src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Nelze získat informace o monitoru!"
+
+#: src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Nastavení displeje"
+
+#: src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Zobrazí stejnou obrazovktu na displeji LCD laptopu a externím monitoru"
+
+#: src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Vypnout displej LCD laptopu a použít pouze externí monitor"
+
+#: src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Vypnout externí monitor a používat pouze displej LCD laptou"
+
+#: src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Rychlé volby"
+
+#: src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Byl nalezen tento monitor:"
+msgstr[1] "Byly nalezeny tyto monitory:"
+msgstr[2] "Byly nalezeny tyto monitory:"
+
+#: src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Zapnout"
+
+#: src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Rozlišení:"
+
+#: src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Obnovovací frekvence:"
