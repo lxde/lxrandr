@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 14:59+0200\n"
+"POT-Creation-Date: 2009-02-09 02:21+0100\n"
 "PO-Revision-Date: 2009-01-27 15:17+0200\n"
 "Last-Translator: Ahmad Farghal <ahmad.farghal@gmail.com>\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -36,8 +37,7 @@ msgstr "تلفاز"
 msgid "Default Monitor"
 msgstr "المرقاب الافتراضي"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "آلي"
 
@@ -60,8 +60,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "أداة ضبط المراقيب لـLXDE"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "لا يمكنك إطفاء كل المراقيب، وإلا فلن تستطيع أن تعيد فتحها بعد إطفائها لأن هذه الأداة لا يمكن استخدامها بدون مرقاب."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"لا يمكنك إطفاء كل المراقيب، وإلا فلن تستطيع أن تعيد فتحها بعد إطفائها لأن "
+"هذه الأداة لا يمكن استخدامها بدون مرقاب."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -112,6 +116,3 @@ msgstr "الميز:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "معدل التحديث:"
-
-
- 	  	 

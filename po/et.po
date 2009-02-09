@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-22 06:40+0800\n"
+"POT-Creation-Date: 2009-02-09 02:21+0100\n"
 "PO-Revision-Date: 2008-11-30 00:11+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
@@ -18,92 +18,99 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Poedit-Language: Estonian\n"
 
-#: src/lxrandr.c:62
+#: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
 msgstr "Läptopi LCD kuvar"
 
-#: src/lxrandr.c:64
+#: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
 msgstr "Väline VGA kuvar"
 
-#: src/lxrandr.c:66
+#: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
 msgstr "Väline DVI kuvar"
 
-#: src/lxrandr.c:68
+#: ../src/lxrandr.c:68
 msgid "TV"
 msgstr "TV"
 
-#: src/lxrandr.c:174
-#: src/lxrandr.c:437
+#: ../src/lxrandr.c:70
+#, fuzzy
+msgid "Default Monitor"
+msgstr "Väline VGA kuvar"
+
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automaatne"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: src/lxrandr.c:199
+#: ../src/lxrandr.c:206
 msgid "translator-credits"
 msgstr "Mattias Põldaru"
 
-#: src/lxrandr.c:207
+#: ../src/lxrandr.c:214
 msgid "LXRandR"
 msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: src/lxrandr.c:209
+#: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "Copyright (C) 2008"
 
-#: src/lxrandr.c:210
+#: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE kuvarite seadistamise tööriist"
 
-#: src/lxrandr.c:317
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Kõiki kuvareid pole võimalik välja lülitada. Muidu ei saaks neid tagasi sisse lülitada, sest see tööriist pole ilma kuvarita kasutatav."
+#: ../src/lxrandr.c:333
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Kõiki kuvareid pole võimalik välja lülitada. Muidu ei saaks neid tagasi "
+"sisse lülitada, sest see tööriist pole ilma kuvarita kasutatav."
 
-#: src/lxrandr.c:342
+#: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
 msgstr "Kuvari andmete hankimine pole võimalik!"
 
-#: src/lxrandr.c:348
+#: ../src/lxrandr.c:364
 msgid "Display Settings"
 msgstr "Kuva seadistamine"
 
-#: src/lxrandr.c:370
+#: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Näita sama kuva nii läptopi LCDle kui välisele monitorile"
 
-#: src/lxrandr.c:374
+#: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Lülita läptopi LCD välja ja kasuta ainult välist kuvarit"
 
-#: src/lxrandr.c:378
+#: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Lülita väline kuvar välja ja kasuta ainult läptopi LCDd"
 
-#: src/lxrandr.c:382
+#: ../src/lxrandr.c:398
 msgid "Quick Options"
 msgstr "Kiirvalikud"
 
-#: src/lxrandr.c:391
+#: ../src/lxrandr.c:407
 msgid "Advanced"
 msgstr "Laiendatud"
 
-#: src/lxrandr.c:395
+#: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Tuvastati alljärgnev kuvar:"
 msgstr[1] "Tuvastati alljärgnevad kuvarid:"
 
-#: src/lxrandr.c:413
+#: ../src/lxrandr.c:429
 msgid "Turn On"
 msgstr "Lubatud"
 
-#: src/lxrandr.c:424
+#: ../src/lxrandr.c:440
 msgid "Resolution:"
 msgstr "Eraldusvõime:"
 
-#: src/lxrandr.c:431
+#: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Värskendamine:"
-

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-01-02 14:36+0800\n"
+"POT-Creation-Date: 2009-02-09 02:21+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ideal <05281253@bjtu.edu.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -11,49 +11,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/lxrandr.c:62
+#: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
 msgstr "笔记本电脑 LCD 屏幕"
 
-#: src/lxrandr.c:64
+#: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
 msgstr "外接 VGA 显示器"
 
-#: src/lxrandr.c:66
+#: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
 msgstr "外接 DVI 显示器"
 
-#: src/lxrandr.c:68
+#: ../src/lxrandr.c:68
 msgid "TV"
 msgstr "电视"
 
-#: src/lxrandr.c:70
+#: ../src/lxrandr.c:70
 msgid "Default Monitor"
 msgstr "默认显示器"
 
-#: src/lxrandr.c:181 src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "自动"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: src/lxrandr.c:206
+#: ../src/lxrandr.c:206
 msgid "translator-credits"
 msgstr "商源纯 <05281253@bjtu.edu.cn>"
 
-#: src/lxrandr.c:214
+#: ../src/lxrandr.c:214
 msgid "LXRandR"
 msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: src/lxrandr.c:216
+#: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "版权所有 (C) 2008"
 
-#: src/lxrandr.c:217
+#: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE 的屏幕配置工具"
 
-#: src/lxrandr.c:333
+#: ../src/lxrandr.c:333
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable whithout monitor."
@@ -61,47 +61,47 @@ msgstr ""
 "您不能关闭所有屏幕。否则，您将无法再开启它们，因为这个工具不能在没有显示器的"
 "情况下使用。"
 
-#: src/lxrandr.c:358
+#: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
 msgstr "无法获得显示器信息！"
 
-#: src/lxrandr.c:364
+#: ../src/lxrandr.c:364
 msgid "Display Settings"
 msgstr "显示器设置"
 
-#: src/lxrandr.c:386
+#: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "在笔记本电脑屏幕和外接显示器上显示相同画面"
 
-#: src/lxrandr.c:390
+#: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "关闭笔记本电脑 LCD 屏幕，只使用外接显示器"
 
-#: src/lxrandr.c:394
+#: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "关闭外接显示器，只使用笔记本电脑 LCD 屏幕"
 
-#: src/lxrandr.c:398
+#: ../src/lxrandr.c:398
 msgid "Quick Options"
 msgstr "快速选项"
 
-#: src/lxrandr.c:407
+#: ../src/lxrandr.c:407
 msgid "Advanced"
 msgstr "高级"
 
-#: src/lxrandr.c:411
+#: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "检测到下列屏幕："
 
-#: src/lxrandr.c:429
+#: ../src/lxrandr.c:429
 msgid "Turn On"
 msgstr "开启"
 
-#: src/lxrandr.c:440
+#: ../src/lxrandr.c:440
 msgid "Resolution:"
 msgstr "解析度："
 
-#: src/lxrandr.c:447
+#: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "刷新频率："
