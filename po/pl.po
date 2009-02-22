@@ -1,112 +1,114 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# translation of pl.po to Polish
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
+# Artur Kruszewski <mazdac@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Artur Kruszewski <mazdac@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: pl\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr ""
+msgstr "Monitor LCD laptopa"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr ""
+msgstr "Zewnętrzny monitor VGA"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr ""
+msgstr "Zewnętrzny monitor DVI"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr ""
+msgstr "Telewizor"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr ""
+msgstr "Monitor domyślny"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr ""
+msgstr "Artur Kruszewski <mazdac@gmail.com> 2009"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
-msgstr ""
+msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr ""
+msgstr "Copyright (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "Narzędzie konfiguracji monitorów dla LXDE"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
-msgstr ""
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Nie możesz wyłączyć wszystkich monitorów, gdyż narzędzie to stanie się nieużyteczne i nie będziesz mógł włączyć ich ponownie"
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr ""
+msgstr "Nie można pobrać informacji o monitorze!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "Ustawienia wyświetlania"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "Ten sam ekran na LCD laptopa i monitorze zewnętrznym"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "Wyłącz LCD laptopa i używaj tylko monitora zewnętrznego"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "Wyłącz monitor zewnętrzny i używaj tylko LCD laptopa"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "Szybkie opcje"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "Zaawansowane"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wykryto następujący monitor:"
+msgstr[1] "Wykryto następujące monitory:"
+msgstr[2] "Wykryto następujące monitory:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "Włącz"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "Rozdzielczość:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "Częstotliwość odświeżania:"
+
