@@ -1,112 +1,107 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alain Mendizabal <alainmendi@gmail.com>\n"
+"Language-Team: Basque <alainmendi@gmail.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Basque\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr ""
+msgstr "Eramangarriaren LCD monitorea"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr ""
+msgstr "Kanpoko VGA monitorea"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr ""
+msgstr "Kanpoko DVI monitorea"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr ""
+msgstr "Monitore lehenetsia"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
 msgid "Auto"
-msgstr ""
+msgstr "Automatikoa"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr ""
+msgstr "Alain Mendizabal <alainmendi@gmail.com>"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
-msgstr ""
+msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr ""
+msgstr "Copyright (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "LXDE proiekturako monitorea konfiguratzeko tresna"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
-msgstr ""
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Ezin dituzu monitore guztiak itzali. Bestela ezingo dituzu berriz piztu tresna honetara monitorerik gabe ezin duzulako sartu."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr ""
+msgstr "Ezin izan da monitorearen informazioa jaso!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "Bistaratu hobespenak"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "Eramangarriaren LCD-an eta kanpoko monitorean pantaila bera bistaratu"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "Itzali eramangarriaren LCD-a eta kanpoko monitorea soilik erabili"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "Itzali kanpoko monitorea eta eramangarriaren LCD-a soilik erabili"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "Aukera azkarrak"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "Aurreratua"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ondorengo monitorea atzeman da:"
+msgstr[1] "Ondorengo monitoreak atzeman dira:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "Aktibatu"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "Bereizmena:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "Freskatze tasa:"
+
