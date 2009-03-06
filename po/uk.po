@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: 2009-03-06 12:58+0100\n"
+"PO-Revision-Date: 2009-03-06 13:01+0100\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -94,7 +94,7 @@ msgstr "Швидкі опції"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr "Для досвідчених"
+msgstr "Додатково"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
