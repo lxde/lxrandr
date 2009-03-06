@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: 2009-03-04 22:03+0100\n"
+"PO-Revision-Date: 2009-03-06 12:58+0100\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,15 +24,15 @@ msgstr "Монітор LCD лаптопа"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr "Зовнішній VGA-монітор"
+msgstr "Зовнішній VGA монітор"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr "Зовнішній DVI-монітор"
+msgstr "Зовнішній DVI монітор"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr "TV"
+msgstr "Телевізор"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
@@ -54,11 +54,11 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr "Copyright (C) 2008"
+msgstr "Всі права застережено (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr "Знаряддя конфігурації монітора для LXDE"
+msgstr "Інструмент конфігурації монітора для LXDE"
 
 #: ../src/lxrandr.c:333
 msgid ""
