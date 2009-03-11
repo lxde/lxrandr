@@ -1,112 +1,105 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Boljsa <asjlob AT vip.hr>\n"
+"Language-Team:  <asjlob AT vip.hr>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr ""
+msgstr "Laptop LCD Monitor"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr ""
+msgstr "Vanjski VGA Monitor"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr ""
+msgstr "Vanjski DVI Monitor"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr ""
+msgstr "Standardni Monitor"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
 msgid "Auto"
-msgstr ""
+msgstr "Automatski"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr ""
+msgstr "Boljsa"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
-msgstr ""
+msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr ""
+msgstr "Copyright (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "Alat za konfiguraciju monitora za LXDE"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
-msgstr ""
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Ne mo¾ete ugasiti sve monitore. U protivnom, ne æete imati moguænost ponovno ih upaliti buduæi da alat nije dostupan bez monitora."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr ""
+msgstr "Nemoguæe je dobiti informacije o monitoru!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "Postavke Zaslona"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "Prika¾i isti zaslon na laptop LCD-u i vanjskom monitoru"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "Ugasi laptop LCD i koristi samo vanjski monitor"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "Ugasi vanjski monitor i koristi samo LCD"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "Brze Opcije"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "Napredno"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
-msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr "Sljedeæi monitor je detektiran:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "Upali"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "Rezolucija:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "Omjer osvje¾avanja:"
+
