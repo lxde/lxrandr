@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: lxsession\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: 2009-01-21 06:54+0100\n"
-"Last-Translator: Vidar Jon Bauge <vidarjb@gmail.com>\n"
+"PO-Revision-Date: 2009-03-10 18:21+0100\n"
+"Last-Translator: charlie tyrrestrup <chalze06@gmail.com>\n"
 "Language-Team: Danish <vidarjb@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -94,11 +95,10 @@ msgid "Advanced"
 msgstr "Avanceret"
 
 #: ../src/lxrandr.c:411
-#, fuzzy
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "The following monitors are detected:"
-msgstr[1] "The following monitors are detected:"
+msgstr[0] "Følgende Skærm er fundet:"
+msgstr[1] "Førlgende Skærme er fundet:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
