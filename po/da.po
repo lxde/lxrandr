@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxsession\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-09 02:21+0100\n"
-"PO-Revision-Date: 2009-03-13 14:54+0100\n"
-"Last-Translator: Vidar Jon Bauge <vidarjb@gmail.com>\n"
+"PO-Revision-Date: 2009-03-16 21:03+0100\n"
+"Last-Translator: charlie tyrrestrup <chalze06@gmail.com>\n"
 "Language-Team: Danish <vidarjb@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,15 +18,15 @@ msgstr ""
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr "Laptop LCD Monitor"
+msgstr "Bærbar LCD Skærm"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr "Extern VGA Monitor"
+msgstr "Ekstern VGA Skærm"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr "Extern DVI Monitor"
+msgstr "Ekstern DVI Skærm"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
@@ -34,7 +34,7 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr "Default Monitor"
+msgstr "Standard Skærm"
 
 #: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
@@ -43,7 +43,7 @@ msgstr "Auto"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr "Oversettelse"
+msgstr "Oversættere"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr "Kunne ikke få oplysninger om monitoren"
+msgstr "Kunne ikke få oplysninger om skærmen!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
@@ -76,15 +76,15 @@ msgstr "Indstillinger for skærm"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Vis samme billede både på Laptop LCD og ekstern monitor"
+msgstr "Vis samme billede både på Bærbarens LCD og den eksterne skærm"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Anvend kun ekstern monitor"
+msgstr "Anvend kun ekstern skærm"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Anvend kun laptop monitor"
+msgstr "Anvend kun bærbarens skærm"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
