@@ -1,0 +1,110 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-09 02:21+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
+"Language-Team:  <paxmanpwnz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "LCD zaslon prenosnika"
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Zunanji VGA zaslon"
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Zunanji DVI zaslon"
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Privzeti monitor"
+
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "Samodejno"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "paxman"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Vse pravice pridržane (C) 2008"
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Orodje za nastavljanje zaslona"
+
+#: ../src/lxrandr.c:333
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Ne morete ugasniti vseh zaslonov, sicer jih ne bi mogli prižgati nazaj, saj je orodje brez prižganega zaslona nedostopno."
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Ni bilo možno dobiti informacije o zaslonu!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Nastavitve zaslona"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Prikaži namizje hkrati na prenosnikovem in zunanjem zaslonu"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Ugasni prenosnikovega in uporabi zunanji zaslon"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Ugasni zunanji zaslon in uporabi prenosnikovega"
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Hitre nastavitve"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Zaznan je bil zaslon:"
+msgstr[1] "Zaznana sta bila zaslona:"
+msgstr[2] "Zaznani so bili zasloni:"
+msgstr[3] "Zaznani so bili zasloni:"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Prižgi"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Ločljivost:"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Hitrost osveževanja:"
+
