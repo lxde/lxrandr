@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 02:21+0100\n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
 "PO-Revision-Date: 2009-02-13 15:52+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -36,8 +36,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Štandardný monitor"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Auto"
 
@@ -60,8 +59,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Nástroj LXDE na konfiguráciu monitora"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Nemôžete vypnúť všetky monitory. Inak by ste ich nemohli znova zapnúť, pretože tento nástroj nie je dostupný bez monitora."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Nemôžete vypnúť všetky monitory. Inak by ste ich nemohli znova zapnúť, "
+"pretože tento nástroj nie je dostupný bez monitora."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -109,4 +112,3 @@ msgstr "Rozlíšenie:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Obnovovacia frekvencia:"
-

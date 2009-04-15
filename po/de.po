@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 02:21+0100\n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
 "PO-Revision-Date: 2009-03-22 15:03+0100\n"
 "Last-Translator: Benedikt Klus <b.klus89@web.de>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -33,8 +33,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Standardmonitor"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automatisch"
 
@@ -57,8 +56,13 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Monitor-Einstellungswerkzeug für LXDE"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Sie können nicht sämtliche Monitore abschalten. Anderenfalls werden Sie nicht in der Lage sein, sie wieder einzuschalten, weil auf dieses Programm ohne Monitor nicht zugegriffen werden kann."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Sie können nicht sämtliche Monitore abschalten. Anderenfalls werden Sie "
+"nicht in der Lage sein, sie wieder einzuschalten, weil auf dieses Programm "
+"ohne Monitor nicht zugegriffen werden kann."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -105,6 +109,3 @@ msgstr "Auflösung:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Bildwiederholfrequenz:"
-
-
- 	  	 

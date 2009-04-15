@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 02:21+0100\n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Alain Mendizabal <alainmendi@gmail.com>\n"
 "Language-Team: Basque <alainmendi@gmail.com>\n"
@@ -32,8 +32,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Monitore lehenetsia"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automatikoa"
 
@@ -56,8 +55,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE proiekturako monitorea konfiguratzeko tresna"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Ezin dituzu monitore guztiak itzali. Bestela ezingo dituzu berriz piztu tresna honetara monitorerik gabe ezin duzulako sartu."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Ezin dituzu monitore guztiak itzali. Bestela ezingo dituzu berriz piztu "
+"tresna honetara monitorerik gabe ezin duzulako sartu."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -104,4 +107,3 @@ msgstr "Bereizmena:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Freskatze tasa:"
-

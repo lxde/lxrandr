@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 02:21+0100\n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Boljsa <asjlob AT vip.hr>\n"
 "Language-Team:  <asjlob AT vip.hr>\n"
@@ -32,8 +32,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Standardni Monitor"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automatski"
 
@@ -56,8 +55,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Alat za konfiguraciju monitora za LXDE"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Ne mo¾ete ugasiti sve monitore. U protivnom, ne æete imati moguænost ponovno ih upaliti buduæi da alat nije dostupan bez monitora."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Ne mo¾ete ugasiti sve monitore. U protivnom, ne æete imati moguænost ponovno "
+"ih upaliti buduæi da alat nije dostupan bez monitora."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -88,8 +91,11 @@ msgid "Advanced"
 msgstr "Napredno"
 
 #: ../src/lxrandr.c:411
+#, fuzzy
 msgid "The following monitor is detected:"
-msgstr "Sljedeæi monitor je detektiran:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Sljedeæi monitor je detektiran:"
+msgstr[1] "Sljedeæi monitor je detektiran:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
@@ -102,4 +108,3 @@ msgstr "Rezolucija:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Omjer osvje¾avanja:"
-
