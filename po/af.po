@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
+"PO-Revision-Date: 2009-05-18 21:45+0200\n"
+"Last-Translator: F Wolff <friedel@translate.org.za>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr ""
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr ""
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr ""
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr ""
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Verstekmonitor"
+
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "Outomaties"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Friedel Wolff"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Kopiereg (C) 2008"
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Monitoropstelling vir LXDE"
+
+#: ../src/lxrandr.c:333
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Al die monitors kan nie afgeskakel word nie, anders sal mens hulle nie weer "
+"kan aanskakel nie aangesien hierdie program nie bruikbaar is sonder 'n "
+"monitor nie."
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Kan nie monitorinligting kry nie!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Vertooninstellings"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "Wys die selfde skerm op die skootrekenaar-LCD en die eksterne monitor"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Skakel die skootrekenaar-LCD af en gebuik slegs die eksterne monitor"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Skakel die eksterne monitor af en gebruik slegs die skootrekenaar-LCD"
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Snelkeuses"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Gevorderd"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Die volgende monitor word bespeur:"
+msgstr[1] "Die volgende monitors word bespeur:"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Skakel aan"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Resolusie:"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Verfristempo:"
