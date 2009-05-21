@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxrandr 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:45+0200\n"
-"PO-Revision-Date: 2009-01-15 00:58+0100\n"
-"Last-Translator: Álvaro Morais <alvarommorais@gmail.com>\n"
+"PO-Revision-Date: 2009-05-19 13:57-0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese <alvarommorais@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,33 +20,35 @@ msgstr ""
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr "Monitor do LCD do portátil"
+msgstr "Monitor LCD do Portátil"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr "Monitor VGA externo"
+msgstr "Monitor VGA Externo"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr "Monitor DVI externo"
+msgstr "Monitor DVI Externo"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
 msgstr "TV"
 
 #: ../src/lxrandr.c:70
-#, fuzzy
 msgid "Default Monitor"
-msgstr "Monitor VGA externo"
+msgstr "Monitor por Omissão"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Auto"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr "Álvaro Morais <alvarommorais@gmail.com>"
+msgstr ""
+"Álvaro Morais <alvarommorais@gmail.com>\n"
+"Sérgio Marques<smarquespt@gmail.com)"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
@@ -62,29 +64,24 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Ferramenta de configuração do Monitor"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
-msgstr ""
-"Não é possível desligar todos os monitores. De outra maneira não poderá ligá-"
-"los outra vez uma vez que esta ferramenta não está acessível sem um monitor."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Você não pode desligar todos os monitores. Se o fizer, não será possível ligá-los novamente uma vez que esta ferramenta não está disponível sem monitor."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr "Incapaz de obter informações sobre o monitor!"
+msgstr "Não foi possível obter informações sobre o monitor!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr "Propriedades de visualização"
+msgstr "Definições de Visualização"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
-"Mostrar o mesmo écran tanto no LCD do portátil como no monitor externo."
+msgstr "Mostrar o mesmo ecrã no LCD do portátil e no monitor externo"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Desligar o LCD do portátil e usar apenas o monitor externo."
+msgstr "Desligar o LCD do portátil e usar apenas o monitor externo"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
@@ -92,7 +89,7 @@ msgstr "Desligar o monitor externo e usar apenas o LCD do portátil."
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr "Opções rápidas"
+msgstr "Opções Rápidas"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
@@ -101,8 +98,8 @@ msgstr "Avançado"
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "O seguinte monitor foi detectado:"
-msgstr[1] "Os seguintes monitores foram detectados:"
+msgstr[0] "Foi detectado o seguinte monitor:"
+msgstr[1] "Foram detectados os seguintes monitores:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
@@ -110,8 +107,9 @@ msgstr "Ligar"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr "Resolução"
+msgstr "Resolução:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Taxa de Actualização:"
+
