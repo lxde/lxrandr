@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-15 19:45+0200\n"
+"PO-Revision-Date: 2009-05-23 14:36+0200\n"
+"Last-Translator: Payne Samad Loh <sploh77@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Monitor LCD Komputer Riba"
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Monitor Luaran VGA"
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Monitor Luaran DVI"
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Monitor Default"
+
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "Auto"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "罗森柄 Payne Samad Loh <sploh77@yahoo.com>\n"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Hakcipta Terpelihara (C) 2009"
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Peranti konfigurasi monitor untuk LXDE"
+
+#: ../src/lxrandr.c:333
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable whithout monitor."
+msgstr ""
+"Anda tidak boleh menutup semua monitor. Sebaliknya, anda tidak akan boleh "
+"membuka ia semula ejak peranti ini tidak boleh diakseskan tanpa monitor."
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Tidak boleh mendapatkan informasi monitor!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Ciri-Ciri Pameran"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr ""
+"Tunjukkan skrin yang sama pada kedua-dua komputer riba dan monitor luaran"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Tutupkan LCD komppter riba dan gunakan monitor luaran sahaja"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Tutupkan monitor luaran dan gunakan LCD komputer riba sahaja"
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Opsyen-Opsyen Cepat"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Majuan"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "Monitor berikut telah dikesan"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Bukakan"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Resolusi"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Kadar Menyegarkan:"
