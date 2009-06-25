@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:45+0200\n"
-"PO-Revision-Date: 2009-05-31 16:03+0200\n"
+"PO-Revision-Date: 2009-06-25 13:03+0200\n"
 "Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,9 @@ msgstr "Mostrar ajustes"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Mostrar la misma pantalla en ambos LCD del portátil y monitor externo"
+msgstr ""
+"Mostrar la misma pantalla tanto en el LCD del portátil como en el monitor "
+"externo"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
