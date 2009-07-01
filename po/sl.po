@@ -3,14 +3,13 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:45+0200\n"
-"PO-Revision-Date: 2009-04-10 11:01+0100\n"
-"Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
-"Language-Team:  <paxmanpwnz@gmail.com>\n"
+"PO-Revision-Date: 2009-06-28 16:46+0100\n"
+"Last-Translator: Matej Gačnik <paxmanpwnz@gmail.com>\n"
+"Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 1.1.0\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
@@ -35,7 +34,8 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Privzeti monitor"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Samodejno"
 
@@ -55,15 +55,11 @@ msgstr "Vse pravice pridržane (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr "Orodje za nastavljanje zaslonov"
+msgstr "Orodje za nastavljanje zaslona"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
-msgstr ""
-"Ne morete ugasniti vseh zaslonov, sicer jih ne bi mogli prižgati nazaj, saj "
-"je orodje brez prižganega zaslona nedostopno."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
+msgstr "Ne morete ugasniti vseh zaslonov, sicer jih ne bi mogli prižgati nazaj, saj je orodje brez prižganega zaslona nedostopno."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -112,3 +108,4 @@ msgstr "Ločljivost:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Hitrost osveževanja:"
+
