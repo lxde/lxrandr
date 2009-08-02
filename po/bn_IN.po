@@ -3,61 +3,61 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:45+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-07-31 13:52+0200\n"
+"Last-Translator: Sankarshan <sankarshan.mukhopadhyay@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr ""
+msgstr "ল্যাপটপ LCD মনিটর"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr ""
+msgstr "বহিস্থিত VGA মনিটর"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr ""
+msgstr "বহিস্থিত DVI মনিটর"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr ""
+msgstr "টেলিভিশন"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr ""
+msgstr "ডিফল্ট মনিটর"
 
 #: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
-msgstr ""
+msgstr "স্বয়ংক্রিয়"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr ""
+msgstr "সঙ্কর্ষণ মুখোপাধ্যায় (sankarshan@randomink.org)"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
-msgstr ""
+msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr ""
+msgstr "স্বত্বাধিকার (C) ২০০৮"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "LXDE এর জন্য মনিটর কনফিগারেশন টুল"
 
 #: ../src/lxrandr.c:333
 msgid ""
@@ -67,46 +67,46 @@ msgstr ""
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr ""
+msgstr "মনিটারের তথ্য পাওয়া সম্ভব হয়নি!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "প্রদর্শনের বৈশিষ্ট্য"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "ল্যাপটপ LCD ও বহিস্থিত মনিটারে এক স্ক্রীন প্রদর্শন করা হবে"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "ল্যাপটপ LCD বন্ধ করে বহিস্থিত মনিটর ব্যবহার করুন"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "বহিস্থিত মনিটর বন্ধ করে কেবলমাত্র ল্যাপটপ LCD ব্যবহার করুন"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "সহজ বিকল্প"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "উন্নত"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "এই মনিটরটি পাওয়া গেছে:"
+msgstr[1] "এই মনিটরগুলি পাওয়া গেছে:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "চালু করুন"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "রেসোলিউশন"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "রিফ্রেশ এর হার:"
