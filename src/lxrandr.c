@@ -330,7 +330,7 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
         }
 
         msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 0, GTK_MESSAGE_WARNING, GTK_BUTTONS_OK,
-                                     _("You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor.") );
+                                     _("You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor.") );
         gtk_dialog_run( GTK_DIALOG(msg) );
         gtk_widget_destroy( msg );
 

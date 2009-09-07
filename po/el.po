@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:45+0200\n"
+"POT-Creation-Date: 2009-09-07 22:51+0200\n"
 "PO-Revision-Date: 2009-06-30 14:48+0200\n"
 "Last-Translator: George Vasilakos <forfolias@gmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
@@ -38,8 +38,7 @@ msgstr "Τηλεόραση"
 msgid "Default Monitor"
 msgstr "Προεπιλεγμένη οθόνη"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Αυτόματο"
 
@@ -65,8 +64,14 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Εργαλείο διαμόρφωσης οθόνης για το LXDE"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "Δεν μπορείτε να απενεργοποιήσετε όλες τις οθόνες. Διαφορετικά, δεν θα έχετε την δυνατότητα να τις ενεργοποιήσετε ξανά δεδομένου ότι αυτό το εργαλείο δεν είναι διαθέσιμο χωρίς οθόνη."
+#, fuzzy
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"Δεν μπορείτε να απενεργοποιήσετε όλες τις οθόνες. Διαφορετικά, δεν θα έχετε "
+"την δυνατότητα να τις ενεργοποιήσετε ξανά δεδομένου ότι αυτό το εργαλείο δεν "
+"είναι διαθέσιμο χωρίς οθόνη."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -78,15 +83,20 @@ msgstr "Ρυθμίσεις οθόνης"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Εμφάνισε το ίδιο στην οθόνη του φορητού υπολογιστή και στην εξωτερική οθόνη"
+msgstr ""
+"Εμφάνισε το ίδιο στην οθόνη του φορητού υπολογιστή και στην εξωτερική οθόνη"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Απενεργοποιήστε την LCD οθόνη του φορητού υπολογιστή και χρησιμοποιήστε την εξωτερική οθόνη μόνο"
+msgstr ""
+"Απενεργοποιήστε την LCD οθόνη του φορητού υπολογιστή και χρησιμοποιήστε την "
+"εξωτερική οθόνη μόνο"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Απενεργοποιήστε την εξωτερική οθόνη και χρησιμοποιήστε την LCD οθόνη του φορητού υπολογιστή μόνο"
+msgstr ""
+"Απενεργοποιήστε την εξωτερική οθόνη και χρησιμοποιήστε την LCD οθόνη του "
+"φορητού υπολογιστή μόνο"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
@@ -113,4 +123,3 @@ msgstr "Ανάλυση:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Ρυθμός ανανέωσης:"
-

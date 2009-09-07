@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:45+0200\n"
-"PO-Revision-Date: 2009-06-07 21:50+0200\n"
-"Last-Translator: Cyprien Gay <cyprien.gay@aful.org>\n"
+"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"PO-Revision-Date: 2009-09-07 22:23+0200\n"
+"Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,12 +60,13 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Outils de configuration des écrans pour LXDE"
 
 #: ../src/lxrandr.c:333
+#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable whithout monitor."
+"them on again since this tool is not accessable without monitor."
 msgstr ""
 "Vous ne pouvez pas désactiver tous les écrans. Sinon, vous ne serez pas "
-"capable de les réactiver puisque cet outil n'est pas accessible sans écran !"
+"capable de les réactiver puisque cet outil n'est pas accessible sans écran."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"

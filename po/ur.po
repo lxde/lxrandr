@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:45+0200\n"
+"POT-Creation-Date: 2009-09-07 22:51+0200\n"
 "PO-Revision-Date: 2009-05-10 03:32+0500\n"
 "Last-Translator: Muhammad Ali Makki <makki.ma@gmail.com>\n"
 "Language-Team: Urdu <makki.ma@gmail.com>\n"
@@ -39,8 +39,7 @@ msgstr "ٹی وی"
 msgid "Default Monitor"
 msgstr "طے شدہ مانیٹر"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "خودکار"
 
@@ -69,8 +68,13 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "مانیٹر وضع کاری اوزار برائے ایل ایکس ڈی ای"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable whithout monitor."
-msgstr "آپ سارے مانیٹر بند نہیں کر سکتے، ورنہ آپ انہیں دوبارہ نہیں چلا سکیں گے کیونکہ اس اوزار تک بغیر مانیٹر کے رسائی حاصل نہیں کی جاسکتی."
+#, fuzzy
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"آپ سارے مانیٹر بند نہیں کر سکتے، ورنہ آپ انہیں دوبارہ نہیں چلا سکیں گے "
+"کیونکہ اس اوزار تک بغیر مانیٹر کے رسائی حاصل نہیں کی جاسکتی."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -117,4 +121,3 @@ msgstr "ریزلوشن"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "شرح تازگی:"
-
