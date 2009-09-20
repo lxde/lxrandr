@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2009-09-18 16:43+0200\n"
 "Last-Translator: Artur Kruszewski <mazdac@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 1.1.0\n"
 "X-Poedit-Language: pl\n"
 
 #: ../src/lxrandr.c:62
@@ -62,13 +63,13 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Narzędzie konfiguracji monitorów dla LXDE"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
-"Nie możesz wyłączyć wszystkich monitorów, gdyż narzędzie to stanie się "
-"nieużyteczne i nie będziesz mógł włączyć ich ponownie"
+"Nie możesz wyłączyć wszystkich monitorów, ponieważ nie będziesz mógł włączyć "
+"ich ponownie bez dostępu do interfejsu programu, którego bez włączonego "
+"monitora nie zobaczysz."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
