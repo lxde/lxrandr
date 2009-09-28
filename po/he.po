@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-09-21 09:38+0200\n"
+"PO-Revision-Date: 2009-09-27 14:51+0200\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "ירון שהרבני <sh.yaron@gmail.com>"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
-msgstr "LXRandR"
+msgstr "תוכנת צגי המעקב LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
