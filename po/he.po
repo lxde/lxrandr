@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-09-27 14:51+0200\n"
+"PO-Revision-Date: 2009-09-29 20:00+0200\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "תוכנת צגי המעקב LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr "כל הזכויות שמורות (C) 2008"
+msgstr "כל הזכויות שמורות (C) ‏2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
@@ -99,7 +99,7 @@ msgstr "מתקדם"
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "אותר הצג הבא:"
-msgstr[1] "אותרו הצגים הבאים: "
+msgstr[1] "אותרו הצגים הבאים:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
