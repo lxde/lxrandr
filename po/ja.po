@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lxrandr 0.1\n"
+"Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-04-24 18:40+0900\n"
+"POT-Creation-Date: 2009-10-24 15:02+0900\n"
+"PO-Revision-Date: 2009-09-29 20:47+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,6 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE のためのモニタ設定ツール"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
