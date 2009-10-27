@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-05-04 14:40+0200\n"
+"PO-Revision-Date: 2009-10-26 21:38+0100\n"
 "Last-Translator: Sander De Voogdt <celettu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,13 +60,13 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Beeldscherm configuratie tool voor LXDE"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
-"U kan niet alle beeldschermen uitschakelen. Zonder beeldscherm kan u ze niet "
-"terug inschakelen, aangezien dit menu niet beschikbaar is zonder beeldscherm."
+"Alle beeldschermen uitschakelen is niet mogelijk: aangezien dit menu niet "
+"beschikbaar is zonder beeldscherm, zou u uw beeldscherm niet terug kunnen  "
+"inschakelen."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
