@@ -52,6 +52,5 @@ AC_OUTPUT([
 Makefile
 src/Makefile
 po/Makefile.in
-data/lxrandr.desktop
 man/Makefile
 ])

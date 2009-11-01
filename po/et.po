@@ -111,3 +111,11 @@ msgstr "Eraldusvõime:"
 msgid "Refresh Rate:"
 msgstr "Värskendamine:"
 
+
+#: data/lxrandr.desktop.in:3
+msgid "Monitor Settings"
+msgstr "Monitori sätted"
+
+#: data/lxrandr.desktop.in:4
+msgid "Change screen resolution and configure external monitors"
+msgstr "Muuda ekraani eraldusvõimet ja seadista väliseid kuvareid"

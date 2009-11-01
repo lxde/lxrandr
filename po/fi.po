@@ -116,3 +116,11 @@ msgstr "Tarkkuus:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Virkistystaajuus:"
+
+#: data/lxrandr.desktop.in:3
+msgid "Monitor Settings"
+msgstr "Näytön asetukset"
+
+#: data/lxrandr.desktop.in:4
+msgid "Change screen resolution and configure external monitors"
+msgstr "Muuta näytön tarkkuutta ja aseta ulkoiset näytöt"

@@ -114,3 +114,11 @@ msgstr "解像度:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "リフレッシュレート:"
+
+#: data/lxrandr.desktop.in:3
+msgid "Monitor Settings"
+msgstr "モニタの設定"
+
+#: data/lxrandr.desktop.in:4
+msgid "Change screen resolution and configure external monitors"
+msgstr "解像度の変更と外部モニタの設定を行います"

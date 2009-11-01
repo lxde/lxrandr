@@ -110,3 +110,11 @@ msgstr "Auflösung:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Bildwiederholfrequenz:"
+
+#: data/lxrandr.desktop.in:3
+msgid "Monitor Settings"
+msgstr "Bildschirmeinstellungen"
+
+#: data/lxrandr.desktop.in:4
+msgid "Change screen resolution and configure external monitors"
+msgstr "Die Bildschirmauflösung und externe Monitore konfigurieren"
