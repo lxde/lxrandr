@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-03-11 18:58-0300\n"
+"POT-Creation-Date: 2009-12-03 15:26-0500\n"
+"PO-Revision-Date: 2009-12-03 01:48-0300\n"
 "Last-Translator: Henrique P. Machado <zehrique@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,6 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Ferramenta de configuração de monitores do LXDE"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
@@ -112,3 +111,11 @@ msgstr "Resolução:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Taxa de atualização:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Modifique a resolução da tela e configure monitores externos"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Configurações da tela"
