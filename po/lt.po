@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-09-08 21:40+0200\n"
+"PO-Revision-Date: 2009-12-03 22:32+0100\n"
 "Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr "Našiojamo kompiuterio LCD ekranas"
+msgstr "Nešiojamo kompiuterio LCD ekranas"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
@@ -32,7 +32,7 @@ msgstr "Išorinis DVI monitorius"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
-msgstr "TV"
+msgstr "Televizorius"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
@@ -58,15 +58,15 @@ msgstr "Autorinės teisės (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr "LXDE monitorių konfiguracijos įrankis"
+msgstr "LXDE monitorių konfigūracijos įrankis"
 
 #: ../src/lxrandr.c:333
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
-"Negalite išjungti visų monitorių, nes, be veikiančio monitoriaus, jūs "
-"negalėsite jų vėl įjungti."
+"Negalite išjungti visų monitorių, nes, be veikiančio monitoriaus, jų "
+"negalėsite vėl įjungti."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -78,8 +78,7 @@ msgstr "Ekrano nustatymai"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
-"Rydyti tą patį vaizdą nešiojamo kompiuterio ir išorinio monitoriaus ekrane"
+msgstr "Rydyti tą patį vaizdą nešiojamo kompiuterio ir išoriniame ekrane"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
