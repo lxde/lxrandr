@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-10-10 13:51+0200\n"
+"PO-Revision-Date: 2009-12-10 12:16+0100\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -58,13 +58,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Orodje za nastavljanje zaslona"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
-"Ne morete ugasniti vseh zaslonov, saj je orodje brez prižganega zaslona "
-"nedostopno."
+"Ne morete ugasniti vseh zaslonov, saj je orodje brez vsaj enega prižganega "
+"zaslona nedostopno."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
