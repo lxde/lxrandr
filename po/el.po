@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2009-12-27 22:41+0100\n"
+"PO-Revision-Date: 2010-01-12 14:51+0100\n"
 "Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
 "Language-Team: Greek <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -125,12 +125,9 @@ msgid "Refresh Rate:"
 msgstr "Ρυθμός ανανέωσης:"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr ""
-"Εμφάνισε το ίδιο στην οθόνη του φορητού υπολογιστή και στην εξωτερική οθόνη"
+msgstr "Αλλαγή της ανάλυσης και προσαρμογή στις εξωτερικές οθόνες"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
 msgstr "Ρυθμίσεις οθόνης"
