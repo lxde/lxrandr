@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-10-26 18:15+0100\n"
 "Last-Translator: Alessandro Pellizzari <alex@amiran.it>\n"
 "Language-Team: \n"
@@ -114,3 +114,13 @@ msgstr "Risoluzione:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Frequenza di aggiornamento:"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr "Mostrare lo stesso schermo sul LCD del portatile e sul monitor esterno"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Impostazioni del display"

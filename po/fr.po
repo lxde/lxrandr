@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-09-08 10:29+0200\n"
 "Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,3 +112,13 @@ msgstr "Résolution :"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Fréquence de rafraîchissement :"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr "Afficher la même chose sur l'écran du portable et sur l'écran externe"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Paramètres d'affichage"

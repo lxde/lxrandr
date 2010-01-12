@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-12-02 01:47+0100\n"
 "Last-Translator: Christoph Wickert <christoph.wickert@googlemail.com>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -111,10 +111,10 @@ msgstr "Auflösung:"
 msgid "Refresh Rate:"
 msgstr "Bildwiederholfrequenz:"
 
-#: data/lxrandr.desktop.in:3
-msgid "Monitor Settings"
-msgstr "Bildschirmeinstellungen"
-
-#: data/lxrandr.desktop.in:4
+#: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
 msgstr "Die Bildschirmauflösung und externe Monitore konfigurieren"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Bildschirmeinstellungen"

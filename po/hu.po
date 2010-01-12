@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-05-28 17:55+0100\n"
 "Last-Translator: Zsolt Peter Basak <shiki@biomernok.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
@@ -109,3 +109,13 @@ msgstr "Felbontás:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Frissítés:"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr "Egyazon képernyő mutatása a laptop LCD és külső monitoron"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Kijelző beállítások"

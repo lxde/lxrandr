@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Alain Mendizabal <alainmendi@gmail.com>\n"
 "Language-Team: Basque <alainmendi@gmail.com>\n"
@@ -108,3 +108,13 @@ msgstr "Bereizmena:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Freskatze tasa:"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr "Eramangarriaren LCD-an eta kanpoko monitorean pantaila bera bistaratu"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Bistaratu hobespenak"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-10-27 15:10+0100\n"
 "Last-Translator: Indalecio Freiría Santos <ifreiria@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
@@ -37,8 +37,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Monitor predeterminado"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automático"
 
@@ -117,3 +116,14 @@ msgstr "Resolución:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Taxa de refresco:"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr ""
+"Amosar a mesma pantalla tanto no LCD do portátil como no monitor externo"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Axustes de pantalla"

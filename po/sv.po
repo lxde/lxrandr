@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
-"PO-Revision-Date: 2009-09-07 22:56+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"PO-Revision-Date: 2010-01-12 01:06+0100\n"
 "Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -118,3 +118,11 @@ msgstr "Upplösning:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Uppdateringsfrekvens:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Ändra skärmupplösning och gör inställningar för externa skärmar"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Visningsinställningar"

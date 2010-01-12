@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2008-11-25 21:33+0200\n"
 "Last-Translator: Elias Julkunen <elias.julkunen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,10 +117,10 @@ msgstr "Tarkkuus:"
 msgid "Refresh Rate:"
 msgstr "Virkistystaajuus:"
 
-#: data/lxrandr.desktop.in:3
-msgid "Monitor Settings"
-msgstr "Näytön asetukset"
-
-#: data/lxrandr.desktop.in:4
+#: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
 msgstr "Muuta näytön tarkkuutta ja aseta ulkoiset näytöt"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Näytön asetukset"

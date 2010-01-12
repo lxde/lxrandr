@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Boljsa <asjlob AT vip.hr>\n"
 "Language-Team:  <asjlob AT vip.hr>\n"
@@ -109,3 +109,13 @@ msgstr "Rezolucija:"
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "Omjer osvje¾avanja:"
+
+#: ../data/lxrandr.desktop.in.h:1
+#, fuzzy
+msgid "Change screen resolution and configure external monitors"
+msgstr "Prika¾i isti zaslon na laptop LCD-u i vanjskom monitoru"
+
+#: ../data/lxrandr.desktop.in.h:2
+#, fuzzy
+msgid "Monitor Settings"
+msgstr "Postavke Zaslona"

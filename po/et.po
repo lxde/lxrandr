@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 22:51+0200\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-09-14 19:19+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
@@ -38,8 +38,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Vaikimisi kuvar"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Automaatne"
 
@@ -62,8 +61,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE kuvarite seadistamise tööriist"
 
 #: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
-msgstr "Kõiki kuvareid ei või välja lülitada. Muidu ei saaks neid tagasi sisse lülitada, sest see tööriist pole ilma kuvarita kasutatav."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"Kõiki kuvareid ei või välja lülitada. Muidu ei saaks neid tagasi sisse "
+"lülitada, sest see tööriist pole ilma kuvarita kasutatav."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -111,11 +114,10 @@ msgstr "Eraldusvõime:"
 msgid "Refresh Rate:"
 msgstr "Värskendamine:"
 
-
-#: data/lxrandr.desktop.in:3
-msgid "Monitor Settings"
-msgstr "Monitori sätted"
-
-#: data/lxrandr.desktop.in:4
+#: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
 msgstr "Muuda ekraani eraldusvõimet ja seadista väliseid kuvareid"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Monitori sätted"

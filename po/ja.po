@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-24 15:02+0900\n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
 "PO-Revision-Date: 2009-09-29 20:47+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -115,10 +115,10 @@ msgstr "解像度:"
 msgid "Refresh Rate:"
 msgstr "リフレッシュレート:"
 
-#: data/lxrandr.desktop.in:3
-msgid "Monitor Settings"
-msgstr "モニタの設定"
-
-#: data/lxrandr.desktop.in:4
+#: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
 msgstr "解像度の変更と外部モニタの設定を行います"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "モニタの設定"
