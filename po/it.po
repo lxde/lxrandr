@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2009-10-26 18:15+0100\n"
-"Last-Translator: Alessandro Pellizzari <alex@amiran.it>\n"
+"PO-Revision-Date: 2010-01-16 18:06+0200\n"
+"Last-Translator: Andrea <andrea@opensuse.org>\n"
 "Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: Pootle 2.0.0\n"
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
@@ -116,11 +117,9 @@ msgid "Refresh Rate:"
 msgstr "Frequenza di aggiornamento:"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "Mostrare lo stesso schermo sul LCD del portatile e sul monitor esterno"
+msgstr "Cambia la risoluzione dello schermo e configura i monitor esterni"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
-msgstr "Impostazioni del display"
+msgstr "Impostazioni del monitor"
