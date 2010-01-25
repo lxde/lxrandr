@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LXDE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"PO-Revision-Date: 2010-01-24 11:10-0800\n"
+"Last-Translator: alexxed <alexxed@gmail.com>\n"
+"Language-Team: Romanian <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Narro 0.9.4 on http://tradu.softwareliber.ro\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "Monitor LCD laptop"
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "Monitor VGA Extern"
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "Monitor extern DVI"
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "Monitor implicit"
+
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "Automat"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr "Comunitatea de traducători de pe tradu.softwareliber.ro"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "Drepturi de autor pe 2008"
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "Instrument pentru LXDE de configurare a monitorului"
+
+#: ../src/lxrandr.c:333
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"Nu puteți opri toate monitoarele. Dacă faceți acest lucru, nu le veți putea "
+"porni din nou fiindcă unealta nu e accesibilă fără monitor."
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "Imposibil de obținut informații despre monitor!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "Setările afișajului"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr ""
+"Afișează aceeași imagine atât pentru laptop cât și pentru monitorul extern LCD"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "Oprește afișajul calculatorului portabil și folosește monitorul extern"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "Oprește monitorul extern și folosește afișajul calculatorului portabil"
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "Opțiuni rapide"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "Avansat"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "S-a detectat următorul monitor:"
+msgstr[1] "S-au detectat următoarele monitoare:"
+msgstr[2] "S-au detectat următoarele monitoare:"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "Activează"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "Rezoluție:"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "Rată de reîmprospătare:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Schimbă rezoluția ecranului și configurează monitoarele externe"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "Setări pentru monitor"
