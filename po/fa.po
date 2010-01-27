@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-01-26 17:29+0200\n"
-"Last-Translator: Hamidreza <n3gb0y@gmail.com>\n"
+"PO-Revision-Date: 2010-01-27 13:33+0200\n"
+"Last-Translator: Ali <aysabzevar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgstr "صفحه نمایش رایانه ی کیفی"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr ""
+msgstr "نمایشگر جانبی VGA"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr ""
+msgstr "نمایشگر جانبی DVI"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
@@ -36,7 +36,7 @@ msgstr "دورنشان(تلویزیون)"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr "صفحه نمایش پیشفرض"
+msgstr "نمایشگر پیش‌فرض"
 
 #: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
@@ -48,74 +48,76 @@ msgid "translator-credits"
 msgstr "مترجم ها"
 
 #: ../src/lxrandr.c:214
+#, fuzzy
 msgid "LXRandR"
-msgstr ""
+msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr ""
+msgstr "حق نشر ۲۰۰۸"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "ابزار پیکربندی نمایشگر برای LXDE"
 
 #: ../src/lxrandr.c:333
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
+"شما نمی‌توانید تمامین نمایشگرها را خاموش کنید.در غیر اینصورت شما نمی‌توانید "
+"دوباره آنها را روشن کنید چونکه این ابزار بدون نمایشگر قابل دسترسی نیست."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr ""
+msgstr "ناتوان در دریافت اطلاعات نمایشگر"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "تنظیمات نمایش"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "نمایش صفحه‌های مشابه در نمایشگر ال سی دی رایانه کیفی و نمایشگر جانبی"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "خاموش کردن ال سی دی رایانه کیفی و فقط استفاده از نمایشگر"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "خاموش کردن نمایشگر جانبی و استفاده از ال سی دی نمایشگر کیفی"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "گزینه‌های سریع"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "پیشرفته"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "مفرد نمایشگر زیر آشکار شده است:جمع: نمایشگرهای زیر آشکار شده‌اند:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "روشن کردن"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "وضوح:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "نرخ تازه‌سازی:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
-msgstr ""
+msgstr "تغییر وضوح صفحه و پیکربندی نمایشگرهای جانبی"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
-msgstr ""
+msgstr "تنظیمات نمایشگر"
