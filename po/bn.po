@@ -1,0 +1,123 @@
+# Bengali translation of lxshortcut.po
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Sankarshan <sankarshan.mukhopadhyay@gmail.com>, 2009.
+# Loba Yeasmeen <loba@ankur.org.bd>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"PO-Revision-Date: 2010-02-01 13:17+0600\n"
+"Last-Translator: Loba Yeasmeen <loba@ankur.org.bd>\n"
+"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../src/lxrandr.c:62
+msgid "Laptop LCD Monitor"
+msgstr "ল্যাপটপ LCD মনিটর "
+
+#: ../src/lxrandr.c:64
+msgid "External VGA Monitor"
+msgstr "বাহ্যিক VGA মনিটর"
+
+#: ../src/lxrandr.c:66
+msgid "External DVI Monitor"
+msgstr "বাহ্যিক DVI মনিটর"
+
+#: ../src/lxrandr.c:68
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:70
+msgid "Default Monitor"
+msgstr "পূর্বনির্ধারিত মনিটর "
+
+#: ../src/lxrandr.c:181
+#: ../src/lxrandr.c:453
+msgid "Auto"
+msgstr "স্বয়ংক্রিয়"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:206
+msgid "translator-credits"
+msgstr ""
+"(sankarshan@randomink.org) \n"
+"লোবা ইয়াসমীন <loba@ankur.org.bd>"
+
+#: ../src/lxrandr.c:214
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:216
+msgid "Copyright (C) 2008"
+msgstr "কপিরাইট (C) ২০০৮ "
+
+#: ../src/lxrandr.c:217
+msgid "Monitor configuration tool for LXDE"
+msgstr "LXDE এর জন্য মনিটর কনফিগার করার টুল"
+
+#: ../src/lxrandr.c:333
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
+msgstr "আপনি সকল মনিটর বন্ধ করতে পারবেন না। অন্যথায়, আপনি পুনরায় এদেরকে চালু করতে পারবেন না কারণ এই টুলটি মনিটর ব্যতিত কাজ করে না।"
+
+#: ../src/lxrandr.c:358
+msgid "Unable to get monitor information!"
+msgstr "মনিটরের তথ্য পেতে ব্যর্থ!"
+
+#: ../src/lxrandr.c:364
+msgid "Display Settings"
+msgstr "প্রদর্শনীর সেটিং"
+
+#: ../src/lxrandr.c:386
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "ল্যাপটপ LCD এবং বাহ্যিক মনিটরে একই ধরণের পর্দা প্রদর্শন করা হবে"
+
+#: ../src/lxrandr.c:390
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "ল্যাপটপের LCD বন্ধ করুন এবং শুধুমাত্র বাহ্যিক মনিটর ব্যবহার করুন"
+
+#: ../src/lxrandr.c:394
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "বাহ্যিক মনিটর বন্ধ করুন এবং শুধুমাত্র ল্যাপটপের LCD ব্যবহার করুন "
+
+#: ../src/lxrandr.c:398
+msgid "Quick Options"
+msgstr "দ্রুত কাজ করার অপশন"
+
+#: ../src/lxrandr.c:407
+msgid "Advanced"
+msgstr "উচ্চপর্যায়ের"
+
+#: ../src/lxrandr.c:411
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "নিচের মনিটরটি সনাক্ত করা হয়েছে:"
+msgstr[1] "নিচের মনিটরসমূহ সনাক্ত করা হয়েছে  :"
+
+#: ../src/lxrandr.c:429
+msgid "Turn On"
+msgstr "চালু করা"
+
+#: ../src/lxrandr.c:440
+msgid "Resolution:"
+msgstr "রেজল্যুশন"
+
+#: ../src/lxrandr.c:447
+msgid "Refresh Rate:"
+msgstr "রিফ্রেশ করার হার:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "পর্দার রেজল্যুশন পরিবর্তন করা হবে এবং বাহ্যিক মনিটর কনফিগার করা হবে"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "পর্দার সেটিং"
+
