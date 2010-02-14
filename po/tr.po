@@ -45,7 +45,7 @@ msgstr "Kendiliğinden"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:206
 msgid "translator-credits"
-msgstr "Kılıç Köken (kilickoken@gmail.com)\n"
+msgstr "Kılıç Köken (kilickoken@gmail.com)"
 
 #: ../src/lxrandr.c:214
 msgid "LXRandR"
