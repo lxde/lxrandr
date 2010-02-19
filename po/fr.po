@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"POT-Creation-Date: 2010-02-18 04:06+0000\n"
 "PO-Revision-Date: 2009-09-08 10:29+0200\n"
 "Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,9 @@ msgstr "Cilyan Olowen <gaknar@gmail.com>"
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg,
+#. gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL )
+#. );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "Copyright (C) 2008"
@@ -60,12 +62,8 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Outils de configuration des écrans pour LXDE"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
-msgstr ""
-"Vous ne pouvez pas désactiver tous les écrans. Sinon, vous ne serez pas "
-"capable de les réactiver puisque cet outil n'est pas accessible sans écran."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
+msgstr "Vous ne pouvez pas désactiver tous les écrans. Sinon, vous ne serez pas capable de les réactiver puisque cet outil n'est pas accessible sans écran."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -114,11 +112,9 @@ msgid "Refresh Rate:"
 msgstr "Fréquence de rafraîchissement :"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "Afficher la même chose sur l'écran du portable et sur l'écran externe"
+msgstr "Modifier la résolution de l'écran et paramétrer les écrans externes"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
-msgstr "Paramètres d'affichage"
+msgstr "Paramètres de l'écran"
