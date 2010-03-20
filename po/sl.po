@@ -1,19 +1,19 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"POT-Creation-Date: 2010-03-20 04:10+0000\n"
 "PO-Revision-Date: 2009-12-10 12:16+0100\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -48,7 +48,9 @@ msgstr "paxman"
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg,
+#. gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL )
+#. );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "Vse pravice pridržane (C) 2008"
@@ -58,12 +60,8 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Orodje za nastavljanje zaslona"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
-msgstr ""
-"Ne morete ugasniti vseh zaslonov, saj je orodje brez vsaj enega prižganega "
-"zaslona nedostopno."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
+msgstr "Ne morete ugasniti vseh zaslonov, saj je orodje brez vsaj enega prižganega zaslona nedostopno."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -114,11 +112,9 @@ msgid "Refresh Rate:"
 msgstr "Hitrost osveževanja:"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "Prikaži namizje hkrati na prenosnikovem in zunanjem zaslonu"
+msgstr "Nastavi ločljivost ekrana in zunanje zaslone"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
 msgstr "Nastavitve zaslona"
