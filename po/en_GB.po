@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Lxrandr package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
@@ -38,8 +38,7 @@ msgstr "Television"
 msgid "Default Monitor"
 msgstr "Default Monitor"
 
-#: ../src/lxrandr.c:181
-#: ../src/lxrandr.c:453
+#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
 msgid "Auto"
 msgstr "Auto"
 
@@ -52,10 +51,12 @@ msgstr "translator-credits"
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg,
+#. gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL )
+#. );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr "Copyright (C) 2008"
+msgstr "Copyright © 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
@@ -118,4 +119,3 @@ msgstr "Change screen resolution and configure external monitors"
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Monitor Settings"
-
