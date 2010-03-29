@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2009-09-11 02:09+0200\n"
+"PO-Revision-Date: 2010-03-19 14:59+0200\n"
 "Last-Translator: Rahman Yusri Aftian <aftian@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -119,6 +120,5 @@ msgid "Change screen resolution and configure external monitors"
 msgstr "Tampilkan layar yang sama pada kedua monitor eksternal dan LCD laptop"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
-msgstr "Pengaturan Tampilan"
+msgstr "Pengaturan Monitor"

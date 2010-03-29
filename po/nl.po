@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-02-03 01:27+0200\n"
-"Last-Translator: Horatio <hosoka@hotmail.com>\n"
+"PO-Revision-Date: 2010-02-26 14:59+0200\n"
+"Last-Translator: Sander <celettu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -116,9 +116,8 @@ msgid "Refresh Rate:"
 msgstr "Vernieuwingsfrequentie: "
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "Toon hetzelfde beeld op het laptop scherm en het extern beeldscherm"
+msgstr "Schermresolutie aanpassen en externe schermen configureren"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
