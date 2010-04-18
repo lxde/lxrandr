@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-03-20 20:07+0200\n"
+"PO-Revision-Date: 2010-04-18 00:05+0200\n"
 "Last-Translator: Gunleif <gunleif@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fo\n"
@@ -78,11 +78,11 @@ msgstr "Skíggja setingar"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Vís somu mynd, bæði á fartelduni og 'ytra skíggjanum."
+msgstr "Vís somu mynd, bæði á fartelduni og á ytra skíggjanum."
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Sløkk fartelduskíggjan, og nýt einas ytra skíggjan"
+msgstr "Sløkk fartelduskíggjan, og nýt einans ytra skíggjan"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
