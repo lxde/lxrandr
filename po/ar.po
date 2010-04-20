@@ -2,15 +2,16 @@
 # Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # أحمد فرغل <ahmad.farghal@gmail.com>, 2009.
+# Tareq Al Jurf <taljurf@fedoraproject.org>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2009-09-10 22:49+0200\n"
-"Last-Translator: Ahmad Farghal <ahmad.farghal@gmail.com>\n"
-"Language-Team: Arabic\n"
+"POT-Creation-Date: 2010-04-20 04:13+0000\n"
+"PO-Revision-Date: 2010-04-20 18:55+0300\n"
+"Last-Translator: Tareq Al Jurf <taljurf@fedoraproject.org>\n"
+"Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -112,18 +113,16 @@ msgstr "افتح"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr "الميز:"
+msgstr "الدقة:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
 msgstr "معدل التحديث:"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "أظهر نفس الشاشة على مرقاب الحاسوب المحمول والمرقاب الخارجي"
+msgstr "غير دقة الشاشة واضبط المراقيب الخارجية"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
-msgstr "إعدادات العرض"
+msgstr "إعدادات المرقاب"
