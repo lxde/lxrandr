@@ -120,4 +120,3 @@ msgstr "পর্দার রেজল্যুশন পরিবর্তন 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "পর্দার সেটিং"
-
