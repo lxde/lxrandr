@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-04-18 00:05+0200\n"
+"PO-Revision-Date: 2010-06-07 15:58+0200\n"
 "Last-Translator: Gunleif <gunleif@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fo\n"
@@ -54,7 +54,7 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
-msgstr "Upphavsrættindi 2008"
+msgstr "Upphavsrættindi (C) 2008"
 
 #: ../src/lxrandr.c:217
 msgid "Monitor configuration tool for LXDE"
@@ -78,7 +78,7 @@ msgstr "Skíggja setingar"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Vís somu mynd, bæði á fartelduni og á ytra skíggjanum."
+msgstr "Vís somu mynd, bæði á fartelduni og á ytra skíggjanum"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
@@ -108,7 +108,7 @@ msgstr "Tendra"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr "Loysni"
+msgstr "Loysni:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
