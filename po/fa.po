@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-01-27 13:33+0200\n"
-"Last-Translator: Ali <aysabzevar@gmail.com>\n"
+"PO-Revision-Date: 2010-07-06 11:20+0200\n"
+"Last-Translator: Hamidreza <n3gb0y@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -48,9 +48,8 @@ msgid "translator-credits"
 msgstr "مترجم ها"
 
 #: ../src/lxrandr.c:214
-#, fuzzy
 msgid "LXRandR"
-msgstr "LXRandR"
+msgstr "ال‌ایکس‌آر اند آر"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:216
