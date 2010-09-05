@@ -47,7 +47,6 @@ msgstr "Kendiliğinden"
 msgid "translator-credits"
 msgstr ""
 "Mehmet Gülmen (memetgulmen@gmail.com)\n"
-"\r\n"
 "Kılıç Köken (kilickoken@gmail.com)"
 
 #: ../src/lxrandr.c:214
