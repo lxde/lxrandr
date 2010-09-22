@@ -2,15 +2,16 @@
 # Copyright (C) 2009 THE lxrandr'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxrandr package.
 # <alvarommorais@gmail.com>, 2009.
-# Sérgio Marques <smarquespt@gmail.com>, 2009
+# Sérgio Marques <smarquespt@gmail.com>, 2009-2010
+# Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-02-13 04:09+0000\n"
-"PO-Revision-Date: 2010-02-13 19:38-0000\n"
-"Last-Translator: Sergio Marques <smarquespt@gmail.com>\n"
-"Language-Team: Portuguese <alvarommorais@gmail.com>\n"
+"PO-Revision-Date: 2010-09-22 11:35-0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,15 +22,15 @@ msgstr ""
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr "Monitor LCD do Portátil"
+msgstr "Monitor LCD do portátil"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
-msgstr "Monitor VGA Externo"
+msgstr "Monitor VGA externo"
 
 #: ../src/lxrandr.c:66
 msgid "External DVI Monitor"
-msgstr "Monitor DVI Externo"
+msgstr "Monitor DVI externo"
 
 #: ../src/lxrandr.c:68
 msgid "TV"
@@ -37,7 +38,7 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:70
 msgid "Default Monitor"
-msgstr "Monitor por Omissão"
+msgstr "Monitor por omissão"
 
 #: ../src/lxrandr.c:181
 #: ../src/lxrandr.c:453
@@ -74,7 +75,7 @@ msgstr "Incapaz de obter informações sobre o monitor!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr "Definições de Ecrã"
+msgstr "Definições do ecrã"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
@@ -90,7 +91,7 @@ msgstr "Desligar o monitor externo e usar apenas o LCD do portátil"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr "Opções Rápidas"
+msgstr "Opções rápidas"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
@@ -99,8 +100,8 @@ msgstr "Avançado"
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "Foi detectado o seguinte monitor:"
-msgstr[1] "Foram detectados os seguintes monitores:"
+msgstr[0] "Foi detetado o seguinte monitor:"
+msgstr[1] "Foram detetados os seguintes monitores:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
@@ -112,7 +113,7 @@ msgstr "Resolução:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr "Taxa de Actualização:"
+msgstr "Taxa de atualização:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
@@ -120,5 +121,5 @@ msgstr "Alterar a resolução do ecrã e configurar monitores externos"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
-msgstr "Definições de Monitor"
+msgstr "Definições do monitor"
 
