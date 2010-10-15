@@ -2,12 +2,12 @@
 # Copyright (C) 2009 The lxrandr authors.
 # This file is distributed under the same license as the lxrandr package.
 # Henrique P. Machado <zehrique@gmail.com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:03+0100\n"
+"POT-Creation-Date: 2010-10-15 06:07+0000\n"
 "PO-Revision-Date: 2009-12-03 01:48-0300\n"
 "Last-Translator: Henrique P. Machado <zehrique@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
-msgstr "Monitor LCD de Laptop"
+msgstr "Monitor LCD de laptop"
 
 #: ../src/lxrandr.c:64
 msgid "External VGA Monitor"
@@ -49,7 +49,9 @@ msgstr "Henrique P. Machado <zehrique@gmail.com>"
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg,
+#. gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL )
+#. );
 #: ../src/lxrandr.c:216
 msgid "Copyright (C) 2008"
 msgstr "Copyright (C) 2008"
@@ -59,12 +61,8 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Ferramenta de configuração de monitores do LXDE"
 
 #: ../src/lxrandr.c:333
-msgid ""
-"You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
-msgstr ""
-"Você não pode desligar todos os monitores. Caso contrário, você não poderá "
-"ligá-los novamente porque esta ferramente não é acessível sem um monitor."
+msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
+msgstr "Você não pode desligar todos os monitores. Caso contrário, você não poderá ligá-los novamente pois esta ferramente não é acessível sem um monitor."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
@@ -76,7 +74,7 @@ msgstr "Configurações de exibição"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Mostrar a mesma tela em ambos LCD do laptop e no monitor externo"
+msgstr "Mostrar a mesma tela no LCD do laptop e no monitor externo"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
