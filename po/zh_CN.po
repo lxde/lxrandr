@@ -3,13 +3,15 @@ msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: ideal <05281253@bjtu.edu.cn>\n"
+"PO-Revision-Date: 2010-10-15 15:14+0200\n"
+"Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -108,11 +110,9 @@ msgid "Refresh Rate:"
 msgstr "刷新频率："
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "在笔记本电脑屏幕和外接显示器上显示相同画面"
+msgstr "更改屏幕分辨率和配置外部显示器"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
 msgstr "显示器设置"
