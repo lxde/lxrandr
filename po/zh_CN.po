@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-10-15 15:14+0200\n"
+"PO-Revision-Date: 2010-10-19 08:26+0200\n"
 "Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -56,13 +56,10 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE 的屏幕配置工具"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
-msgstr ""
-"您不能关闭所有屏幕。否则，您将无法再开启它们，因为这个工具不能在没有显示器的"
-"情况下使用。"
+msgstr "您不能关闭所有显示器。否则，您将无法再开启它们，因为这个工具没有显示器的情况下无法使用。"
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
