@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2009-11-21 19:51+0100\n"
-"Last-Translator: Olav Andreas Lindekleiv <olalinde@gmail.com>\n"
+"PO-Revision-Date: 2010-12-10 06:34+0200\n"
+"Last-Translator: Sam <wilsonsamm@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -73,50 +74,50 @@ msgstr "Klarte ikke å få tak i skjerminformasjon!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr ""
+msgstr "Skjerminnstillinger"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "Vis samme bilde på både bærbarens skjerm og ekstern monitor"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "Slå av den innebygde skjermen og bruk bare den eksterne"
 
 #: ../src/lxrandr.c:394
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "Slå av den eksterne skjermen og bruk bare den innebygde"
 
 #: ../src/lxrandr.c:398
 msgid "Quick Options"
-msgstr ""
+msgstr "Hurtiginnstillinger"
 
 #: ../src/lxrandr.c:407
 msgid "Advanced"
-msgstr ""
+msgstr "Avansert"
 
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fant følgende skjerm:"
+msgstr[1] "Fant følgende skjermer:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr ""
+msgstr "Slå på"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
-msgstr ""
+msgstr "Oppløsning:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr ""
+msgstr "Oppfriskningshastighet:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
-msgstr ""
+msgstr "Bytt skjermoppløsning og sett opp eksterne skjermer"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
-msgstr ""
+msgstr "Skjerminnstillinger"
