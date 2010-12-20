@@ -370,12 +370,21 @@ int main(int argc, char** argv)
     gtk_dialog_set_alternative_button_order( GTK_DIALOG(dlg), GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL, -1 );
 
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
+#if GTK_CHECK_VERSION(2,14,0)
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_action_area(dlg)), btn, FALSE, TRUE, 0 );
+    gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(gtk_dialog_get_action_area(dlg)), btn, TRUE );
+#else
     gtk_box_pack_start( GTK_BOX(GTK_DIALOG(dlg)->action_area), btn, FALSE, TRUE, 0 );
     gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(GTK_DIALOG(dlg)->action_area), btn, TRUE );
+#endif
     g_signal_connect( btn, "clicked", G_CALLBACK(on_about), dlg );
 
     notebook = gtk_notebook_new();
+#if GTK_CHECK_VERSION(2,14,0)
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_content_area(dlg)), notebook, TRUE, TRUE, 2 );
+#else
     gtk_box_pack_start( GTK_BOX( GTK_DIALOG(dlg)->vbox ), notebook, TRUE, TRUE, 2 );
+#endif
 
     // If this is a laptop and there is an external monitor, offer quick options
     if( LVDS && g_slist_length( monitors ) == 2 )
