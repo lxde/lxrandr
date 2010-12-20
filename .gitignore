@@ -48,4 +48,4 @@ intltool-extract.in
 intltool-merge.in
 intltool-update.in
 src/xml-purge
-lxpanel.pc
+src/lxrandr
