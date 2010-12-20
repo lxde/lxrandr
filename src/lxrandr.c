@@ -437,8 +437,8 @@ int main(int argc, char** argv)
 
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
 #if GTK_CHECK_VERSION(2,14,0)
-    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_action_area(dlg)), btn, FALSE, TRUE, 0 );
-    gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(gtk_dialog_get_action_area(dlg)), btn, TRUE );
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_action_area( GTK_DIALOG(dlg))), btn, FALSE, TRUE, 0 );
+    gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(gtk_dialog_get_action_area( GTK_DIALOG(dlg))), btn, TRUE );
 #else
     gtk_box_pack_start( GTK_BOX(GTK_DIALOG(dlg)->action_area), btn, FALSE, TRUE, 0 );
     gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(GTK_DIALOG(dlg)->action_area), btn, TRUE );
@@ -447,7 +447,7 @@ int main(int argc, char** argv)
 
     notebook = gtk_notebook_new();
 #if GTK_CHECK_VERSION(2,14,0)
-    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_content_area(dlg)), notebook, TRUE, TRUE, 2 );
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_content_area(GTK_DIALOG(dlg))), notebook, TRUE, TRUE, 2 );
 #else
     gtk_box_pack_start( GTK_BOX( GTK_DIALOG(dlg)->vbox ), notebook, TRUE, TRUE, 2 );
 #endif
