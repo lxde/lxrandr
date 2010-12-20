@@ -1,7 +1,8 @@
 lxrandr_CFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
-	$(GTK_CFLAGS)
+	$(GTK_CFLAGS) \
+	$(ADDITIONAL_FLAGS)
 
 bin_PROGRAMS = lxrandr
 
