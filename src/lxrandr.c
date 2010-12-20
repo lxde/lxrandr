@@ -49,12 +49,14 @@ static Monitor* LVDS = NULL;
 
 static GtkWidget* dlg = NULL;
 
+/* Disable, not used
 static void monitor_free( Monitor* m )
 {
     g_free( m->name );
     g_slist_free( m->mode_lines );
     g_free( m );
 }
+*/
 
 static const char* get_human_readable_name( Monitor* m )
 {
@@ -121,11 +123,11 @@ static gboolean get_xrandr_info()
                     continue;
                 strv = g_ptr_array_sized_new(8);
                 g_ptr_array_add( strv, g_strdup(str) );
-                while( str = strtok( NULL, " ") )
+                while( str == strtok( NULL, " ") )
                 {
                     if( *str )
                     {
-                        char *star, *plus;
+                        char *star = NULL, *plus = NULL;
                         str = g_strdup( str );
 
                         // sometimes, + goes after a space
@@ -134,12 +136,12 @@ static gboolean get_xrandr_info()
                         else
                             g_ptr_array_add( strv, str );
 
-                        if( star = strchr( str, '*' ) )
+                        if( star == strchr( str, '*' ) )
                         {
                             m->active_mode = imode;
                             m->active_rate = irate;
                         }
-                        if( plus = strchr( str, '+' ) )
+                        if( plus == strchr( str, '+' ) )
                         {
                             m->pref_mode = imode;
                             m->pref_rate = irate;
@@ -189,10 +191,12 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
     gtk_combo_box_set_active( m->rate_combo, 0 );
 }
 
+/*Disable, not used
 static void open_url( GtkDialog* dlg, const char* url, gpointer data )
 {
-    /* FIXME: */
+    FIXME
 }
+*/
 
 static void on_about( GtkButton* btn, gpointer parent )
 {
@@ -211,7 +215,7 @@ static void on_about( GtkButton* btn, gpointer parent )
 
     gtk_container_set_border_width ( ( GtkContainer*)about_dlg , 2 );
     gtk_about_dialog_set_version ( (GtkAboutDialog*)about_dlg, VERSION );
-    gtk_about_dialog_set_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
+    gtk_about_dialog_set_program_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
     //gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
     gtk_about_dialog_set_copyright ( (GtkAboutDialog*)about_dlg, _( "Copyright (C) 2008" ) );
     gtk_about_dialog_set_comments ( (GtkAboutDialog*)about_dlg, _( "Monitor configuration tool for LXDE" ) );
@@ -395,7 +399,7 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
         save_configuration();
 
         msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 
-                                      0, 
+                                      0,
                                       GTK_MESSAGE_INFO, 
                                       GTK_BUTTONS_OK, 
                                       _("Configuration Saved") );
@@ -419,8 +423,11 @@ int main(int argc, char** argv)
 
     if( ! get_xrandr_info() )
     {
-        dlg = gtk_message_dialog_new( NULL, 0, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
-                                      _("Unable to get monitor information!"), NULL );
+        dlg = gtk_message_dialog_new( NULL,
+                                      0, 
+                                      GTK_MESSAGE_ERROR,
+                                      GTK_BUTTONS_OK,
+                                      _("Unable to get monitor information!"));
         gtk_dialog_run( (GtkDialog*)dlg );
         gtk_widget_destroy( dlg );
         return 1;
