@@ -1,7 +1,7 @@
-INCLUDES = \
+lxrandr_CFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
-	@GTK_CFLAGS@
+	$(GTK_CFLAGS)
 
 bin_PROGRAMS = lxrandr
 
