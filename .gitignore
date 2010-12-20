@@ -49,3 +49,4 @@ intltool-merge.in
 intltool-update.in
 src/xml-purge
 src/lxrandr
+data/lxrandr.desktop
