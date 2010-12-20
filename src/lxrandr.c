@@ -225,8 +225,10 @@ static void on_about( GtkButton* btn, gpointer parent )
     gtk_widget_destroy( about_dlg );
 }
 
-static void set_xrandr_info()
+
+static GString* get_command_xrandr_info()
 {
+
     GSList* l;
     GString *cmd = g_string_sized_new( 1024 );
 
@@ -269,7 +271,56 @@ static void set_xrandr_info()
             g_string_append( cmd, "--off" );
     }
 
+    return cmd;
+
+}
+
+static void save_configuration()
+{
+
+    char* dirname;
+    const char grp[] = "Desktop Entry";
+    GKeyFile* kf;
+
+    char* file, *data;
+    gsize len;
+
+    GString *cmd = get_command_xrandr_info();
+
+    /* create user autostart dir */
+    dirname = g_build_filename(g_get_user_config_dir(), "autostart", NULL);
+    g_mkdir_with_parents(dirname, 0700);
+    g_free(dirname);
+
+    kf = g_key_file_new();
+
+    g_key_file_set_string( kf, grp, "Type", "Application" );
+    g_key_file_set_string( kf, grp, "Name", _("LXRandR autostart") );
+    g_key_file_set_string( kf, grp, "Comment", _("Start xrandr with settings done in LXRandR") );
+    g_key_file_set_string( kf, grp, "Exec", cmd->str );
+    g_key_file_set_string( kf, grp, "OnlyShowIn", "LXDE" );
+
+    data = g_key_file_to_data(kf, &len, NULL);
+    file = g_build_filename(  g_get_user_config_dir(), 
+                              "autostart", 
+                              "lxrandr-autostart.desktop", 
+                              NULL );
+    /* save it to user-specific autostart dir */
+    g_debug("save to: %s", file);
+    g_file_set_contents(file, data, len, NULL);
+    g_key_file_free (kf);
+    g_free(file);
+    g_free(data);    
+
+}
+
+static void set_xrandr_info()
+{
+
+    GString *cmd = get_command_xrandr_info();
+
     g_spawn_command_line_sync( cmd->str, NULL, NULL, NULL, NULL );
+
     g_string_free( cmd, TRUE );
 }
 
@@ -337,6 +388,20 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
         // block the response
         g_signal_stop_emission_by_name( dialog, "response" );
     }
+    else if (response == GTK_RESPONSE_ACCEPT)
+    {
+        GtkWidget* msg;
+
+        save_configuration();
+
+        msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 
+                                      0, 
+                                      GTK_MESSAGE_INFO, 
+                                      GTK_BUTTONS_OK, 
+                                      _("Configuration Saved") );
+        gtk_dialog_run( GTK_DIALOG(msg) );
+        gtk_widget_destroy( msg );
+    }
 }
 
 int main(int argc, char** argv)
@@ -363,7 +428,8 @@ int main(int argc, char** argv)
 
     dlg = gtk_dialog_new_with_buttons( _("Display Settings"), NULL,
                                        GTK_DIALOG_NO_SEPARATOR,
-                                       GTK_STOCK_OK, GTK_RESPONSE_OK,
+                                       GTK_STOCK_SAVE, GTK_RESPONSE_ACCEPT,
+                                       GTK_STOCK_APPLY, GTK_RESPONSE_OK,
                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL );
     g_signal_connect( dlg, "response", G_CALLBACK(on_response), NULL );
     gtk_container_set_border_width( GTK_CONTAINER(dlg), 8 );
