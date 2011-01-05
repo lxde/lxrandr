@@ -1,14 +1,21 @@
+#
+# zvacet <ikoli@yahoo.com>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Boljsa <asjlob AT vip.hr>\n"
-"Language-Team:  <asjlob AT vip.hr>\n"
+"PO-Revision-Date: 2011-01-05 12:18+0200\n"
+"Last-Translator: zvacet <ikoli@yahoo.com>\n"
+"Language-Team: <asjlob AT vip.hr>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
 
@@ -55,17 +62,16 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Alat za konfiguraciju monitora za LXDE"
 
 #: ../src/lxrandr.c:333
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
 msgstr ""
-"Ne moæete ugasiti sve monitore. U protivnom, ne Êete imati moguÊnost ponovno "
-"ih upaliti buduÊi da alat nije dostupan bez monitora."
+"Ne mo≈æete iskljuƒçiti sve monitore. U protivnom, neƒáete imati moguƒánost "
+"ponovno ih ukljuƒçiti ih buduƒái da alat nije dostupan bez monitora."
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
-msgstr "NemoguÊe je dobiti informacije o monitoru!"
+msgstr "Nemoguƒáe je dobiti informacije o monitoru!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
@@ -73,7 +79,7 @@ msgstr "Postavke Zaslona"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Prikaæi isti zaslon na laptop LCD-u i vanjskom monitoru"
+msgstr "Prika≈æi isti zaslon na laptop LCD-u i vanjskom monitoru"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
@@ -92,15 +98,15 @@ msgid "Advanced"
 msgstr "Napredno"
 
 #: ../src/lxrandr.c:411
-#, fuzzy
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "SljedeÊi monitor je detektiran:"
-msgstr[1] "SljedeÊi monitor je detektiran:"
+msgstr[0] "Sljedeƒái monitor je detektiran:"
+msgstr[1] "Sljedeƒái monitor je detektiran:"
+msgstr[2] ""
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
-msgstr "Upali"
+msgstr "Ukljuƒçi"
 
 #: ../src/lxrandr.c:440
 msgid "Resolution:"
@@ -108,14 +114,12 @@ msgstr "Rezolucija:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr "Omjer osvjeæavanja:"
+msgstr "Omjer osvje≈æavanja:"
 
 #: ../data/lxrandr.desktop.in.h:1
-#, fuzzy
 msgid "Change screen resolution and configure external monitors"
-msgstr "Prikaæi isti zaslon na laptop LCD-u i vanjskom monitoru"
+msgstr "Promijeni rezoluciju zaslona i konfiguriraj vanjske monitore"
 
 #: ../data/lxrandr.desktop.in.h:2
-#, fuzzy
 msgid "Monitor Settings"
-msgstr "Postavke Zaslona"
+msgstr "Postavke monitora"

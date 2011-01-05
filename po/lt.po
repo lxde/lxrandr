@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2010-01-14 10:57+0200\n"
-"Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
+"PO-Revision-Date: 2011-01-04 23:18+0200\n"
+"Last-Translator: Julius <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
 "100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.0.0\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -118,7 +118,7 @@ msgstr "Atnaujinimo dažnis:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
-msgstr "Keiskite ekrano raišką ir konfigūruokite išorinius ekranus "
+msgstr "Keiskite ekrano raišką ir konfigūruokite išorinius ekranus"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
