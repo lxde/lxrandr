@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-05 05:45+0000\n"
-"PO-Revision-Date: 2010-01-28 01:14+0200\n"
-"Last-Translator: Kılıç <kilickoken@gmail.com>\n"
+"PO-Revision-Date: 2011-03-17 20:57+0200\n"
+"Last-Translator: enginmanap <enginmanap@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -66,7 +66,9 @@ msgstr "LXDE için görüntü birimi yapılandırma aracı"
 
 #: ../src/lxrandr.c:333
 msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
-msgstr "Bütün görüntü birimlerini kapatamazsınız. Yoksa, bu araca görüntü birimsiz erişilemeyeceğinden, onları yeniden açma olanağınız olmayacak. "
+msgstr ""
+"Bütün görüntü birimlerini kapatamazsınız. Yoksa, bu araca görüntü birimsiz "
+"erişilemeyeceğinden, onları yeniden açma olanağınız olmayacak. "
 
 #: ../src/lxrandr.c:358
 msgid "Unable to get monitor information!"
