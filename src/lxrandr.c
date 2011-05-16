@@ -49,12 +49,14 @@ static Monitor* LVDS = NULL;
 
 static GtkWidget* dlg = NULL;
 
+/* Disable, not used
 static void monitor_free( Monitor* m )
 {
     g_free( m->name );
     g_slist_free( m->mode_lines );
     g_free( m );
 }
+*/
 
 static const char* get_human_readable_name( Monitor* m )
 {
@@ -121,11 +123,11 @@ static gboolean get_xrandr_info()
                     continue;
                 strv = g_ptr_array_sized_new(8);
                 g_ptr_array_add( strv, g_strdup(str) );
-                while( str = strtok( NULL, " ") )
+                while( str == strtok( NULL, " ") )
                 {
                     if( *str )
                     {
-                        char *star, *plus;
+                        char *star = NULL, *plus = NULL;
                         str = g_strdup( str );
 
                         // sometimes, + goes after a space
@@ -134,12 +136,12 @@ static gboolean get_xrandr_info()
                         else
                             g_ptr_array_add( strv, str );
 
-                        if( star = strchr( str, '*' ) )
+                        if( star == strchr( str, '*' ) )
                         {
                             m->active_mode = imode;
                             m->active_rate = irate;
                         }
-                        if( plus = strchr( str, '+' ) )
+                        if( plus == strchr( str, '+' ) )
                         {
                             m->pref_mode = imode;
                             m->pref_rate = irate;
@@ -189,10 +191,12 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
     gtk_combo_box_set_active( m->rate_combo, 0 );
 }
 
+/*Disable, not used
 static void open_url( GtkDialog* dlg, const char* url, gpointer data )
 {
-    /* FIXME: */
+    FIXME
 }
+*/
 
 static void on_about( GtkButton* btn, gpointer parent )
 {
@@ -211,7 +215,7 @@ static void on_about( GtkButton* btn, gpointer parent )
 
     gtk_container_set_border_width ( ( GtkContainer*)about_dlg , 2 );
     gtk_about_dialog_set_version ( (GtkAboutDialog*)about_dlg, VERSION );
-    gtk_about_dialog_set_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
+    gtk_about_dialog_set_program_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
     //gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
     gtk_about_dialog_set_copyright ( (GtkAboutDialog*)about_dlg, _( "Copyright (C) 2008" ) );
     gtk_about_dialog_set_comments ( (GtkAboutDialog*)about_dlg, _( "Monitor configuration tool for LXDE" ) );
@@ -225,8 +229,10 @@ static void on_about( GtkButton* btn, gpointer parent )
     gtk_widget_destroy( about_dlg );
 }
 
-static void set_xrandr_info()
+
+static GString* get_command_xrandr_info()
 {
+
     GSList* l;
     GString *cmd = g_string_sized_new( 1024 );
 
@@ -269,7 +275,56 @@ static void set_xrandr_info()
             g_string_append( cmd, "--off" );
     }
 
+    return cmd;
+
+}
+
+static void save_configuration()
+{
+
+    char* dirname;
+    const char grp[] = "Desktop Entry";
+    GKeyFile* kf;
+
+    char* file, *data;
+    gsize len;
+
+    GString *cmd = get_command_xrandr_info();
+
+    /* create user autostart dir */
+    dirname = g_build_filename(g_get_user_config_dir(), "autostart", NULL);
+    g_mkdir_with_parents(dirname, 0700);
+    g_free(dirname);
+
+    kf = g_key_file_new();
+
+    g_key_file_set_string( kf, grp, "Type", "Application" );
+    g_key_file_set_string( kf, grp, "Name", _("LXRandR autostart") );
+    g_key_file_set_string( kf, grp, "Comment", _("Start xrandr with settings done in LXRandR") );
+    g_key_file_set_string( kf, grp, "Exec", cmd->str );
+    g_key_file_set_string( kf, grp, "OnlyShowIn", "LXDE" );
+
+    data = g_key_file_to_data(kf, &len, NULL);
+    file = g_build_filename(  g_get_user_config_dir(), 
+                              "autostart", 
+                              "lxrandr-autostart.desktop", 
+                              NULL );
+    /* save it to user-specific autostart dir */
+    g_debug("save to: %s", file);
+    g_file_set_contents(file, data, len, NULL);
+    g_key_file_free (kf);
+    g_free(file);
+    g_free(data);    
+
+}
+
+static void set_xrandr_info()
+{
+
+    GString *cmd = get_command_xrandr_info();
+
     g_spawn_command_line_sync( cmd->str, NULL, NULL, NULL, NULL );
+
     g_string_free( cmd, TRUE );
 }
 
@@ -337,6 +392,20 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
         // block the response
         g_signal_stop_emission_by_name( dialog, "response" );
     }
+    else if (response == GTK_RESPONSE_ACCEPT)
+    {
+        GtkWidget* msg;
+
+        save_configuration();
+
+        msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 
+                                      0,
+                                      GTK_MESSAGE_INFO, 
+                                      GTK_BUTTONS_OK, 
+                                      _("Configuration Saved") );
+        gtk_dialog_run( GTK_DIALOG(msg) );
+        gtk_widget_destroy( msg );
+    }
 }
 
 int main(int argc, char** argv)
@@ -354,8 +423,11 @@ int main(int argc, char** argv)
 
     if( ! get_xrandr_info() )
     {
-        dlg = gtk_message_dialog_new( NULL, 0, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
-                                      _("Unable to get monitor information!"), NULL );
+        dlg = gtk_message_dialog_new( NULL,
+                                      0, 
+                                      GTK_MESSAGE_ERROR,
+                                      GTK_BUTTONS_OK,
+                                      _("Unable to get monitor information!"));
         gtk_dialog_run( (GtkDialog*)dlg );
         gtk_widget_destroy( dlg );
         return 1;
@@ -363,7 +435,8 @@ int main(int argc, char** argv)
 
     dlg = gtk_dialog_new_with_buttons( _("Display Settings"), NULL,
                                        GTK_DIALOG_NO_SEPARATOR,
-                                       GTK_STOCK_OK, GTK_RESPONSE_OK,
+                                       GTK_STOCK_SAVE, GTK_RESPONSE_ACCEPT,
+                                       GTK_STOCK_APPLY, GTK_RESPONSE_OK,
                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL );
     g_signal_connect( dlg, "response", G_CALLBACK(on_response), NULL );
     gtk_container_set_border_width( GTK_CONTAINER(dlg), 8 );
@@ -373,12 +446,21 @@ int main(int argc, char** argv)
     gtk_window_set_icon_name(dlg, "preferences-desktop-display");
 
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
+#if GTK_CHECK_VERSION(2,14,0)
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_action_area( GTK_DIALOG(dlg))), btn, FALSE, TRUE, 0 );
+    gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(gtk_dialog_get_action_area( GTK_DIALOG(dlg))), btn, TRUE );
+#else
     gtk_box_pack_start( GTK_BOX(GTK_DIALOG(dlg)->action_area), btn, FALSE, TRUE, 0 );
     gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(GTK_DIALOG(dlg)->action_area), btn, TRUE );
+#endif
     g_signal_connect( btn, "clicked", G_CALLBACK(on_about), dlg );
 
     notebook = gtk_notebook_new();
+#if GTK_CHECK_VERSION(2,14,0)
+    gtk_box_pack_start(GTK_BOX(gtk_dialog_get_content_area(GTK_DIALOG(dlg))), notebook, TRUE, TRUE, 2 );
+#else
     gtk_box_pack_start( GTK_BOX( GTK_DIALOG(dlg)->vbox ), notebook, TRUE, TRUE, 2 );
+#endif
 
     // If this is a laptop and there is an external monitor, offer quick options
     if( LVDS && g_slist_length( monitors ) == 2 )
