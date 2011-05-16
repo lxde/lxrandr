@@ -40,8 +40,13 @@ typedef struct _Monitor
     short pref_rate;
 
     GtkCheckButton* enable;
+#if GTK_CHECK_VERSION(2, 24, 0)
+    GtkComboBoxText* res_combo;
+    GtkComboBoxText* rate_combo;
+#else
     GtkComboBox* res_combo;
     GtkComboBox* rate_combo;
+#endif
 }Monitor;
 
 static GSList* monitors = NULL;
@@ -178,8 +183,19 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
     char** rate;
     int sel = gtk_combo_box_get_active( cb );
     char** mode_line = g_slist_nth_data( m->mode_lines, sel - 1 );
-    gtk_list_store_clear( GTK_LIST_STORE(gtk_combo_box_get_model( m->rate_combo )) );
-
+#if GTK_CHECK_VERSION(2, 24, 0)
+    gtk_list_store_clear( GTK_LIST_STORE(gtk_combo_box_get_model( GTK_COMBO_BOX(m->rate_combo) )) );
+    gtk_combo_box_text_append_text( m->rate_combo, _("Auto") );
+    if( sel >= 0 && mode_line && *mode_line )
+    {
+        for( rate = mode_line + 1; *rate; ++rate )
+        {
+            gtk_combo_box_text_append_text( m->rate_combo, *rate );
+        }
+    }
+    gtk_combo_box_set_active( GTK_COMBO_BOX(m->rate_combo), 0 );
+#else
+    gtk_list_store_clear( GTK_LIST_STORE(gtk_combo_box_get_model(m->rate_combo )) );
     gtk_combo_box_append_text( m->rate_combo, _("Auto") );
     if( sel >= 0 && mode_line && *mode_line )
     {
@@ -189,6 +205,7 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
         }
     }
     gtk_combo_box_set_active( m->rate_combo, 0 );
+#endif
 }
 
 /*Disable, not used
@@ -248,8 +265,13 @@ static GString* get_command_xrandr_info()
         // if the monitor is turned on
         if( gtk_toggle_button_get_active( GTK_TOGGLE_BUTTON(m->enable) ) )
         {
+#if GTK_CHECK_VERSION(2, 24, 0)
+            int sel_res = gtk_combo_box_get_active( GTK_COMBO_BOX(m->res_combo) );
+            int sel_rate = gtk_combo_box_get_active( GTK_COMBO_BOX(m->rate_combo) );
+#else
             int sel_res = gtk_combo_box_get_active( m->res_combo );
             int sel_rate = gtk_combo_box_get_active( m->rate_combo );
+#endif
 
             if( sel_res < 1 ) // auto resolution
             {
@@ -259,12 +281,19 @@ static GString* get_command_xrandr_info()
             {
                 g_string_append( cmd, "--mode " );
                 ++sel_res;  // the fist item in the combo box is "Auto", indecis of resolutions are 1, 2, 3...
+#if GTK_CHECK_VERSION(2, 24, 0)
+                g_string_append( cmd, gtk_combo_box_text_get_active_text(m->res_combo) );
+#else
                 g_string_append( cmd, gtk_combo_box_get_active_text(m->res_combo) );
-
+#endif
                 if( sel_rate >= 1 ) // not auto refresh rate
                 {
                     g_string_append( cmd, " --rate " );
+#if GTK_CHECK_VERSION(2, 24, 0)
+                    g_string_append( cmd, gtk_combo_box_text_get_active_text(m->rate_combo) );
+#else
                     g_string_append( cmd, gtk_combo_box_get_active_text(m->rate_combo) );
+#endif
                 }
             }
 
@@ -330,8 +359,13 @@ static void set_xrandr_info()
 
 static void choose_max_resolution( Monitor* m )
 {
+#if GTK_CHECK_VERSION(2, 24, 0)
+    if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(GTK_COMBO_BOX(m->res_combo)), NULL ) > 1 )
+        gtk_combo_box_set_active( GTK_COMBO_BOX(m->res_combo), 1 );
+#else
     if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(m->res_combo), NULL ) > 1 )
         gtk_combo_box_set_active( m->res_combo, 1 );
+#endif
 }
 
 static void on_quick_option( GtkButton* btn, gpointer data )
@@ -525,25 +559,46 @@ int main(int argc, char** argv)
         label = gtk_label_new( _("Resolution:") );
         gtk_box_pack_start( GTK_BOX(hbox), label, FALSE, TRUE, 2 );
 
+#if GTK_CHECK_VERSION(2, 24, 0)
+        m->res_combo = GTK_COMBO_BOX_TEXT(gtk_combo_box_text_new());
+#else
         m->res_combo = GTK_COMBO_BOX(gtk_combo_box_new_text());
+#endif
         g_signal_connect( m->res_combo, "changed", G_CALLBACK(on_res_sel_changed), m );
         gtk_box_pack_start( GTK_BOX(hbox), GTK_WIDGET(m->res_combo), FALSE, TRUE, 2 );
 
         label = gtk_label_new( _("Refresh Rate:") );
         gtk_box_pack_start( GTK_BOX(hbox), label, FALSE, TRUE, 2 );
 
+#if GTK_CHECK_VERSION(2, 24, 0)
+        m->rate_combo = GTK_COMBO_BOX_TEXT(gtk_combo_box_text_new());
+#else
         m->rate_combo = GTK_COMBO_BOX(gtk_combo_box_new_text());
+#endif
         gtk_box_pack_start( GTK_BOX(hbox), GTK_WIDGET(m->rate_combo), FALSE, TRUE, 2 );
 
+#if GTK_CHECK_VERSION(2, 24, 0)
+        gtk_combo_box_text_append_text( m->res_combo, _("Auto") );
+#else
         gtk_combo_box_append_text( m->res_combo, _("Auto") );
+#endif
         for( mode_line = m->mode_lines; mode_line; mode_line = mode_line->next )
         {
             char** strv = (char**)mode_line->data;
+#if GTK_CHECK_VERSION(2, 24, 0)
+            gtk_combo_box_text_append_text( m->res_combo, strv[0] );
+#else
             gtk_combo_box_append_text( m->res_combo, strv[0] );
+#endif
         }
 
+#if GTK_CHECK_VERSION(2, 24, 0)
+        gtk_combo_box_set_active( GTK_COMBO_BOX(m->res_combo), m->active_mode + 1 );
+        gtk_combo_box_set_active( GTK_COMBO_BOX(m->rate_combo), m->active_rate + 1 );
+#else
         gtk_combo_box_set_active( m->res_combo, m->active_mode + 1 );
         gtk_combo_box_set_active( m->rate_combo, m->active_rate + 1 );
+#endif
     }
 
     gtk_widget_show_all( dlg );
