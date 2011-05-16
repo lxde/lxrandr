@@ -50,3 +50,8 @@ intltool-update.in
 src/xml-purge
 src/lxrandr
 data/lxrandr.desktop
+debian/files
+debian/lxrandr.debhelper.log
+debian/lxrandr.substvars
+debian/lxrandr/
+po/.intltool-merge-cache
