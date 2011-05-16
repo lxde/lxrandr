@@ -477,7 +477,7 @@ int main(int argc, char** argv)
     gtk_dialog_set_alternative_button_order( GTK_DIALOG(dlg), GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL, -1 );
 
     /* Set icon name for main (dlg) window so it displays in the panel. */
-    gtk_window_set_icon_name(dlg, "display");
+    gtk_window_set_icon_name(GTK_WINDOW(dlg), "display");
 
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
 #if GTK_CHECK_VERSION(2,14,0)
