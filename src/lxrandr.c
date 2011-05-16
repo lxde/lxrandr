@@ -128,7 +128,7 @@ static gboolean get_xrandr_info()
                     continue;
                 strv = g_ptr_array_sized_new(8);
                 g_ptr_array_add( strv, g_strdup(str) );
-                while( str == strtok( NULL, " ") )
+                while( str = strtok( NULL, " ") )
                 {
                     if( *str )
                     {
