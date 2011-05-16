@@ -369,6 +369,9 @@ int main(int argc, char** argv)
     gtk_container_set_border_width( GTK_CONTAINER(dlg), 8 );
     gtk_dialog_set_alternative_button_order( GTK_DIALOG(dlg), GTK_RESPONSE_OK, GTK_RESPONSE_CANCEL, -1 );
 
+    /* Set icon name for main (dlg) window so it displays in the panel. */
+    gtk_window_set_icon_name(dlg, "preferences-desktop-display");
+
     btn = gtk_button_new_from_stock( GTK_STOCK_ABOUT );
     gtk_box_pack_start( GTK_BOX(GTK_DIALOG(dlg)->action_area), btn, FALSE, TRUE, 0 );
     gtk_button_box_set_child_secondary( GTK_BUTTON_BOX(GTK_DIALOG(dlg)->action_area), btn, TRUE );
