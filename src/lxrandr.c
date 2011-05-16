@@ -141,12 +141,12 @@ static gboolean get_xrandr_info()
                         else
                             g_ptr_array_add( strv, str );
 
-                        if( star == strchr( str, '*' ) )
+                        if( star = strchr( str, '*' ) )
                         {
                             m->active_mode = imode;
                             m->active_rate = irate;
                         }
-                        if( plus == strchr( str, '+' ) )
+                        if( plus = strchr( str, '+' ) )
                         {
                             m->pref_mode = imode;
                             m->pref_rate = irate;
