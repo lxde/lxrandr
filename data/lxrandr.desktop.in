@@ -4,6 +4,5 @@ _Comment=Change screen resolution and configure external monitors
 Exec=lxrandr
 Icon=display
 Terminal=false
-Encoding=UTF-8
 Type=Application
 Categories=GTK;Settings;HardwareSettings;
