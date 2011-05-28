@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-13 08:36+0000\n"
-"PO-Revision-Date: 2011-05-19 11:34+0200\n"
+"PO-Revision-Date: 2011-05-28 17:49+0200\n"
 "Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -75,7 +75,7 @@ msgstr "Kan beeldscherm-informatie niet verkrijgen!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr "Beeldscherm-instellingen"
+msgstr "Scherminstellingen"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
@@ -100,8 +100,8 @@ msgstr "Geavanceerd"
 #: ../src/lxrandr.c:411
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "Het volgende beeldscherm is gedetecteerd:"
-msgstr[1] "De volgende beeldschermen zijn gedetecteerd:"
+msgstr[0] "Het volgende beeldscherm wordt gedetecteerd:"
+msgstr[1] "De volgende beeldschermen worden gedetecteerd:"
 
 #: ../src/lxrandr.c:429
 msgid "Turn On"
@@ -113,7 +113,7 @@ msgstr "Resolutie:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr "Vernieuwingsfrequentie:"
+msgstr "Verversingsfrequentie:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
