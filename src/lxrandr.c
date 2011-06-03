@@ -468,7 +468,7 @@ int main(int argc, char** argv)
     }
 
     dlg = gtk_dialog_new_with_buttons( _("Display Settings"), NULL,
-                                       GTK_DIALOG_NO_SEPARATOR,
+                                       GTK_DIALOG_MODAL,
                                        GTK_STOCK_SAVE, GTK_RESPONSE_ACCEPT,
                                        GTK_STOCK_APPLY, GTK_RESPONSE_OK,
                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL );
