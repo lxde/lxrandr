@@ -9,13 +9,15 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-15 06:07+0000\n"
-"PO-Revision-Date: 2011-05-18 07:40-0300\n"
-"Last-Translator: Sérgio Cipolla <secipolla@gmail.com>\n"
+"PO-Revision-Date: 2011-06-11 20:22+0200\n"
+"Last-Translator: Sérgio <ikisham@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:62
 msgid "Laptop LCD Monitor"
@@ -74,7 +76,7 @@ msgstr "Não foi possível obter informações do monitor!"
 
 #: ../src/lxrandr.c:364
 msgid "Display Settings"
-msgstr "Configurações da tela"
+msgstr "Configurações do monitor"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
@@ -121,4 +123,3 @@ msgstr "Modifique a resolução da tela e configure monitores externos"
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Configurações do monitor"
-
