@@ -3,12 +3,12 @@
 # Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Vitaly Pashkov <admin@fluda.net>, 2009.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-18 04:10+0000\n"
+"POT-Creation-Date: 2011-07-22 21:45+0200\n"
 "PO-Revision-Date: 2010-09-03 14:24+0200\n"
 "Last-Translator: Max <mpui@tut.by>\n"
 "Language-Team: Russian\n"
@@ -16,110 +16,127 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
-#: ../src/lxrandr.c:62
+#: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
 msgstr "ЖК дисплей ноутбука"
 
-#: ../src/lxrandr.c:64
+#: ../src/lxrandr.c:71
 msgid "External VGA Monitor"
 msgstr "Внешний VGA дисплей"
 
-#: ../src/lxrandr.c:66
+#: ../src/lxrandr.c:73
 msgid "External DVI Monitor"
 msgstr "Внешний DVI дисплей"
 
-#: ../src/lxrandr.c:68
+#: ../src/lxrandr.c:75
 msgid "TV"
 msgstr "ТВ"
 
-#: ../src/lxrandr.c:70
+#: ../src/lxrandr.c:77
 msgid "Default Monitor"
 msgstr "Дисплей по умолчанию"
 
-#: ../src/lxrandr.c:181 ../src/lxrandr.c:453
+#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
+#: ../src/lxrandr.c:583
 msgid "Auto"
 msgstr "Автоматически"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:206
+#: ../src/lxrandr.c:227
 msgid "translator-credits"
 msgstr "Vitaly Pashkov <admin@fluda.net>"
 
-#: ../src/lxrandr.c:214
+#: ../src/lxrandr.c:235
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg,
-#. gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL )
-#. );
-#: ../src/lxrandr.c:216
-msgid "Copyright (C) 2008"
-msgstr "Copyright (C) 2008"
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:237
+msgid "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2011"
 
-#: ../src/lxrandr.c:217
+#: ../src/lxrandr.c:238
 msgid "Monitor configuration tool for LXDE"
 msgstr "Утилита настройки дисплея LXDE"
 
-#: ../src/lxrandr.c:333
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
-msgstr "Вы не можете выключить все дисплеи. Иначе вы не сможете включить их снова, так как эта утилита недоступна без дисплея."
+#: ../src/lxrandr.c:331
+msgid "LXRandR autostart"
+msgstr ""
 
-#: ../src/lxrandr.c:358
+#: ../src/lxrandr.c:332
+msgid "Start xrandr with settings done in LXRandR"
+msgstr ""
+
+#: ../src/lxrandr.c:422
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"Вы не можете выключить все дисплеи. Иначе вы не сможете включить их снова, "
+"так как эта утилита недоступна без дисплея."
+
+#: ../src/lxrandr.c:439
+msgid "Configuration Saved"
+msgstr ""
+
+#: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
 msgstr "Не удалось получить информацию о дисплее!"
 
-#: ../src/lxrandr.c:364
+#: ../src/lxrandr.c:470
 msgid "Display Settings"
 msgstr "Настройки дисплея"
 
-#: ../src/lxrandr.c:386
+#: ../src/lxrandr.c:505
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Показывать одинаковый экран на ЖК дисплее ноутбука и на внешнем дисплее"
+msgstr ""
+"Показывать одинаковый экран на ЖК дисплее ноутбука и на внешнем дисплее"
 
-#: ../src/lxrandr.c:390
+#: ../src/lxrandr.c:509
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Отключить ЖК дисплей ноутбука и использовать только внешний дисплей"
 
-#: ../src/lxrandr.c:394
+#: ../src/lxrandr.c:513
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Отключить внешний дисплей и использовать только ЖК дисплей ноутбука"
 
-#: ../src/lxrandr.c:398
+#: ../src/lxrandr.c:517
 msgid "Quick Options"
 msgstr "Быстрые настройки"
 
-#: ../src/lxrandr.c:407
+#: ../src/lxrandr.c:526
 msgid "Advanced"
 msgstr "Дополнительно"
 
-#: ../src/lxrandr.c:411
+#: ../src/lxrandr.c:530
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Обнаружен следующий дисплей:"
 msgstr[1] "Обнаружены следующие дисплеи:"
 msgstr[2] "Обнаружены следующие дисплеи:"
 
-#: ../src/lxrandr.c:429
+#: ../src/lxrandr.c:548
 msgid "Turn On"
 msgstr "Включить"
 
-#: ../src/lxrandr.c:440
+#: ../src/lxrandr.c:559
 msgid "Resolution:"
 msgstr "Разрешение:"
 
-#: ../src/lxrandr.c:447
+#: ../src/lxrandr.c:570
 msgid "Refresh Rate:"
 msgstr "Частота обновления:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
-msgstr "Показывать одинаковый экран на ЖК дисплее ноутбука и на внешнем дисплее"
+msgstr ""
+"Показывать одинаковый экран на ЖК дисплее ноутбука и на внешнем дисплее"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"

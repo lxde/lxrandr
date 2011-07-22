@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:38+0200\n"
+"POT-Creation-Date: 2011-07-22 21:45+0200\n"
 "PO-Revision-Date: 2011-07-22 21:42+0200\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -58,7 +58,7 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:237
-msgid "Copyright (C) 2008"
+msgid "Copyright (C) 2008-2011"
 msgstr "Copyright © 2008-2011"
 
 #: ../src/lxrandr.c:238
