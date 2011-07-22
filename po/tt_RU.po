@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:03+0100\n"
-"PO-Revision-Date: 2011-07-10 15:23+0200\n"
-"Last-Translator: Айнур <ainur.shakirov.tt@gmail.com>\n"
+"PO-Revision-Date: 2011-07-22 07:30+0200\n"
+"Last-Translator: Ainur <ainur.shakirov.tt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt_RU\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Экран көйләүләре"
 
 #: ../src/lxrandr.c:386
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Ноутбукның LCD һәм тышкы экраннда бер үк сүрәтне күрсәтергә."
+msgstr "Ноутбукның LCD һәм тышкы экранында бер үк сүрәтне күрсәтергә"
 
 #: ../src/lxrandr.c:390
 msgid "Turn off laptop LCD and use external monitor only"
@@ -111,7 +111,7 @@ msgstr "Экранның мөмкинлеге:"
 
 #: ../src/lxrandr.c:447
 msgid "Refresh Rate:"
-msgstr "Яңарту ешлыгы"
+msgstr "Яңарту ешлыгы:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
