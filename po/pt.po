@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-05-14 02:22+0200\n"
+"PO-Revision-Date: 2011-07-23 15:38+0200\n"
 "Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -68,11 +68,11 @@ msgstr "Ferramenta de configuração do monitor para LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Inicio automático do LXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Iniciar xrandr com as definições de LXrandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Configuração gravada"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
