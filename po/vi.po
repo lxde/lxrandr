@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2010-04-21 12:01+0700\n"
-"Last-Translator: Tran Duy Hung <nguyentieuhau@gmail.com>\n"
+"PO-Revision-Date: 2011-07-23 04:09+0200\n"
+"Last-Translator: Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
@@ -62,11 +63,11 @@ msgstr "Công cụ cấu hình màn hình cho LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Tự khởi động LXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Khởi động xrandr với những thiết lập trong LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -78,7 +79,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Cấu hình đã được lưu"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
