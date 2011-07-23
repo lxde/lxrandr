@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2010-03-09 12:23+0200\n"
-"Last-Translator: Indalecio <ifreiria@gmail.com>\n"
+"PO-Revision-Date: 2011-07-23 09:16+0200\n"
+"Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
@@ -66,11 +66,11 @@ msgstr "Ferramenta de configuración de monitores para LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Inicio automático de LXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Iniciar «xrandr» cos axustes feitos en LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Configuración gardada"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
