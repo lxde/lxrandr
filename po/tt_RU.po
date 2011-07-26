@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-07-22 07:30+0200\n"
+"PO-Revision-Date: 2011-07-26 13:10+0200\n"
 "Last-Translator: Ainur <ainur.shakirov.tt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt_RU\n"
@@ -63,11 +63,11 @@ msgstr "LXDE өчен монитор көйләү коралы"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR кушымтасын автоматик җибәрү"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "xrandr кушымтасын LXRandR көйләүләре белән җибәрергә"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Көйләүләр сакланылды"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
