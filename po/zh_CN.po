@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2010-10-19 08:26+0200\n"
+"PO-Revision-Date: 2011-08-16 08:29+0200\n"
 "Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -58,11 +58,11 @@ msgstr "LXDE 的屏幕配置工具"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR 自动启动"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "以 LXRandR 中完成的设置启动 xrandr"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "配置已保存"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
