@@ -2,7 +2,7 @@
 _Name=Monitor Settings
 _Comment=Change screen resolution and configure external monitors
 Exec=lxrandr
-Icon=display
+Icon=video-display
 Terminal=false
 Type=Application
 Categories=GTK;Settings;HardwareSettings;
