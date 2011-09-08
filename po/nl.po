@@ -1,4 +1,4 @@
-# Dutch translation for the lxrandr package.
+# Dutch translation of the lxrandr package.
 # Copyright (C) the author of the lxrandr package.
 # This file is distributed under the same license as the 
 # lxrandr package.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-07-23 12:33+0200\n"
+"PO-Revision-Date: 2011-09-08 12:33+0200\n"
 "Last-Translator: Pjotr <>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -107,7 +107,7 @@ msgstr "Extern beeldscherm uitschakelen en alleen laptopscherm gebruiken"
 
 #: ../src/lxrandr.c:517
 msgid "Quick Options"
-msgstr "Snelle Opties"
+msgstr "Snelle opties"
 
 #: ../src/lxrandr.c:526
 msgid "Advanced"
