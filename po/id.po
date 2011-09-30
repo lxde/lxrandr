@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2010-08-26 01:59+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2011-08-21 10:14+0200\n"
+"Last-Translator: andika <andika@gmail.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
@@ -66,11 +66,11 @@ msgstr "Alat konfigurasi monitor untuk LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR mulai otomatis"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Memulai xrandr dengan pengaturan yang dilakukan di LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Konfigurasi Disimpan"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
