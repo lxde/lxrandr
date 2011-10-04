@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-10-04 02:45+0200\n"
+"PO-Revision-Date: 2011-10-04 02:46+0200\n"
 "Last-Translator: zvacet <ikoli@yahoo.com>\n"
 "Language-Team: <asjlob AT vip.hr>\n"
 "Language: hr\n"
@@ -47,9 +47,7 @@ msgstr "Automatski"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr ""
-"Boljsa\n"
-"Ivica Kolić <ikoli@yahoo.com>"
+msgstr "Boljsa"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
