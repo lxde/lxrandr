@@ -6,15 +6,15 @@ msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-03-01 14:48+0200\n"
+"PO-Revision-Date: 2011-10-04 02:45+0200\n"
 "Last-Translator: zvacet <ikoli@yahoo.com>\n"
 "Language-Team: <asjlob AT vip.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
@@ -47,7 +47,9 @@ msgstr "Automatski"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr "Boljsa"
+msgstr ""
+"Boljsa\n"
+"Ivica Kolić <ikoli@yahoo.com>"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
@@ -64,11 +66,11 @@ msgstr "Alat za konfiguraciju monitora za LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR samopokretanje"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Pokreni xrandr sa postavkama napravljenim u LXRandR-u"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -80,7 +82,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Konfiguracija spremljena"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
@@ -100,7 +102,7 @@ msgstr "Ugasi laptop LCD i koristi samo vanjski monitor"
 
 #: ../src/lxrandr.c:513
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Ugasi vanjski monitor i koristi samo LCD"
+msgstr "Ugasi vanjski monitor i koristi samo LCD laptopa"
 
 #: ../src/lxrandr.c:517
 msgid "Quick Options"
@@ -114,8 +116,8 @@ msgstr "Napredno"
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Sljedeći monitor je detektiran:"
-msgstr[1] "Sljedeći monitor je detektiran:"
-msgstr[2] ""
+msgstr[1] "Sljedeći monitori su detektirani:"
+msgstr[2] "Sljedeći monitori su detektirani:"
 
 #: ../src/lxrandr.c:548
 msgid "Turn On"
