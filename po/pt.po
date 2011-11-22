@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-07-23 15:38+0200\n"
+"PO-Revision-Date: 2011-11-22 14:49+0200\n"
 "Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -39,7 +39,7 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:77
 msgid "Default Monitor"
-msgstr "Monitor por omissão"
+msgstr "Monitor padrão"
 
 #: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
 #: ../src/lxrandr.c:583
