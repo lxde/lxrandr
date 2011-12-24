@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-12-02 14:52+0200\n"
+"PO-Revision-Date: 2011-12-24 14:01+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -95,7 +95,7 @@ msgstr "Axustes de pantalla"
 #: ../src/lxrandr.c:505
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr ""
-"Mostrar a mesma pantalla tanto no LCD do portátil como no monitor externo"
+"Amosar a mesma pantalla tanto no LCD do portátil como no monitor externo"
 
 #: ../src/lxrandr.c:509
 msgid "Turn off laptop LCD and use external monitor only"
