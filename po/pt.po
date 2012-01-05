@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-11-22 14:49+0200\n"
+"PO-Revision-Date: 2012-01-05 14:48+0200\n"
 "Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -92,7 +92,7 @@ msgstr "Incapaz de obter informações sobre o monitor!"
 
 #: ../src/lxrandr.c:470
 msgid "Display Settings"
-msgstr "Definições do ecrã"
+msgstr "Definições de exibição"
 
 #: ../src/lxrandr.c:505
 msgid "Show the same screen on both laptop LCD and external monitor"
