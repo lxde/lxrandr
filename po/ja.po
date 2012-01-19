@@ -66,11 +66,11 @@ msgstr "LXDE のためのモニタ設定ツール"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR 自動スタート"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "LXRandR での設定が終わったとき xrandr を起動する"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "設定は保存されました"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
