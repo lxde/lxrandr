@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-06-11 20:22+0200\n"
-"Last-Translator: Sérgio <ikisham@gmail.com>\n"
+"PO-Revision-Date: 2012-01-06 02:01+0200\n"
+"Last-Translator: Henrique P. <zehrique@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -66,11 +66,11 @@ msgstr "Ferramenta de configuração de monitores do LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Auto-inicializador da LXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Inicia o xrandr com as configurações realizadas em LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Configurações salvas"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
