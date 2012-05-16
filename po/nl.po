@@ -87,7 +87,7 @@ msgstr "Configuratie opgeslagen"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
-msgstr "Kan beeldscherm-informatie niet verkrijgen!"
+msgstr "Kan beeldscherminformatie niet verkrijgen!"
 
 #: ../src/lxrandr.c:470
 msgid "Display Settings"
@@ -116,12 +116,12 @@ msgstr "Geavanceerd"
 #: ../src/lxrandr.c:530
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "Het volgende beeldscherm wordt gedetecteerd:"
-msgstr[1] "De volgende beeldschermen worden gedetecteerd:"
+msgstr[0] "Het volgende beeldscherm is gevonden:"
+msgstr[1] "De volgende beeldschermen zijn gevonden:"
 
 #: ../src/lxrandr.c:548
 msgid "Turn On"
-msgstr "Zet aan"
+msgstr "Aanzetten"
 
 #: ../src/lxrandr.c:559
 msgid "Resolution:"
@@ -133,7 +133,7 @@ msgstr "Verversingsfrequentie:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Change screen resolution and configure external monitors"
-msgstr "Schermresolutie veranderen en externe beeldschermen configureren"
+msgstr "Schermresolutie veranderen en externe beeldschermen instellen"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
