@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2012-07-08 13:40+0200\n"
+"PO-Revision-Date: 2012-07-08 13:41+0200\n"
 "Last-Translator: Asier_Iturralde_Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Basque <alainmendi@gmail.com>\n"
 "Language: eu\n"
@@ -42,7 +42,9 @@ msgstr "Automatikoa"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr "Alain Mendizabal <alainmendi@gmail.com>"
+msgstr ""
+"Alain Mendizabal <alainmendi@gmail.com>\n"
+"Asier Iturralde Sarasola <asier.iturralde@gmail.com>"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
