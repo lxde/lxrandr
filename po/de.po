@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2011-07-29 22:09+0200\n"
-"Last-Translator: Lutz <lthuns@opensuse.org>\n"
+"PO-Revision-Date: 2012-03-05 01:20+0200\n"
+"Last-Translator: Christoph <christoph.wickert@googlemail.com>\n"
 "Language-Team: German <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -61,14 +61,12 @@ msgid "Monitor configuration tool for LXDE"
 msgstr "Monitor-Einstellungswerkzeug für LXDE"
 
 #: ../src/lxrandr.c:331
-#, fuzzy
 msgid "LXRandR autostart"
 msgstr "LXRandR automatisch starten"
 
 #: ../src/lxrandr.c:332
-#, fuzzy
 msgid "Start xrandr with settings done in LXRandR"
-msgstr "Starte xrandr mit den Einstellungen aus LXRandR"
+msgstr "Xrandr mit den Einstellungen aus LXRandR starten"
 
 #: ../src/lxrandr.c:422
 msgid ""
