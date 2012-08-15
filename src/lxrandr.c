@@ -78,9 +78,9 @@ static const char* get_human_readable_name( Monitor* m )
     if( m == LVDS )
         return _("Laptop LCD Monitor");
     else if( g_str_has_prefix( m->name, "VGA" ) || g_str_has_prefix( m->name, "Analog" ) )
-        return _( LVDS ? "External VGA Monitor" : "VGA Monitor");
+        return LVDS ? _("External VGA Monitor") : _("VGA Monitor");
     else if( g_str_has_prefix( m->name, "DVI" ) || g_str_has_prefix(m->name, "TMDS") || g_str_has_prefix(m->name, "Digital") || g_str_has_prefix(m->name, "LVDS") )
-        return _( LVDS ? "External DVI Monitor" : "DVI Monitor");
+        return LVDS ? _("External DVI Monitor") : _("DVI Monitor");
     else if( g_str_has_prefix( m->name, "TV" ) || g_str_has_prefix(m->name, "S-Video") )
         return _("TV");
     else if( strcmp( m->name, "default" ) == 0 )
