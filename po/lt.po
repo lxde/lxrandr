@@ -64,11 +64,11 @@ msgstr "LXDE monitorių konfigūracijos įrankis"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "LXRandR automatinė paleistis"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Paleisti xrandr su LXRandR nustatymais"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Konfigūracija išsaugota"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
