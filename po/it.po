@@ -2,15 +2,17 @@
 # Copyright (C) 2009 Fabio Barone <phonky at gmx.net>
 # This file is distributed under the same license as the lxrandr package
 # Fabio Barone <phonky at gmx.net>, 2009
-#
+# Alessandro Pellizzari <alex@amiran.it>
+# Andrea Florio <andrea@opensuse.org>, 2010.
+# Daniele Forsi <daniele@forsi.it>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 21:45+0200\n"
-"PO-Revision-Date: 2010-01-16 18:06+0200\n"
-"Last-Translator: Andrea <andrea@opensuse.org>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2012-08-15 18:36+0200\n"
+"Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
+"Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,17 +40,18 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:77
 msgid "Default Monitor"
-msgstr "Monitor di default"
+msgstr "Monitor predefinito"
 
 #: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
 #: ../src/lxrandr.c:583
 msgid "Auto"
-msgstr "Automatico"
+msgstr "Automatica"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr "Fabio Barone <phonky@gmx.net>Alessandro Pellizzari <alex@amiran.it>"
+msgstr "Fabio Barone <phonky@gmx.net>\nAlessandro Pellizzari <alex@amiran.it>\n"
+"Andrea Florio <andrea@opensuse.org>\nDaniele Forsi <daniele@forsi.it>"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
@@ -57,7 +60,7 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:237
 msgid "Copyright (C) 2008-2011"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright © 2008-2011"
 
 #: ../src/lxrandr.c:238
 msgid "Monitor configuration tool for LXDE"
@@ -65,11 +68,11 @@ msgstr "Strumento di configurazione monitor per LXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Avvio automatico di LXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Avvia xrandr con le impostazioni fatte in LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -81,7 +84,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Configurazione salvata"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
@@ -105,17 +108,17 @@ msgstr "Disattivare il monitor esterno ed usare solo il LCD del portatile"
 
 #: ../src/lxrandr.c:517
 msgid "Quick Options"
-msgstr "Opzioni Rapide"
+msgstr "Opzioni rapide"
 
 #: ../src/lxrandr.c:526
 msgid "Advanced"
-msgstr "Avanzato"
+msgstr "Avanzate"
 
 #: ../src/lxrandr.c:530
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "Il seguente monitor é stato rilevato"
-msgstr[1] "I seguenti monitor sono stati rilevati"
+msgstr[0] "Il seguente monitor è stato rilevato:"
+msgstr[1] "I seguenti monitor sono stati rilevati:"
 
 #: ../src/lxrandr.c:548
 msgid "Turn On"
