@@ -1,0 +1,135 @@
+# Uyghur translation for lxrandr.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"PO-Revision-Date: 2011-11-29 08:39+0200\n"
+"Last-Translator: Gheyret <gheyret@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/lxrandr.c:69
+msgid "Laptop LCD Monitor"
+msgstr "يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچى"
+
+#: ../src/lxrandr.c:71
+msgid "External VGA Monitor"
+msgstr "سىرتقى VGA كۆزەتكۈچ"
+
+#: ../src/lxrandr.c:73
+msgid "External DVI Monitor"
+msgstr "سىرتقى DVI كۆزەتكۈچ"
+
+#: ../src/lxrandr.c:75
+msgid "TV"
+msgstr "تېلېۋىزور"
+
+#: ../src/lxrandr.c:77
+msgid "Default Monitor"
+msgstr "كۆڭۈلدىكى كۆرسەتكۈچ"
+
+#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
+#: ../src/lxrandr.c:583
+msgid "Auto"
+msgstr "ئاپتوماتىك"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:227
+msgid "translator-credits"
+msgstr "Gheyret Kenji <gheyret@gmail.com>"
+
+#: ../src/lxrandr.c:235
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
+#: ../src/lxrandr.c:237
+msgid "Copyright (C) 2008-2011"
+msgstr "نەشر ھوقۇقى (C) 2008-2011"
+
+#: ../src/lxrandr.c:238
+msgid "Monitor configuration tool for LXDE"
+msgstr " LXDE نىڭ كۆرسەت سەپلىمە قورالى"
+
+#: ../src/lxrandr.c:331
+msgid "LXRandR autostart"
+msgstr "LXRandR نى ئاپتوماتىك باشلا"
+
+#: ../src/lxrandr.c:332
+msgid "Start xrandr with settings done in LXRandR"
+msgstr "xrandr نى LXRandR نىڭ ئىچىدە تاماملانغان تەڭشەك بىلەن باشلاش"
+
+#: ../src/lxrandr.c:422
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"ھەممە كۆرسەتكۈچلەرنى ئېتىۋەتسە بولمايدۇ. چۈنكى بۇ قۇرالنى كۆرسەتكۈچ بولمىغان "
+"ئەھۋالدا ئىشلەتكىلى بولمايدۇ، شۇڭا كۆرسەتكۈچلەرنى ئاچقىلى بولماي قالىدۇ."
+
+#: ../src/lxrandr.c:439
+msgid "Configuration Saved"
+msgstr "سەپلىمە ساقلاندى"
+
+#: ../src/lxrandr.c:464
+msgid "Unable to get monitor information!"
+msgstr "كۆزەتكۈچ ئۇچۇرىغا ئېرىشكىلى بولمىدى!"
+
+#: ../src/lxrandr.c:470
+msgid "Display Settings"
+msgstr "كۆرۈنمە يۈز تەڭشىكى"
+
+#: ../src/lxrandr.c:505
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچى بىلەن سىرتقى كۆرسەتكۈچىدە ئوخشاش ئېكراننى كۆرسىتىش"
+
+#: ../src/lxrandr.c:509
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچىنى ئېتىپ سىرتقى كۆرسەتكۈچنىلا ئىشلىتىش"
+
+#: ../src/lxrandr.c:513
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "سىرتقى كۆرسەتكۈچنى ئېتىپ يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچىنىلا ئىشلىتىش"
+
+#: ../src/lxrandr.c:517
+msgid "Quick Options"
+msgstr "تەز تاللانمىلار"
+
+#: ../src/lxrandr.c:526
+msgid "Advanced"
+msgstr "ئالىي"
+
+#: ../src/lxrandr.c:530
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "تۆۋەندىكى كۆزەتكۈچلەر بايقالدى:"
+
+#: ../src/lxrandr.c:548
+msgid "Turn On"
+msgstr "ئېچىش"
+
+#: ../src/lxrandr.c:559
+msgid "Resolution:"
+msgstr "ئېنىقلىق دەرىجىسى:"
+
+#: ../src/lxrandr.c:570
+msgid "Refresh Rate:"
+msgstr "يېڭىلاش تېزلىكى:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "ئېكران ئېنىقلىقىنى ئۆزگەرتىش ۋە سىرتقى كۆرسەتكۈچلەرنى سەپلەش"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Monitor Settings"
+msgstr "ئېكران تەڭشىكى"
