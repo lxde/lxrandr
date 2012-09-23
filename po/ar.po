@@ -65,11 +65,11 @@ msgstr "أداة ضبط المراقيب لـLXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "تشغيل التلقائي لـLXRandR"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "بدء xrandr مع إنهاء إعدادات LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr ""
+msgstr "تم حفظ التضبيطات"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
