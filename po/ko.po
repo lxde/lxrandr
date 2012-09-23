@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: \n"
@@ -37,9 +37,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "기본 모니터"
 
-#: ../src/lxrandr.c:188
-#: ../src/lxrandr.c:199
-#: ../src/lxrandr.c:581
+#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
 #: ../src/lxrandr.c:583
 msgid "Auto"
 msgstr "자동"
@@ -71,8 +69,12 @@ msgid "Start xrandr with settings done in LXRandR"
 msgstr "LXRandR의 설정으로 xrandr 시작하기"
 
 #: ../src/lxrandr.c:422
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
-msgstr "모든 모니터를 끌 수 없습니다. 그렇지 않으면 이 도구에 모니터 없이는 접근할 수가 없어서 모니터를 다시 결 수 없습니다."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"모든 모니터를 끌 수 없습니다. 그렇지 않으면 이 도구에 모니터 없이는 접근할 수"
+"가 없어서 모니터를 다시 결 수 없습니다."
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
@@ -124,10 +126,9 @@ msgid "Refresh Rate:"
 msgstr "주사율:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "화면 해상도를 바꾸고 외부 모니터를 설정합니다"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "모니터 설정"
 
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "화면 해상도를 바꾸고 외부 모니터를 설정합니다"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2010-01-13 23:05+0200\n"
 "Last-Translator: Josep Sanchez <papapep@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
@@ -129,9 +129,9 @@ msgid "Refresh Rate:"
 msgstr "Velocitat de refresc:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Canvieu la resolució i configureu els monitors externs"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Paràmetres de la pantalla"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Canvieu la resolució i configureu els monitors externs"

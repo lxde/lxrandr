@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2012-04-14 07:40+0200\n"
 "Last-Translator: Walter <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW\n"
@@ -68,7 +68,9 @@ msgstr "在 LXRandR 完成設定後啟動 xrandr"
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
-msgstr "你不能關掉所有畫面，否則你會無法將之重新開啟，因為這個工具無法在沒有畫面的狀況下操作。"
+msgstr ""
+"你不能關掉所有畫面，否則你會無法將之重新開啟，因為這個工具無法在沒有畫面的狀"
+"況下操作。"
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
@@ -120,9 +122,9 @@ msgid "Refresh Rate:"
 msgstr "更新頻率："
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "變更螢幕解析度以及設定外接顯示器"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "螢幕設定"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "變更螢幕解析度以及設定外接顯示器"

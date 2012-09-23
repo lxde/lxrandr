@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2011-08-16 08:29+0200\n"
 "Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -122,9 +122,9 @@ msgid "Refresh Rate:"
 msgstr "刷新频率："
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "更改屏幕分辨率和配置外部显示器"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "显示器设置"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "更改屏幕分辨率和配置外部显示器"

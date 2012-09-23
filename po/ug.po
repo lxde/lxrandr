@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Gheyret Kenji <gheyret@gmail.com>, 2011.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2011-11-29 08:39+0200\n"
 "Last-Translator: Gheyret <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -91,7 +91,9 @@ msgstr "كۆرۈنمە يۈز تەڭشىكى"
 
 #: ../src/lxrandr.c:505
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچى بىلەن سىرتقى كۆرسەتكۈچىدە ئوخشاش ئېكراننى كۆرسىتىش"
+msgstr ""
+"يان كومپيۇتېرنىڭ LCD كۆرسەتكۈچى بىلەن سىرتقى كۆرسەتكۈچىدە ئوخشاش ئېكراننى "
+"كۆرسىتىش"
 
 #: ../src/lxrandr.c:509
 msgid "Turn off laptop LCD and use external monitor only"
@@ -127,9 +129,9 @@ msgid "Refresh Rate:"
 msgstr "يېڭىلاش تېزلىكى:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "ئېكران ئېنىقلىقىنى ئۆزگەرتىش ۋە سىرتقى كۆرسەتكۈچلەرنى سەپلەش"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "ئېكران تەڭشىكى"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "ئېكران ئېنىقلىقىنى ئۆزگەرتىش ۋە سىرتقى كۆرسەتكۈچلەرنى سەپلەش"

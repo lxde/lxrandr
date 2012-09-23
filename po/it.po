@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2012-08-15 18:36+0200\n"
 "Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
 "Language-Team: Italian\n"
@@ -50,8 +50,11 @@ msgstr "Automatica"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr "Fabio Barone <phonky@gmx.net>\nAlessandro Pellizzari <alex@amiran.it>\n"
-"Andrea Florio <andrea@opensuse.org>\nDaniele Forsi <daniele@forsi.it>"
+msgstr ""
+"Fabio Barone <phonky@gmx.net>\n"
+"Alessandro Pellizzari <alex@amiran.it>\n"
+"Andrea Florio <andrea@opensuse.org>\n"
+"Daniele Forsi <daniele@forsi.it>"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
@@ -133,9 +136,9 @@ msgid "Refresh Rate:"
 msgstr "Frequenza di aggiornamento:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Cambia la risoluzione dello schermo e configura i monitor esterni"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Impostazioni del monitor"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Cambia la risoluzione dello schermo e configura i monitor esterni"

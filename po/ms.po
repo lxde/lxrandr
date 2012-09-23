@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2009-06-07 18:33+0200\n"
 "Last-Translator: Payne Samad Loh <sploh77@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,11 +133,11 @@ msgstr "Kadar Menyegarkan:"
 
 #: ../data/lxrandr.desktop.in.h:1
 #, fuzzy
-msgid "Change screen resolution and configure external monitors"
-msgstr ""
-"Tunjukkan skrin yang sama pada kedua-dua komputer riba dan monitor luaran"
+msgid "Monitor Settings"
+msgstr "Ciri-Ciri Paparan"
 
 #: ../data/lxrandr.desktop.in.h:2
 #, fuzzy
-msgid "Monitor Settings"
-msgstr "Ciri-Ciri Paparan"
+msgid "Change screen resolution and configure external monitors"
+msgstr ""
+"Tunjukkan skrin yang sama pada kedua-dua komputer riba dan monitor luaran"

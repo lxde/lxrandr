@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2011-07-23 04:09+0200\n"
 "Last-Translator: Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: \n"
@@ -129,9 +129,9 @@ msgid "Refresh Rate:"
 msgstr "Tỷ lệ Làm tươi:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Thay đổi độ phân giải màn hình và cấu hình màn hình rời"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Thiết lập Màn hình"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Thay đổi độ phân giải màn hình và cấu hình màn hình rời"

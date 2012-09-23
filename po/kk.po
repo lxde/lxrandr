@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2012-05-01 18:06+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -39,9 +39,7 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Default Monitor"
 
-#: ../src/lxrandr.c:188
-#: ../src/lxrandr.c:199
-#: ../src/lxrandr.c:581
+#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
 #: ../src/lxrandr.c:583
 msgid "Auto"
 msgstr "Авто"
@@ -73,8 +71,12 @@ msgid "Start xrandr with settings done in LXRandR"
 msgstr "LXRandR ішінде баптаулармен xrandr-ді іске қосу"
 
 #: ../src/lxrandr.c:422
-msgid "You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor."
-msgstr "Сіз барлық мониторды сөндіре алмайсыз. Оларды қайтадан іске қоса алмайтын боласыз, өйткені бұл сайманды мониторсыз басқара алмайсыз."
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessable without monitor."
+msgstr ""
+"Сіз барлық мониторды сөндіре алмайсыз. Оларды қайтадан іске қоса алмайтын "
+"боласыз, өйткені бұл сайманды мониторсыз басқара алмайсыз."
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
@@ -126,10 +128,9 @@ msgid "Refresh Rate:"
 msgstr "Жаңарту жиілігі:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Экран өлшемдерін мен сыртқы мониторларды баптау"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Монитор баптаулары"
 
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Экран өлшемдерін мен сыртқы мониторларды баптау"

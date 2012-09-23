@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2009-09-02 12:35+0100\n"
 "Last-Translator: Jay A. Fleming <tito.nehru.naser@gmail.com>\n"
 "Language-Team: \n"
@@ -133,9 +133,9 @@ msgid "Refresh Rate:"
 msgstr "Frekvencija osvežavanja:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Promeni veličinu ekrana i podesi prikaz na spoljnjem monitoru"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Podešavanja monitora"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Promeni veličinu ekrana i podesi prikaz na spoljnjem monitoru"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-22 21:45+0200\n"
+"POT-Creation-Date: 2012-09-23 15:21+0200\n"
 "PO-Revision-Date: 2011-07-24 14:45+0200\n"
 "Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
@@ -139,9 +139,9 @@ msgid "Refresh Rate:"
 msgstr "Ρυθμός ανανέωσης:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Αλλαγή της ανάλυσης και προσαρμογή στις εξωτερικές οθόνες"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Ρυθμίσεις οθόνης"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Αλλαγή της ανάλυσης και προσαρμογή στις εξωτερικές οθόνες"
