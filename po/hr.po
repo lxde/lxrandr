@@ -6,22 +6,21 @@ msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 15:21+0200\n"
-"PO-Revision-Date: 2011-10-04 02:46+0200\n"
-"Last-Translator: zvacet <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2013-08-27 15:16+0000\n"
+"Last-Translator: Ivica <ikoli@yahoo.com>\n"
 "Language-Team: <asjlob AT vip.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Croatian\n"
-"X-Poedit-Country: CROATIA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1377616586.0\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
-msgstr "Laptop LCD Monitor"
+msgstr "Laptop LCD monitor"
 
 #: ../src/lxrandr.c:71
 msgid "External VGA Monitor"
@@ -56,7 +55,7 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:237
 msgid "Copyright (C) 2008-2011"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Autorska prava (C) 2008-2011"
 
 #: ../src/lxrandr.c:238
 msgid "Monitor configuration tool for LXDE"
