@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT(lxrandr, 0.1.2)
+AC_INIT([lxrandr],[0.1.2])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
 AC_CONFIG_HEADERS([config.h])
 
@@ -13,27 +13,26 @@ AM_MAINTAINER_MODE
 # Init intltool
 IT_PROG_INTLTOOL
 
-AC_ISC_POSIX
+AC_SEARCH_LIBS([strerror],[cposix])
 AC_PROG_CC
 AM_PROG_CC_STDC
 AC_HEADER_STDC
+AM_PROG_CC_C_O
 
 AC_ARG_ENABLE(man,
-       [AC_HELP_STRING([--enable-man],
-               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
+       [AS_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@default=no@:>@])],
        [enable_man="${enableval}"],
        [enable_man=no]
 )
 
 AC_ARG_ENABLE(more_warnings,
-       [AC_HELP_STRING([--enable-more-warnings],
-               [Add more warnings @<:@default=no@:>@])],
+       [AS_HELP_STRING([--enable-more-warnings],[Add more warnings @<:@default=no@:>@])],
        [enable_more_warnings="${enableval}"],
        [enable_more_warnings=no]
 )
 
 AC_ARG_ENABLE(gtk3,
-AC_HELP_STRING([--enable-gtk3],[enable to use gtk-3.0 instead of gtk-2.0]),
+AS_HELP_STRING([--enable-gtk3],[enable to use gtk-3.0 instead of gtk-2.0]),
 [case "${enableval}" in
   yes)  enable_gtk3=yes ;;
   no)   enable_gtk3=no ;;
@@ -86,9 +85,10 @@ fi
 
 AM_CONDITIONAL(ENABLE_REGENERATE_MAN, test "x$enable_man" != "xno")
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 src/Makefile
 po/Makefile.in
 man/Makefile
 ])
+AC_OUTPUT
