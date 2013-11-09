@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 15:21+0200\n"
-"PO-Revision-Date: 2011-12-31 23:25+0200\n"
-"Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
+"PO-Revision-Date: 2013-11-09 14:14+0000\n"
+"Last-Translator: Радослав <reckku@gmail.com>\n"
 "Language-Team: MIME-Version: 1.0\n"
 "Language: bg\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Bulgarian\n"
-"X-Poedit-Country: BULGARIA\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1384006450.0\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
@@ -68,9 +67,7 @@ msgstr "Автоматично стартиране на екранния мен
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
-"Стартиране на основният екранен мениджър, \n"
-"използвайки настройките на вграденият."
+msgstr "Стартиране на xrandr с настройки, направени от LXRandR"
 
 #: ../src/lxrandr.c:422
 msgid ""
