@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_INIT([lxrandr],[0.1.2])
-AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign no-dist-gzip dist-xz])
 AC_CONFIG_HEADERS([config.h])
 
 # Support silent build rules. Disable by either passing --disable-silent-rules
