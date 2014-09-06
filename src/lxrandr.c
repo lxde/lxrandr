@@ -100,7 +100,7 @@ static gboolean get_xrandr_info()
         return FALSE;
     }
 
-    regex = g_regex_new( "([a-zA-Z]+[-0-9]*) +connected .*((\n +[0-9]+x[0-9]+[^\n]+)+)",
+    regex = g_regex_new( "\n([-a-zA-Z]+[-0-9]*) +connected [^\n]*((\n +[0-9]+x[0-9]+[^\n]+)+)",
                          0, 0, NULL );
     if( g_regex_match( regex, output, 0, &match ) )
     {
