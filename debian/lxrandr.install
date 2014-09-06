@@ -1,0 +1,1 @@
+debian/local/source_*.py	/usr/share/apport/package-hooks

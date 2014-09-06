@@ -1,0 +1,4 @@
+?package(lxrandr):needs="X11" section="Applications/System/Hardware"\
+  hints="Monitors" title="LXRandR" longtitle="LXDE monitor configuration tool"\
+  description="LXRandR is a GUI application for the Lightweight X11 Desktop Environment (LXDE). It's a very basic monitor config tool utilizing the X extension called RandR to change the screen resolution on the fly."\
+  command="/usr/bin/lxrandr"

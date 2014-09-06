@@ -1,3 +1,0 @@
-?package(lxrandr):needs="X11" 
-  section="Applications/System"\
-  title="lxrandr" command="/usr/bin/lxrandr"
