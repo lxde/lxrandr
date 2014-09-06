@@ -253,7 +253,7 @@ static GString* get_command_xrandr_info()
     GSList* l;
     GString *cmd = g_string_sized_new( 1024 );
 
-    g_string_assign( cmd, "xrandr" );
+    g_string_assign( cmd, "sh -c 'xrandr" );
 
     for( l = monitors; l; l = l->next )
     {
@@ -297,12 +297,13 @@ static GString* get_command_xrandr_info()
                 }
             }
 
-            g_string_append( cmd, "" );
+            /* g_string_append( cmd, "" ); */
 
         }
         else    // turn off
             g_string_append( cmd, "--off" );
     }
+    g_string_append_c(cmd, '\'');
 
     return cmd;
 
@@ -343,8 +344,8 @@ static void save_configuration()
     g_file_set_contents(file, data, len, NULL);
     g_key_file_free (kf);
     g_free(file);
-    g_free(data);    
-
+    g_free(data);
+    g_string_free(cmd, TRUE);
 }
 
 static void set_xrandr_info()
