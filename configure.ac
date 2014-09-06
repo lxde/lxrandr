@@ -8,7 +8,7 @@ AC_CONFIG_HEADERS([config.h])
 # to configure or passing V=1 to make
 AM_SILENT_RULES([yes])
 
-AM_MAINTAINER_MODE
+AM_MAINTAINER_MODE([enable])
 
 # Init intltool
 IT_PROG_INTLTOOL
