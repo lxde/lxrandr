@@ -390,6 +390,7 @@ static void choose_max_resolution( Monitor* m )
     if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(m->res_combo), NULL ) > 1 )
         gtk_combo_box_set_active( m->res_combo, 1 );
 #endif
+    m->placement = PLACEMENT_DEFAULT;
 }
 
 static void on_quick_option( GtkButton* btn, gpointer data )
@@ -445,7 +446,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
     default:
         return;
     }
-    gtk_dialog_response( GTK_DIALOG(dlg), GTK_RESPONSE_OK );
+//    gtk_dialog_response( GTK_DIALOG(dlg), GTK_RESPONSE_OK );
 //    set_xrandr_info();
 }
 
@@ -549,21 +550,24 @@ int main(int argc, char** argv)
         btn = gtk_radio_button_new_with_label(NULL, _("Show the same screen on both laptop LCD and external monitor"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(1) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
-        l = gtk_radio_button_get_group(GTK_RADIO_BUTTON(btn));
 
-        btn = gtk_radio_button_new_with_label(l, _("Turn off laptop LCD and use external monitor only"));
+        btn = gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(btn),
+                        _("Turn off laptop LCD and use external monitor only"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(2) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
-        btn = gtk_radio_button_new_with_label(l, _("Turn off external monitor and use laptop LCD only"));
+        btn = gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(btn),
+                        _("Turn off external monitor and use laptop LCD only"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(3) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
-        btn = gtk_radio_button_new_with_label(l, _("Place external monitor to the right of laptop LCD"));
+        btn = gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(btn),
+                        _("Place external monitor to the right of laptop LCD"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(4) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
-        btn = gtk_radio_button_new_with_label(l, _("Place external monitor above of laptop LCD"));
+        btn = gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(btn),
+                        _("Place external monitor above of laptop LCD"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(5) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
