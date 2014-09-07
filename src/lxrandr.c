@@ -2,6 +2,8 @@
  *      lxrandr.c - Easy-to-use XRandR GUI frontend for LXDE project
  *
  *      Copyright (C) 2008 Hong Jen Yee(PCMan) <pcman.tw@gmail.com>
+ *      Copyright (C) 2011 Julien Lavergne <julien.lavergne@gmail.com>
+ *      Copyright (C) 2014 Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
@@ -30,6 +32,13 @@
 #include <stdio.h>
 #include <string.h>
 
+typedef enum
+{
+    PLACEMENT_DEFAULT,
+    PLACEMENT_RIGHT,
+    PLACEMENT_ABOVE
+} MonitorPlacement;
+
 typedef struct _Monitor
 {
     char* name;
@@ -38,6 +47,7 @@ typedef struct _Monitor
     short active_rate;
     short pref_mode;
     short pref_rate;
+    MonitorPlacement placement;
 
     GtkCheckButton* enable;
 #if GTK_CHECK_VERSION(2, 24, 0)
@@ -296,6 +306,19 @@ static GString* get_command_xrandr_info()
 #endif
                 }
             }
+            if (m->placement != PLACEMENT_DEFAULT && LVDS != NULL)
+            {
+                switch (m->placement)
+                {
+                case PLACEMENT_RIGHT:
+                    g_string_append_printf(cmd, "--right-of %s ", LVDS->name);
+                    break;
+                case PLACEMENT_ABOVE:
+                    g_string_append_printf(cmd, "--above %s ", LVDS->name);
+                    break;
+                case PLACEMENT_DEFAULT: ;
+                }
+            }
 
             /* g_string_append( cmd, "" ); */
 
@@ -397,6 +420,26 @@ static void on_quick_option( GtkButton* btn, gpointer data )
             Monitor* m = (Monitor*)l->data;
             choose_max_resolution( m );
             gtk_toggle_button_set_active( GTK_TOGGLE_BUTTON(m->enable), m == LVDS );
+        }
+        break;
+    case 4: // external right of LVDS
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            choose_max_resolution( m );
+            gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(m->enable), TRUE);
+            if (m != LVDS)
+                m->placement = PLACEMENT_RIGHT;
+        }
+        break;
+    case 5: // external above of LVDS
+        for( l = monitors; l; l = l->next )
+        {
+            Monitor* m = (Monitor*)l->data;
+            choose_max_resolution( m );
+            gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(m->enable), TRUE);
+            if (m != LVDS)
+                m->placement = PLACEMENT_ABOVE;
         }
         break;
     default:
@@ -503,16 +546,25 @@ int main(int argc, char** argv)
         vbox = gtk_vbox_new( FALSE, 4 );
         gtk_container_set_border_width( GTK_CONTAINER(vbox), 8 );
 
-        btn = gtk_button_new_with_label( _("Show the same screen on both laptop LCD and external monitor") );
+        btn = gtk_radio_button_new_with_label(NULL, _("Show the same screen on both laptop LCD and external monitor"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(1) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
+        l = gtk_radio_button_get_group(GTK_RADIO_BUTTON(btn));
 
-        btn = gtk_button_new_with_label( _("Turn off laptop LCD and use external monitor only") );
+        btn = gtk_radio_button_new_with_label(l, _("Turn off laptop LCD and use external monitor only"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(2) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
-        btn = gtk_button_new_with_label( _("Turn off external monitor and use laptop LCD only") );
+        btn = gtk_radio_button_new_with_label(l, _("Turn off external monitor and use laptop LCD only"));
         g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(3) );
+        gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
+
+        btn = gtk_radio_button_new_with_label(l, _("Place external monitor to the right of laptop LCD"));
+        g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(4) );
+        gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
+
+        btn = gtk_radio_button_new_with_label(l, _("Place external monitor above of laptop LCD"));
+        g_signal_connect( btn, "clicked", G_CALLBACK(on_quick_option), GINT_TO_POINTER(5) );
         gtk_box_pack_start( GTK_BOX(vbox), btn, FALSE, TRUE , 4);
 
         gtk_notebook_append_page( GTK_NOTEBOOK(notebook), vbox, gtk_label_new( _("Quick Options") ) );
