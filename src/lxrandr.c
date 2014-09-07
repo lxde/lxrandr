@@ -460,13 +460,17 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
         {
             Monitor* m = (Monitor*)l->data;
             if( gtk_toggle_button_get_active( GTK_TOGGLE_BUTTON(m->enable) ) )
-                return;
+                break;
         }
-
-        msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 0, GTK_MESSAGE_WARNING, GTK_BUTTONS_OK,
-                                     _("You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor.") );
-        gtk_dialog_run( GTK_DIALOG(msg) );
-        gtk_widget_destroy( msg );
+        if (l != NULL)
+            set_xrandr_info();
+        else
+        {
+            msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 0, GTK_MESSAGE_WARNING, GTK_BUTTONS_OK,
+                                         _("You cannot turn off all monitors. Otherwise, you will not be able to turn them on again since this tool is not accessable without monitor.") );
+            gtk_dialog_run( GTK_DIALOG(msg) );
+            gtk_widget_destroy( msg );
+        }
 
         // block the response
         g_signal_stop_emission_by_name( dialog, "response" );
@@ -660,8 +664,7 @@ int main(int argc, char** argv)
 
     gtk_widget_show_all( dlg );
 
-    if( gtk_dialog_run( (GtkDialog*)dlg ) == GTK_RESPONSE_OK )
-        set_xrandr_info();
+    gtk_dialog_run((GtkDialog*)dlg);
 
     gtk_widget_destroy( dlg );
 
