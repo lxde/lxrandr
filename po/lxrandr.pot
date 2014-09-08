@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 18:24+0300\n"
+"POT-Creation-Date: 2014-09-08 18:06+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,10 +77,10 @@ msgstr ""
 msgid "Start xrandr with settings done in LXRandR"
 msgstr ""
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:470
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
+"them on again since this tool is not accessible without monitor."
 msgstr ""
 
 #: ../src/lxrandr.c:483
