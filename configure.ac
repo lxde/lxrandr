@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT([lxrandr],[0.1.2])
+AC_INIT([lxrandr],[0.2.0])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign no-dist-gzip dist-xz])
 AC_CONFIG_HEADERS([config.h])
 
