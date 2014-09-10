@@ -125,7 +125,8 @@ static gboolean get_xrandr_info()
             m->name = g_match_info_fetch( match, 1 );
 
             // check if this is the built-in LCD of laptop
-            if( ! LVDS && (strcmp( m->name, "LVDS" ) == 0 || strcmp( m->name, "PANEL" ) == 0) )
+            if (! LVDS && (g_str_has_prefix(m->name, "LVDS") ||
+                           g_str_has_prefix(m->name, "PANEL")))
                 LVDS = m;
 
             lines = g_strsplit( modes, "\n", -1 );
