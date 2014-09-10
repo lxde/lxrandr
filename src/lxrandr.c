@@ -51,9 +51,11 @@ typedef struct _Monitor
 
     GtkCheckButton* enable;
 #if GTK_CHECK_VERSION(2, 24, 0)
+    GtkComboBoxText* pos_combo;
     GtkComboBoxText* res_combo;
     GtkComboBoxText* rate_combo;
 #else
+    GtkComboBox* pos_combo;
     GtkComboBox* res_combo;
     GtkComboBox* rate_combo;
 #endif
@@ -189,6 +191,26 @@ static gboolean get_xrandr_info()
     return TRUE;
 }
 
+static void on_enable_toggled(GtkToggleButton *tb, Monitor* m)
+{
+    GSList *l;
+    int i;
+    gboolean can_position;
+
+    for (l = monitors, i = 0; l; l = l->next)
+        if (m->active_mode >= 0)
+            i++;
+    can_position = (i > 1);
+
+    for (l = monitors->next; l; l = l->next)
+    {
+        Monitor *m = (Monitor*)l->data;
+        gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), can_position);
+        if (!can_position || m->active_mode < 0)
+            gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), 0);
+    }
+}
+
 static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
 {
     char** rate;
@@ -217,6 +239,11 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
     }
     gtk_combo_box_set_active( m->rate_combo, 0 );
 #endif
+}
+
+static void on_pos_sel_changed(GtkComboBox *cb, Monitor *m)
+{
+    m->placement = gtk_combo_box_get_active(cb);
 }
 
 /*Disable, not used
@@ -316,6 +343,21 @@ static GString* get_command_xrandr_info()
                     break;
                 case PLACEMENT_ABOVE:
                     g_string_append_printf(cmd, "--above %s ", LVDS->name);
+                    break;
+                case PLACEMENT_DEFAULT: ;
+                }
+            }
+            else if (m->placement != PLACEMENT_DEFAULT && l != monitors)
+            {
+                Monitor *first = (Monitor*)monitors->data;
+                /* not notebook */
+                switch (m->placement)
+                {
+                case PLACEMENT_RIGHT:
+                    g_string_append_printf(cmd, "--right-of %s ", first->name);
+                    break;
+                case PLACEMENT_ABOVE:
+                    g_string_append_printf(cmd, "--above %s ", first->name);
                     break;
                 case PLACEMENT_DEFAULT: ;
                 }
@@ -499,6 +541,8 @@ int main(int argc, char** argv)
 {
     GtkWidget *notebook, *vbox, *frame, *label, *hbox, *check, *btn;
     GSList* l;
+    int i;
+    gboolean can_position;
 
 #ifdef ENABLE_NLS
     bindtextdomain ( GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR );
@@ -597,7 +641,11 @@ int main(int argc, char** argv)
                                     g_slist_length(monitors) ) );
     gtk_box_pack_start( GTK_BOX(vbox), label, FALSE, TRUE, 2 );
 
-    int i;
+    for (l = monitors, i = 0; l; l = l->next)
+        if (((Monitor*)l->data)->active_mode >= 0)
+            i++;
+    can_position = (i > 1);
+
     for( l = monitors, i = 0; l; l = l->next, ++i )
     {
         Monitor* m = (Monitor*)l->data;
@@ -616,10 +664,36 @@ int main(int argc, char** argv)
         // turn off screen is not allowed since there should be at least one monitor available.
         if( g_slist_length( monitors ) == 1 )
             gtk_widget_set_sensitive( GTK_WIDGET(m->enable), FALSE );
+        else
+            g_signal_connect(m->enable, "toggled", G_CALLBACK(on_enable_toggled), m);
 
         gtk_box_pack_start( GTK_BOX(hbox), check, FALSE, TRUE, 6 );
         if( m->active_mode >= 0 )
             gtk_toggle_button_set_active( GTK_TOGGLE_BUTTON(check), TRUE );
+
+        if (monitors->next != NULL) /* g_slist_length(monitors) > 0 */
+        {
+            label = gtk_label_new(_("Position:"));
+            gtk_box_pack_start(GTK_BOX(hbox), label, FALSE, TRUE, 2);
+#if GTK_CHECK_VERSION(2, 24, 0)
+            m->pos_combo = GTK_COMBO_BOX_TEXT(gtk_combo_box_text_new());
+            gtk_combo_box_text_append_text(m->pos_combo, _("Default"));
+            gtk_combo_box_text_append_text(m->pos_combo, _("On right"));
+            gtk_combo_box_text_append_text(m->pos_combo, _("Above"));
+            gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), 0);
+#else
+            m->pos_combo = GTK_COMBO_BOX(gtk_combo_box_new_text());
+            gtk_combo_box_append_text(m->res_combo, _("Default"));
+            gtk_combo_box_append_text(m->res_combo, _("On right"));
+            gtk_combo_box_append_text(m->res_combo, _("Above"));
+            gtk_combo_box_set_active(m->pos_combo, 0);
+#endif
+            if (i == 0 || !can_position || m->active_mode < 0)
+                gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), FALSE);
+            if (i != 0)
+                g_signal_connect(m->pos_combo, "changed", G_CALLBACK(on_pos_sel_changed), m);
+            gtk_box_pack_start(GTK_BOX(hbox), GTK_WIDGET(m->pos_combo), FALSE, TRUE, 2);
+        }
 
         label = gtk_label_new( _("Resolution:") );
         gtk_box_pack_start( GTK_BOX(hbox), label, FALSE, TRUE, 2 );
