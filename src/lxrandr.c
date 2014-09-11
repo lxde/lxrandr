@@ -298,7 +298,6 @@ static GString* get_command_xrandr_info()
         Monitor* m = (Monitor*)l->data;
         g_string_append( cmd, " --output " );
         g_string_append( cmd, m->name );
-        g_string_append_c( cmd, ' ' );
 
         // if the monitor is turned on
         if( gtk_toggle_button_get_active( GTK_TOGGLE_BUTTON(m->enable) ) )
@@ -313,11 +312,11 @@ static GString* get_command_xrandr_info()
 
             if( sel_res < 1 ) // auto resolution
             {
-                g_string_append( cmd, "--auto" );
+                g_string_append( cmd, " --auto" );
             }
             else
             {
-                g_string_append( cmd, "--mode " );
+                g_string_append( cmd, " --mode " );
                 ++sel_res;  // the fist item in the combo box is "Auto", indecis of resolutions are 1, 2, 3...
 #if GTK_CHECK_VERSION(2, 24, 0)
                 g_string_append( cmd, gtk_combo_box_text_get_active_text(m->res_combo) );
@@ -339,10 +338,12 @@ static GString* get_command_xrandr_info()
                 switch (m->placement)
                 {
                 case PLACEMENT_RIGHT:
-                    g_string_append_printf(cmd, "--right-of %s ", LVDS->name);
+                    g_string_append(cmd, " --right-of ");
+                    g_string_append(cmd, LVDS->name);
                     break;
                 case PLACEMENT_ABOVE:
-                    g_string_append_printf(cmd, "--above %s ", LVDS->name);
+                    g_string_append(cmd, " --above ");
+                    g_string_append(cmd, LVDS->name);
                     break;
                 case PLACEMENT_DEFAULT: ;
                 }
@@ -354,10 +355,12 @@ static GString* get_command_xrandr_info()
                 switch (m->placement)
                 {
                 case PLACEMENT_RIGHT:
-                    g_string_append_printf(cmd, "--right-of %s ", first->name);
+                    g_string_append(cmd, " --right-of ");
+                    g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_ABOVE:
-                    g_string_append_printf(cmd, "--above %s ", first->name);
+                    g_string_append(cmd, " --above ");
+                    g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_DEFAULT: ;
                 }
@@ -367,7 +370,7 @@ static GString* get_command_xrandr_info()
 
         }
         else    // turn off
-            g_string_append( cmd, "--off" );
+            g_string_append( cmd, " --off" );
     }
     g_string_append_c(cmd, '\'');
 
