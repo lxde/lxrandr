@@ -199,7 +199,7 @@ static void on_enable_toggled(GtkToggleButton *tb, Monitor* m)
     gboolean can_position;
 
     for (l = monitors, i = 0; l; l = l->next)
-        if (m->active_mode >= 0)
+        if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(m->enable)))
             i++;
     can_position = (i > 1);
 
