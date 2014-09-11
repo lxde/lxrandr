@@ -36,7 +36,9 @@ typedef enum
 {
     PLACEMENT_DEFAULT,
     PLACEMENT_RIGHT,
-    PLACEMENT_ABOVE
+    PLACEMENT_ABOVE,
+    PLACEMENT_LEFT,
+    PLACEMENT_BELOW
 } MonitorPlacement;
 
 typedef struct _Monitor
@@ -112,19 +114,37 @@ static gboolean get_xrandr_info()
         return FALSE;
     }
 
-    regex = g_regex_new( "\n([-a-zA-Z]+[-0-9]*) +connected [^\n]*((\n +[0-9]+x[0-9]+[^\n]+)+)",
+    regex = g_regex_new( "\n([-a-zA-Z]+[-0-9]*) +connected ([^(\n ]*)[^\n]*"
+                         "((\n +[0-9]+x[0-9]+[^\n]+)+)",
                          0, 0, NULL );
     if( g_regex_match( regex, output, 0, &match ) )
     {
         do {
             Monitor* m = g_new0( Monitor, 1 );
-            char *modes = g_match_info_fetch( match, 2 );
+            char *modes = g_match_info_fetch( match, 3 );
+            char *coords = g_match_info_fetch(match, 2);
             char **lines, **line;
-            int imode = 0;
+            char *ptr;
+            int imode = 0, x = -1, y = -1;
 
             m->active_mode = m->active_rate = -1;
             m->pref_mode = m->pref_rate = -1;
             m->name = g_match_info_fetch( match, 1 );
+            ptr = strchr(coords, '+');
+            if (ptr != NULL)
+            {
+                ptr++;
+                x = strtol(ptr, &ptr, 10);
+                if (*ptr++ == '+')
+                    y = strtol(ptr, &ptr, 10);
+            }
+            /* g_debug("name '%s' coords '%s'=>%d:%d modes%.20s...",m->name,coords,x,y,&modes[1]); */
+            if (x < 0 || y < 0 || (x == 0 && y == 0))
+                m->placement = PLACEMENT_DEFAULT;
+            else if (x == 0)
+                m->placement = PLACEMENT_BELOW;
+            else if (y == 0)
+                m->placement = PLACEMENT_RIGHT;
 
             // check if this is the built-in LCD of laptop
             if (! LVDS && (g_str_has_prefix(m->name, "LVDS") ||
@@ -177,6 +197,7 @@ static gboolean get_xrandr_info()
             }
             g_strfreev( lines );
             g_free( modes );
+            g_free(coords);
             monitors = g_slist_prepend( monitors, m );
         }while( g_match_info_next( match, NULL ) );
 
@@ -346,6 +367,14 @@ static GString* get_command_xrandr_info()
                     g_string_append(cmd, " --above ");
                     g_string_append(cmd, LVDS->name);
                     break;
+                case PLACEMENT_LEFT:
+                    g_string_append(cmd, " --left-of ");
+                    g_string_append(cmd, LVDS->name);
+                    break;
+                case PLACEMENT_BELOW:
+                    g_string_append(cmd, " --below ");
+                    g_string_append(cmd, LVDS->name);
+                    break;
                 case PLACEMENT_DEFAULT: ;
                 }
             }
@@ -361,6 +390,14 @@ static GString* get_command_xrandr_info()
                     break;
                 case PLACEMENT_ABOVE:
                     g_string_append(cmd, " --above ");
+                    g_string_append(cmd, first->name);
+                    break;
+                case PLACEMENT_LEFT:
+                    g_string_append(cmd, " --left-of ");
+                    g_string_append(cmd, first->name);
+                    break;
+                case PLACEMENT_BELOW:
+                    g_string_append(cmd, " --below ");
                     g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_DEFAULT: ;
@@ -651,7 +688,36 @@ int main(int argc, char** argv)
             i++;
     can_position = (i > 1);
 
+    /* correct placements */
     fixed = LVDS ? LVDS : monitors->data;
+    if (fixed->placement != PLACEMENT_DEFAULT)
+    {
+        for (l = monitors, i = 0; l; l = l->next)
+        {
+            Monitor *m = (Monitor*)l->data;
+
+            if (m->placement != PLACEMENT_DEFAULT)
+                continue; /* FIXME: how to handle corners? */
+            switch (fixed->placement)
+            {
+            case PLACEMENT_LEFT:
+                m->placement = PLACEMENT_RIGHT;
+                break;
+            case PLACEMENT_RIGHT:
+                m->placement = PLACEMENT_LEFT;
+                break;
+            case PLACEMENT_ABOVE:
+                m->placement = PLACEMENT_BELOW;
+                break;
+            case PLACEMENT_BELOW:
+                m->placement = PLACEMENT_ABOVE;
+                break;
+            case PLACEMENT_DEFAULT: ;
+            }
+        }
+        fixed->placement = PLACEMENT_DEFAULT;
+    }
+
     for( l = monitors, i = 0; l; l = l->next, ++i )
     {
         Monitor* m = (Monitor*)l->data;
@@ -685,13 +751,17 @@ int main(int argc, char** argv)
             gtk_combo_box_text_append_text(m->pos_combo, _("Default"));
             gtk_combo_box_text_append_text(m->pos_combo, _("On right"));
             gtk_combo_box_text_append_text(m->pos_combo, _("Above"));
-            gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), 0);
+            gtk_combo_box_text_append_text(m->pos_combo, _("On left"));
+            gtk_combo_box_text_append_text(m->pos_combo, _("Below"));
+            gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), m->placement);
 #else
             m->pos_combo = GTK_COMBO_BOX(gtk_combo_box_new_text());
             gtk_combo_box_append_text(m->res_combo, _("Default"));
             gtk_combo_box_append_text(m->res_combo, _("On right"));
             gtk_combo_box_append_text(m->res_combo, _("Above"));
-            gtk_combo_box_set_active(m->pos_combo, 0);
+            gtk_combo_box_append_text(m->pos_combo, _("On left"));
+            gtk_combo_box_append_text(m->pos_combo, _("Below"));
+            gtk_combo_box_set_active(m->pos_combo, m->placement);
 #endif
             if (m == fixed || !can_position || m->active_mode < 0)
                 gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), FALSE);
