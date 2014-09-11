@@ -666,6 +666,7 @@ int main(int argc, char** argv)
 
         check = gtk_check_button_new_with_label( _("Turn On") );
         m->enable = GTK_CHECK_BUTTON(check);
+        gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(check), m->active_mode >= 0);
 
         // turn off screen is not allowed since there should be at least one monitor available.
         if( g_slist_length( monitors ) == 1 )
@@ -674,8 +675,6 @@ int main(int argc, char** argv)
             g_signal_connect(m->enable, "toggled", G_CALLBACK(on_enable_toggled), m);
 
         gtk_box_pack_start( GTK_BOX(hbox), check, FALSE, TRUE, 6 );
-        if( m->active_mode >= 0 )
-            gtk_toggle_button_set_active( GTK_TOGGLE_BUTTON(check), TRUE );
 
         if (monitors->next != NULL) /* g_slist_length(monitors) > 0 */
         {
