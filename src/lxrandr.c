@@ -355,30 +355,29 @@ static GString* get_command_xrandr_info()
 #endif
                 }
             }
-            if (m->placement != PLACEMENT_DEFAULT && LVDS != NULL)
+            if (m == LVDS) ; /* it's fixed, no positioning */
+            else if (LVDS != NULL)
             {
                 switch (m->placement)
                 {
                 case PLACEMENT_RIGHT:
                     g_string_append(cmd, " --right-of ");
-                    g_string_append(cmd, LVDS->name);
                     break;
                 case PLACEMENT_ABOVE:
                     g_string_append(cmd, " --above ");
-                    g_string_append(cmd, LVDS->name);
                     break;
                 case PLACEMENT_LEFT:
                     g_string_append(cmd, " --left-of ");
-                    g_string_append(cmd, LVDS->name);
                     break;
                 case PLACEMENT_BELOW:
                     g_string_append(cmd, " --below ");
-                    g_string_append(cmd, LVDS->name);
                     break;
-                case PLACEMENT_DEFAULT: ;
+                case PLACEMENT_DEFAULT:
+                    g_string_append(cmd, " --same-as ");
                 }
+                g_string_append(cmd, LVDS->name);
             }
-            else if (m->placement != PLACEMENT_DEFAULT && l != monitors)
+            else if (l != monitors)
             {
                 Monitor *first = (Monitor*)monitors->data;
                 /* not notebook */
@@ -386,22 +385,20 @@ static GString* get_command_xrandr_info()
                 {
                 case PLACEMENT_RIGHT:
                     g_string_append(cmd, " --right-of ");
-                    g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_ABOVE:
                     g_string_append(cmd, " --above ");
-                    g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_LEFT:
                     g_string_append(cmd, " --left-of ");
-                    g_string_append(cmd, first->name);
                     break;
                 case PLACEMENT_BELOW:
                     g_string_append(cmd, " --below ");
-                    g_string_append(cmd, first->name);
                     break;
-                case PLACEMENT_DEFAULT: ;
+                case PLACEMENT_DEFAULT:
+                    g_string_append(cmd, " --same-as ");
                 }
+                g_string_append(cmd, first->name);
             }
 
             /* g_string_append( cmd, "" ); */
