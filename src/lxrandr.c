@@ -194,6 +194,7 @@ static gboolean get_xrandr_info()
 static void on_enable_toggled(GtkToggleButton *tb, Monitor* m)
 {
     GSList *l;
+    Monitor *fixed = LVDS ? LVDS : monitors->data;
     int i;
     gboolean can_position;
 
@@ -202,11 +203,11 @@ static void on_enable_toggled(GtkToggleButton *tb, Monitor* m)
             i++;
     can_position = (i > 1);
 
-    for (l = monitors->next; l; l = l->next)
+    for (l = monitors; l; l = l->next)
     {
         Monitor *m = (Monitor*)l->data;
-        gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), can_position);
-        if (!can_position || m->active_mode < 0)
+        gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), can_position && (m != fixed));
+        if (!can_position || m->active_mode < 0 || m == fixed)
             gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), 0);
     }
 }
@@ -544,6 +545,7 @@ int main(int argc, char** argv)
 {
     GtkWidget *notebook, *vbox, *frame, *label, *hbox, *check, *btn;
     GSList* l;
+    Monitor *fixed;
     int i;
     gboolean can_position;
 
@@ -649,6 +651,7 @@ int main(int argc, char** argv)
             i++;
     can_position = (i > 1);
 
+    fixed = LVDS ? LVDS : monitors->data;
     for( l = monitors, i = 0; l; l = l->next, ++i )
     {
         Monitor* m = (Monitor*)l->data;
@@ -691,9 +694,9 @@ int main(int argc, char** argv)
             gtk_combo_box_append_text(m->res_combo, _("Above"));
             gtk_combo_box_set_active(m->pos_combo, 0);
 #endif
-            if (i == 0 || !can_position || m->active_mode < 0)
+            if (m == fixed || !can_position || m->active_mode < 0)
                 gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), FALSE);
-            if (i != 0)
+            if (m != fixed)
                 g_signal_connect(m->pos_combo, "changed", G_CALLBACK(on_pos_sel_changed), m);
             gtk_box_pack_start(GTK_BOX(hbox), GTK_WIDGET(m->pos_combo), FALSE, TRUE, 2);
         }
