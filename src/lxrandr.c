@@ -894,6 +894,7 @@ int main(int argc, char** argv)
 #endif
         }
 
+        m->active_rate++;
 #if GTK_CHECK_VERSION(2, 24, 0)
         gtk_combo_box_set_active( GTK_COMBO_BOX(m->res_combo), m->active_mode + 1 );
         gtk_combo_box_set_active( GTK_COMBO_BOX(m->rate_combo), m->active_rate );
