@@ -31,6 +31,7 @@
 #include <locale.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 typedef enum
 {
@@ -49,7 +50,10 @@ typedef struct _Monitor
     short active_rate;
     short pref_mode;
     short pref_rate;
+    short try_mode;
+    short try_rate;
     MonitorPlacement placement;
+    MonitorPlacement try_placement;
 
     GtkCheckButton* enable;
 #if GTK_CHECK_VERSION(2, 24, 0)
@@ -161,7 +165,7 @@ static gboolean get_xrandr_info()
                     continue;
                 strv = g_ptr_array_sized_new(8);
                 g_ptr_array_add( strv, g_strdup(str) );
-                while( str = strtok( NULL, " ") )
+                while ((str = strtok( NULL, " ")))
                 {
                     if( *str )
                     {
@@ -174,12 +178,12 @@ static gboolean get_xrandr_info()
                         else
                             g_ptr_array_add( strv, str );
 
-                        if( star = strchr( str, '*' ) )
+                        if ((star = strchr( str, '*' )))
                         {
                             m->active_mode = imode;
                             m->active_rate = irate;
                         }
-                        if( plus = strchr( str, '+' ) )
+                        if ((plus = strchr( str, '+' )))
                         {
                             m->pref_mode = imode;
                             m->pref_rate = irate;
@@ -224,11 +228,11 @@ static void on_enable_toggled(GtkToggleButton *tb, Monitor* m)
             i++;
     can_position = (i > 1);
 
-    for (l = monitors; l; l = l->next)
+    if (monitors->next != NULL) for (l = monitors; l; l = l->next)
     {
         Monitor *m = (Monitor*)l->data;
         gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), can_position && (m != fixed));
-        if (!can_position || m->active_mode < 0 || m == fixed)
+        if (!can_position || m == fixed)
             gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), 0);
     }
 }
@@ -261,11 +265,6 @@ static void on_res_sel_changed( GtkComboBox* cb, Monitor* m )
     }
     gtk_combo_box_set_active( m->rate_combo, 0 );
 #endif
-}
-
-static void on_pos_sel_changed(GtkComboBox *cb, Monitor *m)
-{
-    m->placement = gtk_combo_box_get_active(cb);
 }
 
 /*Disable, not used
@@ -307,6 +306,31 @@ static void on_about( GtkButton* btn, gpointer parent )
 }
 
 
+static void prepare_try_values_from_GUI()
+{
+    GSList *l;
+
+    for (l = monitors; l; l = l->next)
+    {
+        Monitor *m = (Monitor*)l->data;
+        if (!gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(m->enable)))
+            m->try_mode = -1;
+        else
+#if GTK_CHECK_VERSION(2, 24, 0)
+            m->try_mode = gtk_combo_box_get_active(GTK_COMBO_BOX(m->res_combo));
+        m->try_rate = gtk_combo_box_get_active(GTK_COMBO_BOX(m->rate_combo));
+        if (m->pos_combo)
+            m->try_placement = gtk_combo_box_get_active(GTK_COMBO_BOX(m->pos_combo));
+#else
+            m->try_mode = gtk_combo_box_get_active(m->res_combo);
+        m->try_rate = gtk_combo_box_get_active(m->rate_combo);
+        if (m->pos_combo)
+            m->try_placement = gtk_combo_box_get_active(m->pos_combo);
+#endif
+        /* g_debug("mode %d rate %d placement %d",m->try_mode,m->try_rate,m->try_placement); */
+    }
+}
+
 static GString* get_command_xrandr_info()
 {
 
@@ -322,43 +346,46 @@ static GString* get_command_xrandr_info()
         g_string_append( cmd, m->name );
 
         // if the monitor is turned on
-        if( gtk_toggle_button_get_active( GTK_TOGGLE_BUTTON(m->enable) ) )
+        if (m->try_mode >= 0)
         {
-#if GTK_CHECK_VERSION(2, 24, 0)
-            int sel_res = gtk_combo_box_get_active( GTK_COMBO_BOX(m->res_combo) );
-            int sel_rate = gtk_combo_box_get_active( GTK_COMBO_BOX(m->rate_combo) );
-#else
-            int sel_res = gtk_combo_box_get_active( m->res_combo );
-            int sel_rate = gtk_combo_box_get_active( m->rate_combo );
-#endif
-
-            if( sel_res < 1 ) // auto resolution
+            if( m->try_mode < 1 ) // auto resolution
             {
                 g_string_append( cmd, " --auto" );
             }
             else
             {
+                GtkTreeModel *model;
+                GtkTreePath *path;
+                gchar *text;
+                GtkTreeIter iter;
+                gint text_column;
+
                 g_string_append( cmd, " --mode " );
-                ++sel_res;  // the fist item in the combo box is "Auto", indecis of resolutions are 1, 2, 3...
-#if GTK_CHECK_VERSION(2, 24, 0)
-                g_string_append( cmd, gtk_combo_box_text_get_active_text(m->res_combo) );
-#else
-                g_string_append( cmd, gtk_combo_box_get_active_text(m->res_combo) );
-#endif
-                if( sel_rate >= 1 ) // not auto refresh rate
+                model = gtk_combo_box_get_model(GTK_COMBO_BOX(m->res_combo));
+                text_column = gtk_combo_box_get_entry_text_column(GTK_COMBO_BOX(m->res_combo));
+                path = gtk_tree_path_new_from_indices(m->try_mode, -1);
+                gtk_tree_model_get_iter(model, &iter, path);
+                gtk_tree_model_get(model, &iter, text_column, &text, -1);
+                gtk_tree_path_free(path);
+                g_string_append(cmd, text);
+                g_free(text);
+                if( m->try_rate >= 1 ) // not auto refresh rate
                 {
                     g_string_append( cmd, " --rate " );
-#if GTK_CHECK_VERSION(2, 24, 0)
-                    g_string_append( cmd, gtk_combo_box_text_get_active_text(m->rate_combo) );
-#else
-                    g_string_append( cmd, gtk_combo_box_get_active_text(m->rate_combo) );
-#endif
+                    model = gtk_combo_box_get_model(GTK_COMBO_BOX(m->rate_combo));
+                    text_column = gtk_combo_box_get_entry_text_column(GTK_COMBO_BOX(m->rate_combo));
+                    path = gtk_tree_path_new_from_indices(m->try_rate, -1);
+                    gtk_tree_model_get_iter(model, &iter, path);
+                    gtk_tree_model_get(model, &iter, text_column, &text, -1);
+                    gtk_tree_path_free(path);
+                    g_string_append(cmd, text);
+                    g_free(text);
                 }
             }
             if (m == LVDS) ; /* it's fixed, no positioning */
             else if (LVDS != NULL)
             {
-                switch (m->placement)
+                switch (m->try_placement)
                 {
                 case PLACEMENT_RIGHT:
                     g_string_append(cmd, " --right-of ");
@@ -381,7 +408,7 @@ static GString* get_command_xrandr_info()
             {
                 Monitor *first = (Monitor*)monitors->data;
                 /* not notebook */
-                switch (m->placement)
+                switch (m->try_placement)
                 {
                 case PLACEMENT_RIGHT:
                     g_string_append(cmd, " --right-of ");
@@ -423,7 +450,10 @@ static void save_configuration()
     char* file, *data;
     gsize len;
 
-    GString *cmd = get_command_xrandr_info();
+    GString *cmd;
+
+    prepare_try_values_from_GUI();
+    cmd = get_command_xrandr_info();
 
     /* create user autostart dir */
     dirname = g_build_filename(g_get_user_config_dir(), "autostart", NULL);
@@ -452,12 +482,72 @@ static void save_configuration()
     g_string_free(cmd, TRUE);
 }
 
+static gboolean cancel_confirmation(gpointer data)
+{
+    if (!g_source_is_destroyed(g_main_current_source()))
+        gtk_dialog_response(data, GTK_RESPONSE_CANCEL);
+    return FALSE;
+}
+
 static void set_xrandr_info()
 {
+    GString *cmd;
+    GSList *l;
 
-    GString *cmd = get_command_xrandr_info();
+    prepare_try_values_from_GUI();
+    cmd = get_command_xrandr_info();
+    /* g_debug("trying: %s", cmd->str); */
 
-    g_spawn_command_line_sync( cmd->str, NULL, NULL, NULL, NULL );
+    if (g_spawn_command_line_sync( cmd->str, NULL, NULL, NULL, NULL ))
+    {
+        /* open a dialog box and wait 15 seconds */
+        GtkWidget *confirmation;
+        guint timer;
+        int responce;
+
+        confirmation = gtk_message_dialog_new(GTK_WINDOW(dlg), GTK_DIALOG_MODAL,
+                                              GTK_MESSAGE_QUESTION,
+                                              GTK_BUTTONS_NONE,
+                                              _("Is everything OK? Confirm within 15 seconds,"
+                                                " otherwise previous state will be restored."));
+        gtk_dialog_add_buttons(GTK_DIALOG(confirmation),
+                               _("_OK"), GTK_RESPONSE_ACCEPT,
+                               _("_Abort"), GTK_RESPONSE_CANCEL,
+                               NULL);
+        gtk_dialog_set_default_response(GTK_DIALOG(confirmation), GTK_RESPONSE_CANCEL);
+        timer = gdk_threads_add_timeout(15000, cancel_confirmation, confirmation);
+        responce = gtk_dialog_run(GTK_DIALOG(confirmation));
+        g_source_remove(timer);
+        gtk_widget_destroy(confirmation);
+        /* if not confirmed then set GUI to fallback values, reset xrandr,
+           then restore all GUI again */
+        if (responce == GTK_RESPONSE_ACCEPT)
+        {
+            for (l = monitors; l; l = l->next)
+            {
+                Monitor *m = (Monitor*)l->data;
+
+                m->active_mode = m->try_mode;
+                m->active_rate = m->try_rate;
+                m->placement = m->try_placement;
+            }
+        }
+        else
+        {
+            for (l = monitors; l; l = l->next)
+            {
+                Monitor *m = (Monitor*)l->data;
+
+                m->try_mode = m->active_mode;
+                m->try_rate = m->active_rate;
+                m->try_placement = m->placement;
+            }
+            g_string_free(cmd, TRUE);
+            cmd = get_command_xrandr_info();
+            /* g_debug("recovering: %s", cmd->str); */
+            g_spawn_command_line_sync(cmd->str, NULL, NULL, NULL, NULL);
+        }
+    }
 
     g_string_free( cmd, TRUE );
 }
@@ -467,11 +557,14 @@ static void choose_max_resolution( Monitor* m )
 #if GTK_CHECK_VERSION(2, 24, 0)
     if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(GTK_COMBO_BOX(m->res_combo)), NULL ) > 1 )
         gtk_combo_box_set_active( GTK_COMBO_BOX(m->res_combo), 1 );
+    if (m->pos_combo)
+        gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), PLACEMENT_DEFAULT);
 #else
     if( gtk_tree_model_iter_n_children( gtk_combo_box_get_model(m->res_combo), NULL ) > 1 )
         gtk_combo_box_set_active( m->res_combo, 1 );
+    if (m->pos_combo)
+        gtk_combo_box_set_active(m->pos_combo, PLACEMENT_DEFAULT);
 #endif
-    m->placement = PLACEMENT_DEFAULT;
 }
 
 static void on_quick_option( GtkButton* btn, gpointer data )
@@ -511,7 +604,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
             choose_max_resolution( m );
             gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(m->enable), TRUE);
             if (m != LVDS)
-                m->placement = PLACEMENT_RIGHT;
+                gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), PLACEMENT_RIGHT);
         }
         break;
     case 5: // external above of LVDS
@@ -521,7 +614,7 @@ static void on_quick_option( GtkButton* btn, gpointer data )
             choose_max_resolution( m );
             gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(m->enable), TRUE);
             if (m != LVDS)
-                m->placement = PLACEMENT_ABOVE;
+                gtk_combo_box_set_active(GTK_COMBO_BOX(m->pos_combo), PLACEMENT_ABOVE);
         }
         break;
     default:
@@ -762,8 +855,6 @@ int main(int argc, char** argv)
 #endif
             if (m == fixed || !can_position || m->active_mode < 0)
                 gtk_widget_set_sensitive(GTK_WIDGET(m->pos_combo), FALSE);
-            if (m != fixed)
-                g_signal_connect(m->pos_combo, "changed", G_CALLBACK(on_pos_sel_changed), m);
             gtk_box_pack_start(GTK_BOX(hbox), GTK_WIDGET(m->pos_combo), FALSE, TRUE, 2);
         }
 
@@ -805,11 +896,13 @@ int main(int argc, char** argv)
 
 #if GTK_CHECK_VERSION(2, 24, 0)
         gtk_combo_box_set_active( GTK_COMBO_BOX(m->res_combo), m->active_mode + 1 );
-        gtk_combo_box_set_active( GTK_COMBO_BOX(m->rate_combo), m->active_rate + 1 );
+        gtk_combo_box_set_active( GTK_COMBO_BOX(m->rate_combo), m->active_rate );
 #else
         gtk_combo_box_set_active( m->res_combo, m->active_mode + 1 );
-        gtk_combo_box_set_active( m->rate_combo, m->active_rate + 1 );
+        gtk_combo_box_set_active( m->rate_combo, m->active_rate );
 #endif
+        if (m->active_mode >= 0)
+            m->active_mode++; /* let it stay -1 for inactive button */
     }
 
     gtk_widget_show_all( dlg );
