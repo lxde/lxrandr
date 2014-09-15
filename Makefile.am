@@ -1,3 +1,5 @@
+ACLOCAL_AMFLAGS = -I .
+
 SUBDIRS = src po man
 
 #datafiledir=$(datadir)/lxrandr
