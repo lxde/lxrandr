@@ -2,136 +2,206 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:45+0100\n"
-"PO-Revision-Date: 2011-07-22 23:52+0200\n"
-"Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
+"POT-Creation-Date: 2014-09-13 19:29+0300\n"
+"PO-Revision-Date: 2014-09-15 21:59+0000\n"
+"Last-Translator:   <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.6.0-rc1\n"
+"X-POOTLE-MTIME: 1410818356.000000\n"
 
-#: ../src/lxrandr.c:69
+#: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
 msgstr "Lutimbe lwa laputopu olw'ekika kya LCD"
 
-#: ../src/lxrandr.c:71
+#: ../src/lxrandr.c:89
 msgid "External VGA Monitor"
 msgstr "Lutimbe olwetongodde olw'ekika kya VGA"
 
-#: ../src/lxrandr.c:73
+#: ../src/lxrandr.c:89
+msgid "VGA Monitor"
+msgstr "Lutimbe lwa kika kya VGA"
+
+#: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Lutimbe olwetongodde olw'ekika kya DVI"
 
-#: ../src/lxrandr.c:75
+#: ../src/lxrandr.c:91
+msgid "DVI Monitor"
+msgstr "Lutimbe lwa kika kya DVI"
+
+#: ../src/lxrandr.c:93
 msgid "TV"
 msgstr "TiVvi"
 
-#: ../src/lxrandr.c:77
+#: ../src/lxrandr.c:95
 msgid "Default Monitor"
 msgstr "Olutimbe olwa bulijjo"
 
-#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
-#: ../src/lxrandr.c:583
+#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
+#: ../src/lxrandr.c:885
 msgid "Auto"
 msgstr "Sisitemu yerondere"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:227
+#: ../src/lxrandr.c:286
 msgid "translator-credits"
 msgstr "Kizito Birabwa <kbirabwa@yahoo.co.uk>"
 
-#: ../src/lxrandr.c:235
+#: ../src/lxrandr.c:294
 msgid "LXRandR"
 msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:237
-msgid "Copyright (C) 2008-2011"
-msgstr "Copyright (C) 2008-2011"
+#: ../src/lxrandr.c:296
+msgid "Copyright (C) 2008-2014"
+msgstr "Buyinza bw'ebikugizo eby'obwa nannyini (C) 2008-2014"
 
-#: ../src/lxrandr.c:238
+#: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
 msgstr "Ekiyamba okutegeka olutimbe eky'omu LXDE"
 
-#: ../src/lxrandr.c:331
+#: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
 msgstr "LXRandR autostart"
 
-#: ../src/lxrandr.c:332
+#: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
 msgstr ""
 "Tandisa puloguramu xrandr nga ekolera ku ntegeka ezitegekedwa mu LXRandR"
 
-#: ../src/lxrandr.c:422
+#: ../src/lxrandr.c:511
+msgid ""
+"Is everything OK? Confirm within 15 seconds, otherwise previous state will "
+"be restored."
+msgstr ""
+"Ebitegekedwa bituufu? Sistemu ejakukulindira busikonda 15 obikakase oba yo "
+"ezewo entegeka ebaddewo."
+
+#: ../src/lxrandr.c:514
+msgid "_OK"
+msgstr "_Kale"
+
+#: ../src/lxrandr.c:515
+msgid "_Abort"
+msgstr "_Biveeko"
+
+#: ../src/lxrandr.c:644
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
+"them on again since this tool is not accessible without monitor."
 msgstr ""
 "Tosobola okugyako ntimbe zonna. Anti obeera tojjakusobola ate okuzizzaako "
 "olw'okubanga ekiyamba kino kyetaagisa lutimbe okukikozesa."
 
-#: ../src/lxrandr.c:439
+#: ../src/lxrandr.c:665
 msgid "Configuration Saved"
 msgstr "Enteekateeka ekazidwa"
 
-#: ../src/lxrandr.c:464
+#: ../src/lxrandr.c:693
 msgid "Unable to get monitor information!"
 msgstr "Nnemedwa okufuna bifa ku lutimbe!"
 
-#: ../src/lxrandr.c:470
+#: ../src/lxrandr.c:699
 msgid "Display Settings"
 msgstr "Ntegeka z'olutimbe"
 
-#: ../src/lxrandr.c:505
+#: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Ekiri ku lutimbe lwa laputopu kirabikire ne ku lutimbe olwetongodde"
 
-#: ../src/lxrandr.c:509
+#: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Gyako olutimbe lwa laputopu kusigaleko olwetongodde lwokka"
 
-#: ../src/lxrandr.c:513
+#: ../src/lxrandr.c:744
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Gyako olutimbe olwetongodde kusigaleko olwa laputopu lwokka"
 
-#: ../src/lxrandr.c:517
+#: ../src/lxrandr.c:749
+msgid "Place external monitor to the right of laptop LCD"
+msgstr ""
+"Olutimbe olwetongodde lube ku ddyo lya lutimbe olw'ekika kya LCD olwa "
+"laputoopu"
+
+#: ../src/lxrandr.c:754
+msgid "Place external monitor above of laptop LCD"
+msgstr ""
+"Olutimbe olwetongodde lube waggulu w'olutimbe olw'ekika kya LCD olwa "
+"laputoopu"
+
+#: ../src/lxrandr.c:758
 msgid "Quick Options"
 msgstr "Entegeka ez'amangu"
 
-#: ../src/lxrandr.c:526
+#: ../src/lxrandr.c:767
 msgid "Advanced"
 msgstr "Eby'etaagisa bumanyirivu"
 
-#: ../src/lxrandr.c:530
+#: ../src/lxrandr.c:771
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Ndabyeyo olutimbe luno:"
 msgstr[1] "Ndabyeyo ntimbe zino:"
 
-#: ../src/lxrandr.c:548
+#: ../src/lxrandr.c:823
 msgid "Turn On"
 msgstr "Luteekeko"
 
-#: ../src/lxrandr.c:559
+#: ../src/lxrandr.c:837
+msgid "Position:"
+msgstr "Obusangiro:"
+
+#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+msgid "Default"
+msgstr "Ekya bulijjo"
+
+#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+msgid "On right"
+msgstr "Ku ddyo"
+
+#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+msgid "Above"
+msgstr "Waggulu"
+
+#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+msgid "On left"
+msgstr "Ku kkono"
+
+#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+msgid "Below"
+msgstr "Wansi"
+
+#: ../src/lxrandr.c:861
 msgid "Resolution:"
 msgstr "Ebipimo by'ekifaananyi mu pikiseli:"
 
-#: ../src/lxrandr.c:570
+#: ../src/lxrandr.c:872
 msgid "Refresh Rate:"
 msgstr "Obwangu bw'okulaga bifaananyi:"
 
 #: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Tegeka ntimbe ez'etongodde n'ebipimo bya kifaananyi mu pikiseli"
+
+#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Ntegeka z'olutimbe"
 
-#: ../data/lxrandr.desktop.in.h:2
-msgid "Change screen resolution and configure external monitors"
-msgstr "Tegeka ntimbe ez'etongodde n'ebipimo bya kifaananyi mu pikiseli"
+#~ msgid "Copyright (C) 2008-2011"
+#~ msgstr "Copyright (C) 2008-2011"
+
+#~ msgid ""
+#~ "You cannot turn off all monitors. Otherwise, you will not be able to turn "
+#~ "them on again since this tool is not accessable without monitor."
+#~ msgstr ""
+#~ "Tosobola okugyako ntimbe zonna. Anti obeera tojjakusobola ate okuzizzaako "
+#~ "olw'okubanga ekiyamba kino kyetaagisa lutimbe okukikozesa."
