@@ -2,136 +2,204 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:45+0100\n"
-"PO-Revision-Date: 2013-08-13 08:44+0000\n"
-"Last-Translator: Julien <Julius22@laposte.net>\n"
+"POT-Creation-Date: 2014-09-13 19:29+0300\n"
+"PO-Revision-Date: 2014-09-17 17:04+0000\n"
+"Last-Translator: Julien Henry <Julius22@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1376383448.0\n"
+"X-Generator: Pootle 2.6.0-rc1\n"
+"X-POOTLE-MTIME: 1410973467.000000\n"
 
-#: ../src/lxrandr.c:69
+#: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
 msgstr "Écran LCD du portable"
 
-#: ../src/lxrandr.c:71
+#: ../src/lxrandr.c:89
 msgid "External VGA Monitor"
 msgstr "Écran VGA externe"
 
-#: ../src/lxrandr.c:73
+#: ../src/lxrandr.c:89
+msgid "VGA Monitor"
+msgstr "Moniteur VGA"
+
+#: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Écran DVI externe"
 
-#: ../src/lxrandr.c:75
+#: ../src/lxrandr.c:91
+msgid "DVI Monitor"
+msgstr "Moniteur DVI"
+
+#: ../src/lxrandr.c:93
 msgid "TV"
 msgstr "TV"
 
-#: ../src/lxrandr.c:77
+#: ../src/lxrandr.c:95
 msgid "Default Monitor"
 msgstr "Écran par défaut"
 
-#: ../src/lxrandr.c:188 ../src/lxrandr.c:199 ../src/lxrandr.c:581
-#: ../src/lxrandr.c:583
+#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
+#: ../src/lxrandr.c:885
 msgid "Auto"
 msgstr "Auto."
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:227
+#: ../src/lxrandr.c:286
 msgid "translator-credits"
 msgstr "Cilyan Olowen <gaknar@gmail.com>"
 
-#: ../src/lxrandr.c:235
+#: ../src/lxrandr.c:294
 msgid "LXRandR"
 msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:237
-msgid "Copyright (C) 2008-2011"
-msgstr "Copyright (C) 2008-2011"
+#: ../src/lxrandr.c:296
+msgid "Copyright (C) 2008-2014"
+msgstr "Copyright (C) 2008-2014"
 
-#: ../src/lxrandr.c:238
+#: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
 msgstr "Outils de configuration des écrans pour LXDE"
 
-#: ../src/lxrandr.c:331
+#: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
 msgstr "Démarrage automatique de LXRandR"
 
-#: ../src/lxrandr.c:332
+#: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "Démarrer xrandr avec les paramètres configurés dans LXRandR"
 
-#: ../src/lxrandr.c:422
+#: ../src/lxrandr.c:511
+msgid ""
+"Is everything OK? Confirm within 15 seconds, otherwise previous state will "
+"be restored."
+msgstr ""
+"Est-ce que tout est bon ? Confirmer dans les 15 secondes, sinon, l'état "
+"précédent sera restauré."
+
+#: ../src/lxrandr.c:514
+msgid "_OK"
+msgstr "_Valider"
+
+#: ../src/lxrandr.c:515
+msgid "_Abort"
+msgstr "_Abandonner"
+
+#: ../src/lxrandr.c:644
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
-"them on again since this tool is not accessable without monitor."
+"them on again since this tool is not accessible without monitor."
 msgstr ""
-"Vous ne pouvez pas désactiver tous les écrans. Sinon, vous ne serez pas "
-"capable de les réactiver puisque cet outil n'est pas accessible sans écran."
+"Vous ne pouvez pas éteindre tous les moniteurs. Sinon, vous ne serez pas "
+"capable de les réactiver puisque cet outil n'est pas accessible sans "
+"moniteur."
 
-#: ../src/lxrandr.c:439
+#: ../src/lxrandr.c:665
 msgid "Configuration Saved"
 msgstr "Configuration sauvegardée"
 
-#: ../src/lxrandr.c:464
+#: ../src/lxrandr.c:693
 msgid "Unable to get monitor information!"
 msgstr "Impossible d'obtenir les informations de l'écran !"
 
-#: ../src/lxrandr.c:470
+#: ../src/lxrandr.c:699
 msgid "Display Settings"
 msgstr "Paramètres d'affichage"
 
-#: ../src/lxrandr.c:505
+#: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Afficher la même chose sur l'écran du portable et sur l'écran externe"
 
-#: ../src/lxrandr.c:509
+#: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Désactiver l'écran du portable et utiliser uniquement l'écran externe"
 
-#: ../src/lxrandr.c:513
+#: ../src/lxrandr.c:744
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Désactiver l'écran externe et utiliser uniquement l'écran du portable"
 
-#: ../src/lxrandr.c:517
+#: ../src/lxrandr.c:749
+msgid "Place external monitor to the right of laptop LCD"
+msgstr ""
+"Placez un moniteur externe à droite de l'affichage à cristaux liquides de "
+"l'ordinateur portable"
+
+#: ../src/lxrandr.c:754
+msgid "Place external monitor above of laptop LCD"
+msgstr ""
+
+#: ../src/lxrandr.c:758
 msgid "Quick Options"
 msgstr "Options rapides"
 
-#: ../src/lxrandr.c:526
+#: ../src/lxrandr.c:767
 msgid "Advanced"
 msgstr "Avancé"
 
-#: ../src/lxrandr.c:530
+#: ../src/lxrandr.c:771
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "L'écran suivant a été détecté :"
 msgstr[1] "Les écrans suivants ont été détectés :"
 
-#: ../src/lxrandr.c:548
+#: ../src/lxrandr.c:823
 msgid "Turn On"
 msgstr "Activer"
 
-#: ../src/lxrandr.c:559
+#: ../src/lxrandr.c:837
+msgid "Position:"
+msgstr ""
+
+#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+msgid "Default"
+msgstr ""
+
+#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+msgid "On right"
+msgstr ""
+
+#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+msgid "Above"
+msgstr ""
+
+#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+msgid "On left"
+msgstr ""
+
+#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+msgid "Below"
+msgstr ""
+
+#: ../src/lxrandr.c:861
 msgid "Resolution:"
 msgstr "Résolution :"
 
-#: ../src/lxrandr.c:570
+#: ../src/lxrandr.c:872
 msgid "Refresh Rate:"
 msgstr "Fréquence de rafraîchissement :"
 
 #: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Modifier la résolution d'écran et paramétrer les écrans externes"
+
+#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Paramètres de l'écran"
 
-#: ../data/lxrandr.desktop.in.h:2
-msgid "Change screen resolution and configure external monitors"
-msgstr "Modifier la résolution d'écran et paramétrer les écrans externes"
+#~ msgid "Copyright (C) 2008-2011"
+#~ msgstr "Copyright (C) 2008-2011"
+
+#~ msgid ""
+#~ "You cannot turn off all monitors. Otherwise, you will not be able to turn "
+#~ "them on again since this tool is not accessable without monitor."
+#~ msgstr ""
+#~ "Vous ne pouvez pas désactiver tous les écrans. Sinon, vous ne serez pas "
+#~ "capable de les réactiver puisque cet outil n'est pas accessible sans écran."
