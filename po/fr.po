@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-13 19:29+0300\n"
-"PO-Revision-Date: 2014-09-17 17:04+0000\n"
+"PO-Revision-Date: 2014-09-17 19:12+0000\n"
 "Last-Translator: Julien Henry <Julius22@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1410973467.000000\n"
+"X-POOTLE-MTIME: 1410981166.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -54,7 +54,7 @@ msgstr "Auto."
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:286
 msgid "translator-credits"
-msgstr "Cilyan Olowen <gaknar@gmail.com>"
+msgstr "Cilyan Olowen <gaknar@gmail.com>Julius22"
 
 #: ../src/lxrandr.c:294
 msgid "LXRandR"
@@ -98,9 +98,8 @@ msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"Vous ne pouvez pas éteindre tous les moniteurs. Sinon, vous ne serez pas "
-"capable de les réactiver puisque cet outil n'est pas accessible sans "
-"moniteur."
+"Vous ne pouvez pas éteindre tous les écrans. Sinon, vous ne serez pas "
+"capable de les réactiver puisque cet outil n'est pas accessible sans écran."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -116,25 +115,30 @@ msgstr "Paramètres d'affichage"
 
 #: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Afficher la même chose sur l'écran du portable et sur l'écran externe"
+msgstr ""
+"Afficher la même chose sur les écrans de l'ordinateur portable et externe"
 
 #: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Désactiver l'écran du portable et utiliser uniquement l'écran externe"
+msgstr "Éteindre l'écran du portable et utiliser uniquement l'écran externe"
 
 #: ../src/lxrandr.c:744
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Désactiver l'écran externe et utiliser uniquement l'écran du portable"
+msgstr ""
+"Éteindre l'écran externe et utiliser uniquement l'écran de l'ordinateur "
+"portable"
 
 #: ../src/lxrandr.c:749
 msgid "Place external monitor to the right of laptop LCD"
 msgstr ""
-"Placez un moniteur externe à droite de l'affichage à cristaux liquides de "
+"Placez l'écran externe à droite de l'affichage à cristaux liquides de "
 "l'ordinateur portable"
 
 #: ../src/lxrandr.c:754
 msgid "Place external monitor above of laptop LCD"
 msgstr ""
+"Placez l'écran externe au-dessus de l'affichage à cristaux liquides de "
+"l'ordinateur portable"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -152,31 +156,31 @@ msgstr[1] "Les écrans suivants ont été détectés :"
 
 #: ../src/lxrandr.c:823
 msgid "Turn On"
-msgstr "Activer"
+msgstr "Allumer"
 
 #: ../src/lxrandr.c:837
 msgid "Position:"
-msgstr ""
+msgstr "Emplacement :"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 msgid "Default"
-msgstr ""
+msgstr "Par défaut"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "À droite"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Au-dessus"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "À gauche"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "En-dessous"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
