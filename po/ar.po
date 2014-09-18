@@ -1,28 +1,29 @@
 # Arabic translations for PACKAGE package.
 # Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+#
 # أحمد فرغل <ahmad.farghal@gmail.com>, 2009.
 # Tareq Al Jurf <taljurf@fedoraproject.org>, 2010.
-#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:45+0100\n"
-"PO-Revision-Date: 2010-04-20 18:55+0300\n"
-"Last-Translator: Tareq Al Jurf <taljurf@fedoraproject.org>\n"
-"Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
+"PO-Revision-Date: 2014-07-11 02:05+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../src/lxrandr.c:69
 msgid "Laptop LCD Monitor"
-msgstr "مرقاب الحاسوب المحمول"
+msgstr "مرقاب شاشة الحاسوب المحمول"
 
 #: ../src/lxrandr.c:71
 msgid "External VGA Monitor"
@@ -48,7 +49,10 @@ msgstr "آلي"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:227
 msgid "translator-credits"
-msgstr "أحمد فرغل <ahmad.farghal@gmail.com>"
+msgstr ""
+"فريق عربآيز للترجمة http://www.arabeyes.org:\n"
+"أحمد فرغل <ahmad.farghal@gmail.com>\n"
+"صفا الفليج <safa1996alfulaij@gmail.com>"
 
 #: ../src/lxrandr.c:235
 msgid "LXRandR"
@@ -57,21 +61,22 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:237
 msgid "Copyright (C) 2008-2011"
-msgstr "حقوق النشر محفوظة (C) 2008-2011"
+msgstr "حقوق النشر (C)‏ 2008-2011"
 
 #: ../src/lxrandr.c:238
 msgid "Monitor configuration tool for LXDE"
-msgstr "أداة ضبط المراقيب لـLXDE"
+msgstr "أداة تضبيط مراقيب لـLXDE"
 
 #: ../src/lxrandr.c:331
 msgid "LXRandR autostart"
-msgstr "تشغيل التلقائي لـLXRandR"
+msgstr "ابدأ LXRandR آليًا"
 
 #: ../src/lxrandr.c:332
 msgid "Start xrandr with settings done in LXRandR"
-msgstr "بدء xrandr مع إنهاء إعدادات LXRandR"
+msgstr "ابدأ xrandr بالإعدادات في LXRandR"
 
 #: ../src/lxrandr.c:422
+#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessable without monitor."
@@ -81,11 +86,11 @@ msgstr ""
 
 #: ../src/lxrandr.c:439
 msgid "Configuration Saved"
-msgstr "تم حفظ التضبيطات"
+msgstr "حُفظت التضبيطات"
 
 #: ../src/lxrandr.c:464
 msgid "Unable to get monitor information!"
-msgstr "غير قادر على جلب معلومات المرقاب!"
+msgstr "تعذّر جلب معلومات المرقاب!"
 
 #: ../src/lxrandr.c:470
 msgid "Display Settings"
@@ -127,11 +132,11 @@ msgstr "افتح"
 
 #: ../src/lxrandr.c:559
 msgid "Resolution:"
-msgstr "الدقة:"
+msgstr "الدقّة:"
 
 #: ../src/lxrandr.c:570
 msgid "Refresh Rate:"
-msgstr "معدل التحديث:"
+msgstr "معدّل التحديث:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Monitor Settings"
@@ -139,4 +144,6 @@ msgstr "إعدادات المرقاب"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Change screen resolution and configure external monitors"
-msgstr "غير دقة الشاشة واضبط المراقيب الخارجية"
+msgstr "غيّر دقّة الشاشة واضبط المراقيب الخارجية"
+
+
