@@ -114,6 +114,6 @@ AC_CONFIG_FILES([
 Makefile
 src/Makefile
 po/Makefile.in
-man/Makefile
+data/Makefile
 ])
 AC_OUTPUT
