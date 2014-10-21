@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-10-20 16:16+0000\n"
+"PO-Revision-Date: 2014-10-21 12:03+0000\n"
 "Last-Translator: <volkangezer@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1413821772.000000\n"
+"X-POOTLE-MTIME: 1413893033.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -54,7 +54,10 @@ msgstr "Kendiliğinden"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:286
 msgid "translator-credits"
-msgstr "çevirmenler"
+msgstr ""
+"Mehmet Gülmen (memetgulmen@gmail.com)\n"
+"Kılıç Köken (kilickoken@gmail.com)\n"
+"Volkan Gezer (volkangezer@gmail.com"
 
 #: ../src/lxrandr.c:294
 msgid "LXRandR"
