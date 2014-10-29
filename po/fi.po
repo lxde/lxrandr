@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2012-02-16 16:09+0200\n"
-"Last-Translator: GoaHead <b7701050@nwldx.com>\n"
+"PO-Revision-Date: 2014-10-29 17:40+0000\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1414604448.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -27,7 +28,7 @@ msgstr "Ulkoinen VGA-näyttö"
 
 #: ../src/lxrandr.c:89
 msgid "VGA Monitor"
-msgstr ""
+msgstr "VGA-näyttö"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
@@ -35,11 +36,11 @@ msgstr "Ulkoinen DVI-näyttö"
 
 #: ../src/lxrandr.c:91
 msgid "DVI Monitor"
-msgstr ""
+msgstr "DVI-näyttölaite"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
-msgstr "Televisio"
+msgstr "TV"
 
 #: ../src/lxrandr.c:95
 msgid "Default Monitor"
@@ -62,7 +63,7 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
 msgid "Copyright (C) 2008-2014"
-msgstr ""
+msgstr "Copyright (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -84,11 +85,11 @@ msgstr ""
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Peruuta"
 
 #: ../src/lxrandr.c:644
 msgid ""
@@ -125,11 +126,11 @@ msgstr ""
 
 #: ../src/lxrandr.c:749
 msgid "Place external monitor to the right of laptop LCD"
-msgstr ""
+msgstr "Aseta ulkoinen näyttö kannettavan näytön oikealle puolelle"
 
 #: ../src/lxrandr.c:754
 msgid "Place external monitor above of laptop LCD"
-msgstr ""
+msgstr "Aseta ulkoinen näyttö kannettavan näytön yläpuolelle"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -151,27 +152,27 @@ msgstr "Kytke päälle"
 
 #: ../src/lxrandr.c:837
 msgid "Position:"
-msgstr ""
+msgstr "Sijainti:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "Oikealla"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Yllä"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "Vasemmalla"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "Alla"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
