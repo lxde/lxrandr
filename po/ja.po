@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-10-29 21:22+0000\n"
+"PO-Revision-Date: 2014-10-30 14:28+0000\n"
 "Last-Translator: rago1975 <take1975@kumamoto.email.ne.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1414617776.000000\n"
+"X-POOTLE-MTIME: 1414679285.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -99,7 +99,7 @@ msgstr "中止(_A)"
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
-msgstr ""
+msgstr "モニタの電源を落とすことはできません。モニタ無しでこのツールのアクセスすることはできないので、再び電源を入れることができなくなります。"
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -127,11 +127,11 @@ msgstr "外部モニタをオフにしてラップトップの LCD のみを使�
 
 #: ../src/lxrandr.c:749
 msgid "Place external monitor to the right of laptop LCD"
-msgstr ""
+msgstr "ラップトップLCDの右側に外部モニタを配置"
 
 #: ../src/lxrandr.c:754
 msgid "Place external monitor above of laptop LCD"
-msgstr ""
+msgstr "ラップトップLCD上に外部モニタを配置"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -152,27 +152,27 @@ msgstr "オンにする"
 
 #: ../src/lxrandr.c:837
 msgid "Position:"
-msgstr ""
+msgstr "位置:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "右"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "上"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "左"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "下"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -194,7 +194,7 @@ msgstr "モニタの設定"
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
-msgstr ""
+msgstr "スクリーン;ディスプレイ;TV;拡張;プロジェクター;xrandr;更新速度;位置;可能;不可;"
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Copyright (C) 2008-2011"
