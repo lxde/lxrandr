@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-12-03 12:47+0000\n"
+"PO-Revision-Date: 2014-12-04 13:46+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -66,7 +66,7 @@ msgstr "Höfundarréttur (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
-msgstr ""
+msgstr "Skjástillingatól fyrir LXDE"
 
 #: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
@@ -74,7 +74,7 @@ msgstr "Sjálfræsing LXRandR"
 
 #: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Ræsa xrandr með stillingum gerðum í LXRandR"
 
 #: ../src/lxrandr.c:511
 msgid ""
@@ -97,6 +97,8 @@ msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
+"Þú getur ekki slökkt á öllum skjánum. Annars geturðu ekki kveikt á þeim "
+"aftur, því þetta forrit er ekki aðgengilegt nema að hafa skjá í gangi."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -112,23 +114,23 @@ msgstr "Stillingar skjás"
 
 #: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr ""
+msgstr "Birta sama skjáborð á bæði fartölvuskjá og utanáliggjandi skjá"
 
 #: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr ""
+msgstr "Slökkva á fartölvuskjá og nota einungis utanáliggjandi skjá"
 
 #: ../src/lxrandr.c:744
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr ""
+msgstr "Slökkva á utanáliggjandi skjá og nota einungis fartölvuskjá"
 
 #: ../src/lxrandr.c:749
 msgid "Place external monitor to the right of laptop LCD"
-msgstr ""
+msgstr "Setja utanáliggjandi skjá hægra megin við fartölvuskjá"
 
 #: ../src/lxrandr.c:754
 msgid "Place external monitor above of laptop LCD"
-msgstr ""
+msgstr "Setja utanáliggjandi skjá ofan við fartölvuskjá"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -193,5 +195,7 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"skjár;birting;sjónvarp;varpa;myndvarpi;xrandr;uppfærslutíðni:;position;virkja;"
+"óvirkt;"
 
 
