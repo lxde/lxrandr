@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-13 19:29+0300\n"
+"POT-Creation-Date: 2014-09-26 01:07+0300\n"
 "PO-Revision-Date: 2014-09-15 21:59+0000\n"
 "Last-Translator:   <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,6 +195,12 @@ msgstr "Tegeka ntimbe ez'etongodde n'ebipimo bya kifaananyi mu pikiseli"
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Ntegeka z'olutimbe"
+
+#: ../data/lxrandr.desktop.in.h:3
+msgid ""
+"screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
+"disable;"
+msgstr ""
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Copyright (C) 2008-2011"

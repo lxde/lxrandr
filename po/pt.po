@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-13 19:29+0300\n"
+"POT-Creation-Date: 2014-09-26 01:07+0300\n"
 "PO-Revision-Date: 2014-09-14 17:26+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
@@ -194,6 +194,12 @@ msgstr "Alterar a resolução do ecrã e configurar monitores externos"
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Definições do monitor"
+
+#: ../data/lxrandr.desktop.in.h:3
+msgid ""
+"screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
+"disable;"
+msgstr ""
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Direitos de autor (C) 2008-2011"

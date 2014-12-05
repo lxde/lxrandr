@@ -111,7 +111,8 @@ msgstr "Näytön asetukset"
 
 #: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
-msgstr "Näytä sama kuva kannettavan tietokoneen näytöllä ja ulkoisella näytöllä"
+msgstr ""
+"Näytä sama kuva kannettavan tietokoneen näytöllä ja ulkoisella näytöllä"
 
 #: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"

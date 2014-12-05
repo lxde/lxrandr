@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-14 19:11+0200\n"
+"POT-Creation-Date: 2014-09-26 01:07+0300\n"
 "PO-Revision-Date: 2014-09-14 19:30+0100\n"
 "Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
 "Language-Team: Italian\n"
@@ -195,9 +195,15 @@ msgid "Refresh Rate:"
 msgstr "Frequenza di aggiornamento:"
 
 #: ../data/lxrandr.desktop.in.h:1
+msgid "Change screen resolution and configure external monitors"
+msgstr "Cambia la risoluzione dello schermo e configura i monitor esterni"
+
+#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Impostazioni del monitor"
 
-#: ../data/lxrandr.desktop.in.h:2
-msgid "Change screen resolution and configure external monitors"
-msgstr "Cambia la risoluzione dello schermo e configura i monitor esterni"
+#: ../data/lxrandr.desktop.in.h:3
+msgid ""
+"screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
+"disable;"
+msgstr ""

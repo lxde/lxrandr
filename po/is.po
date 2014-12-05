@@ -195,7 +195,5 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
-"skjár;birting;sjónvarp;varpa;myndvarpi;xrandr;uppfærslutíðni:;position;virkja;"
-"óvirkt;"
-
-
+"skjár;birting;sjónvarp;varpa;myndvarpi;xrandr;uppfærslutíðni:;position;"
+"virkja;óvirkt;"
