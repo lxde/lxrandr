@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2012-04-14 07:40+0200\n"
-"Last-Translator: Walter <wwycheuk@gmail.com>\n"
+"PO-Revision-Date: 2015-03-21 00:21+0000\n"
+"Last-Translator: <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1426897296.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -22,18 +23,16 @@ msgid "External VGA Monitor"
 msgstr "外接 VGA 顯示器"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "外接 VGA 顯示器"
+msgstr "VGA 顯示器"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "外接 DVI 顯示器"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "外接 DVI 顯示器"
+msgstr "DVI 顯示器"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -59,9 +58,8 @@ msgstr "LXRandR螢幕相關設定"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "版權所有 (C) 2008-2011"
+msgstr "版權所有 (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -79,24 +77,21 @@ msgstr "在 LXRandR 完成設定後啟動 xrandr"
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
-msgstr ""
+msgstr "一切都妥當了嗎？請在 15 秒內確認，否則會回復到之前的狀態。"
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "確定(_O)"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "中止(_A)"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
-msgstr ""
-"你不能關掉所有畫面，否則你會無法將之重新開啟，因為這個工具無法在沒有畫面的狀"
-"況下操作。"
+msgstr "不能關掉所有畫面，否則會無法將之重新開啟，因為這個工具無法在沒有畫面的狀況下操作。"
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -123,14 +118,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "關閉外接顯示器，只使用筆記型電腦 LCD 螢幕"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "關閉外接顯示器，只使用筆記型電腦 LCD 螢幕"
+msgstr "將外接顯示器放在筆記型電腦 LCD 螢幕右方"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "關閉外接顯示器，只使用筆記型電腦 LCD 螢幕"
+msgstr "將外接顯示器放在筆記型電腦 LCD 螢幕上方"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -150,30 +143,28 @@ msgid "Turn On"
 msgstr "開啟"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "解析度："
+msgstr "位置："
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "預設顯示器"
+msgstr "預設"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "右方"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "上方"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "左方"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "下方"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -192,7 +183,10 @@ msgid "Monitor Settings"
 msgstr "螢幕設定"
 
 #: ../data/lxrandr.desktop.in.h:3
+#, fuzzy
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"screen;display;tv;extend;projector;xrandr;refresh "
+"rate;position;enable;disable;"
