@@ -17,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Translate Toolkit 1.10.0\n"
+"X-Pootle-Path: /pa/lxrandr/po/pa.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-09-14 17:26+0000\n"
+"PO-Revision-Date: 2015-03-26 13:32+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -17,8 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1410715564.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1427376728.000000\n"
+"X-Pootle-Path: /pt/lxrandr/po/pt.po\n"
+"X-Pootle-Revision: 87\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -46,7 +48,7 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:95
 msgid "Default Monitor"
-msgstr "Monitor padrão"
+msgstr "Monitor pré-definido"
 
 #: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
 #: ../src/lxrandr.c:885
@@ -161,7 +163,7 @@ msgstr "Posição:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 msgid "Default"
-msgstr "Padrão"
+msgstr "Pré-definido"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
@@ -199,7 +201,7 @@ msgstr "Definições do monitor"
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
-msgstr ""
+msgstr "ecrã;exibição;tv;expandir;projetor;xrandr;taxa;posição;ativar;desativar"
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Direitos de autor (C) 2008-2011"

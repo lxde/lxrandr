@@ -2,7 +2,6 @@
 # Copyright (C) 2006 lxde team
 # This file is distributed under the same license as the lxrandr package.
 # Ivan MasÃ¡r <helix84@centrum.sk>, 2009.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
@@ -16,6 +15,9 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+"X-Pootle-Path: /sk/lxrandr/po/sk.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"

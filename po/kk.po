@@ -2,7 +2,6 @@
 # Copyright (C) 2012 The LXDE team
 # This file is distributed under the same license as the LXDE package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
@@ -16,8 +15,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Kazakh\n"
-"X-Poedit-Country: KAZAKHSTAN\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Pootle-Path: /kk/lxrandr/po/kk.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"

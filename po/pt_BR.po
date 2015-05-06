@@ -18,6 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.0.5\n"
+"X-Pootle-Path: /pt_BR/lxrandr/po/pt_BR.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"

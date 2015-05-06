@@ -1,3 +1,8 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: LXRandR 0.1\n"
@@ -12,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.5\n"
+"X-Pootle-Path: /zh_CN/lxrandr/po/zh_CN.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -96,9 +103,7 @@ msgstr ""
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
-msgstr ""
-"您不能关闭所有显示器。否则，您将无法再开启它们，因为这个工具没有显示器的情况"
-"下无法使用。"
+msgstr "您不能关闭所有显示器。否则，您将无法再开启它们，因为这个工具没有显示器的情况下无法使用。"
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"

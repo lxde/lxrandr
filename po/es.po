@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-09-14 03:24+0000\n"
+"PO-Revision-Date: 2015-05-05 08:50+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -15,8 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1410665089.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1430815857.000000\n"
+"X-Pootle-Path: /es/lxrandr/po/es.po\n"
+"X-Pootle-Revision: 1822\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -75,11 +77,11 @@ msgstr "Herramienta de configuración de monitores para LXDE"
 
 #: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
-msgstr "LXRandR autostart"
+msgstr "Inicio automático de LXRandR"
 
 #: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
-msgstr "Iniciar xrandr con las configuraciones hechas en LXRandR"
+msgstr "Iniciar xrandr con los ajustes realizados en LXRandR"
 
 #: ../src/lxrandr.c:511
 msgid ""
@@ -203,6 +205,8 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"pantalla;monitor;tv;extender;proyector;xrandr;tasa de "
+"actualización;posición;activar;desactivar;"
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Copyright (C) 2008-2011"

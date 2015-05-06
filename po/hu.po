@@ -9,14 +9,18 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2011-09-03 15:22+0200\n"
-"Last-Translator: Laszlo Dvornik <rezuri@zoho.com>\n"
+"PO-Revision-Date: 2015-05-04 17:04+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1430759093.000000\n"
+"X-Pootle-Path: /hu/lxrandr/po/hu.po\n"
+"X-Pootle-Revision: 1449\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -27,18 +31,16 @@ msgid "External VGA Monitor"
 msgstr "Külső VGA monitor"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Külső VGA monitor"
+msgstr "VGA monitor"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Külső DVI monitor"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Külső DVI monitor"
+msgstr "DVI monitor"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -66,9 +68,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -87,23 +88,24 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Minden rendben van? Erősítse meg 15 másodpercen belül, különben az előző "
+"állapot kerül visszaállításra."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Megszakítás"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"Nem kapcsolhatod ki az összes monitort. Máskülönben nem fogod tudni "
-"visszakapcsolni őket, hiszen ez a segédeszköz nem érhető el monitor nélkül."
+"Nem kapcsolhat ki minden monitort. Különben nem fogja tudni visszakapcsolni "
+"azokat, mivel ez az eszköz nem érhető el monitor nélkül."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -130,14 +132,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Külső monitor kikapcsolása és csak a laptop LCD használata"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "Külső monitor kikapcsolása és csak a laptop LCD használata"
+msgstr "Külső monitor elhelyezése a laptop LCD jobb oldalára"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "Külső monitor kikapcsolása és csak a laptop LCD használata"
+msgstr "Külső monitor elhelyezése a laptop LCD tetejére"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -158,30 +158,28 @@ msgid "Turn On"
 msgstr "Bekapcsolás"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "Felbontás:"
+msgstr "Pozíció:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "Alapértelmezett monitor"
+msgstr "Alapértelmezett"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "Jobbra"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Fent"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "Balra"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "Lent"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -204,3 +202,5 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"kijelző;megjelenítő;tv;kiterjesztés;projektor;xrandr;frissítési "
+"arány;pozíció;engedélyezés;tiltás;"

@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2013-12-20 01:23+0000\n"
-"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
+"PO-Revision-Date: 2015-01-19 20:51+0000\n"
+"Last-Translator: Anari Jalakas <anari.jalakas@gmail.com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1387502592.0\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1421700672.000000\n"
+"X-Pootle-Path: /et/lxrandr/po/et.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -28,18 +30,16 @@ msgid "External VGA Monitor"
 msgstr "Väline VGA kuvar"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Väline VGA kuvar"
+msgstr "VGA kuvar"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Väline DVI kuvar"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Väline DVI kuvar"
+msgstr "DVI kuvar"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -65,9 +65,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"

@@ -6,17 +6,19 @@ msgstr ""
 "Project-Id-Version: lxrandr_hr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2013-08-27 15:16+0000\n"
-"Last-Translator: Ivica <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2015-03-10 22:40+0000\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: <asjlob AT vip.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1377616586.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1426027237.000000\n"
+"X-Pootle-Path: /hr/lxrandr/po/hr.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -27,18 +29,16 @@ msgid "External VGA Monitor"
 msgstr "Vanjski VGA Monitor"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Vanjski VGA Monitor"
+msgstr "VGA Monitor"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Vanjski DVI Monitor"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Vanjski DVI Monitor"
+msgstr "DVI Monitor"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -64,9 +64,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Autorska prava (C) 2008-2011"
+msgstr "Autorska prava (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -85,17 +84,18 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Je li sve u redu? Potvrdi u roku 15 sekundi, inače će biti obnovljeno "
+"prethodno stanje."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_U redu"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Prekini"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
@@ -128,14 +128,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Ugasi vanjski monitor i koristi samo LCD laptopa"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "Ugasi vanjski monitor i koristi samo LCD laptopa"
+msgstr ""
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "Ugasi vanjski monitor i koristi samo LCD laptopa"
+msgstr ""
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -157,30 +155,28 @@ msgid "Turn On"
 msgstr "Uključi"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "Rezolucija:"
+msgstr "Pozicija:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "Standardni Monitor"
+msgstr "Standardno"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "Na desno"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Iznad"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "Na lijevo"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "Ispod"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"

@@ -8,15 +8,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2012-10-23 22:39+0200\n"
-"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2014-12-05 10:32+0000\n"
+"Last-Translator: system user <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1417775532.000000\n"
+"X-Pootle-Path: /he/lxrandr/po/he.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -27,18 +30,16 @@ msgid "External VGA Monitor"
 msgstr "צג VGA חיצוני"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "צג VGA חיצוני"
+msgstr "צג VGA"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "צג DVI חיצוני"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "צג DVI חיצוני"
+msgstr "צג DVI"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -66,9 +67,8 @@ msgstr "תוכנת הצגים LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "כל הזכויות שמורות (C) ‏2008-2011"
+msgstr "כל הזכויות שמורות (C) ‏2008‏-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -86,24 +86,23 @@ msgstr "הפעלת xrandr עם ההגדרות שהוגדרו ל־LXRandR"
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
-msgstr ""
+msgstr "האם הכול בסדר? יש לאשר בתוך 15 שניות, אחרת ישוחזר המצב הקודם."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_אישור"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_ביטול"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"לא ניתן לכבות את כל הצגים. אחרת, לא ניתן יהיה להפעילם בחזרה מאחר שכלי זה לא "
-"יהיה זמין ללא צג."
+"אי אפשר לכבות את כל הצגים. במצב שכזה, לא תהיה לך אפשרות להפעיל אותם בחזרה "
+"כיוון שכלי זה אינו נגיש ללא צג."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -130,14 +129,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "כיבוי הצג החיצוני ושימוש ב־LCD בלבד"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "כיבוי הצג החיצוני ושימוש ב־LCD בלבד"
+msgstr "הצבת צג חיצוני לימין צג המחשב הנייד"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "כיבוי הצג החיצוני ושימוש ב־LCD בלבד"
+msgstr "הצבת צג חיצוני מעל צג המחשב הנייד"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -158,30 +155,28 @@ msgid "Turn On"
 msgstr "הפעלה"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "רזולוציה:"
+msgstr "מיקום:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "צג בררת המחדל"
+msgstr "בררת מחדל"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "לימין"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "מעל"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "לשמאל"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "מתחת"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -203,4 +198,4 @@ msgstr "הגדרות הצג"
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
-msgstr ""
+msgstr "מסך;תצוגה;טלוויזיה;הרחבה;מקרן;קצב רענון;מיקום;הפעלה;נטרול;צג;מוניטור;"

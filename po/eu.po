@@ -3,16 +3,18 @@ msgstr ""
 "Project-Id-Version: LXRandR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2012-07-08 13:41+0200\n"
-"Last-Translator: Asier_Iturralde_Sarasola <asier.iturralde@gmail.com>\n"
+"PO-Revision-Date: 2015-05-01 21:00+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Basque <alainmendi@gmail.com>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Basque\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1430514008.000000\n"
+"X-Pootle-Path: /eu/lxrandr/po/eu.po\n"
+"X-Pootle-Revision: 1066\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -23,18 +25,16 @@ msgid "External VGA Monitor"
 msgstr "Kanpoko VGA monitorea"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Kanpoko VGA monitorea"
+msgstr "VGA monitorea"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Kanpoko DVI monitorea"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Kanpoko DVI monitorea"
+msgstr "DVI monitorea"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -62,9 +62,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright-a (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -83,22 +82,23 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Ondo dago dena? Baieztatu 15 segundo igaro aurretik, bestela aurreko egoera "
+"berrezarriko da."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_Ados"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Utzi"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"Ezin dituzu monitore guztiak itzali. Bestela ezingo dituzu berriz piztu "
+"Ezin dituzu monitore guztiak itzali. Bestela ezingo dituzu berriz piztu, "
 "tresna honetara ezin baita monitorerik gabe sartu."
 
 #: ../src/lxrandr.c:665
@@ -126,14 +126,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Itzali kanpoko monitorea eta erabili eramangarriaren LCD-a soilik"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "Itzali kanpoko monitorea eta erabili eramangarriaren LCD-a soilik"
+msgstr "Kokatu kanpoko monitorea eramangarriaren LCDaren eskuinaldean"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "Itzali kanpoko monitorea eta erabili eramangarriaren LCD-a soilik"
+msgstr "Kokatu kanpoko monitorea eramangarriaren LCDaren gainean"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -154,30 +152,28 @@ msgid "Turn On"
 msgstr "Aktibatu"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "Bereizmena:"
+msgstr "Kokapena:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "Monitore lehenetsia"
+msgstr "Lehenetsia"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "Eskuinean"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Goian"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "Ezkerrean"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "Behean"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -200,3 +196,5 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"pantaila;bistaratzea;tb;hedatu;proiektagailua;freskatze-"
+"maiztasuna;gaitu;desgaitu;"

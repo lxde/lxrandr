@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -17,6 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
+"X-Pootle-Path: /te/lxrandr/po/te.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -100,8 +101,8 @@ msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"మానిటర్లన్నిటినీ మీరు ఆపివేయలేరు. ఎందుకంటే, మరలా ఈ మానిటర్లను మీరు తిరిగి ఆన్ చేయలేరు అంతేకాకుండా మానిటర్ "
-"లేకుండా ఈ సాధనాన్ని కూడా వాడటం వీలుకాదు."
+"మానిటర్లన్నిటినీ మీరు ఆపివేయలేరు. ఎందుకంటే, మరలా ఈ మానిటర్లను మీరు తిరిగి ఆన్"
+" చేయలేరు అంతేకాకుండా మానిటర్ లేకుండా ఈ సాధనాన్ని కూడా వాడటం వీలుకాదు."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
