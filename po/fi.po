@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-10-29 17:41+0000\n"
+"PO-Revision-Date: 2015-05-09 19:35+0000\n"
 "Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -15,10 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1414604513.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1431200115.000000\n"
 "X-Pootle-Path: /fi/lxrandr/po/fi.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 1891\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -56,7 +56,9 @@ msgstr "Automaattinen"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:286
 msgid "translator-credits"
-msgstr "Elias Julkunen <elias.julkunen@gmail.com>"
+msgstr ""
+"Elias Julkunen <elias.julkunen@gmail.com>, 2008–2010\n"
+"Juhani Numminen <juhaninumminen0@gmail.com>, 2015"
 
 #: ../src/lxrandr.c:294
 msgid "LXRandR"
@@ -65,15 +67,15 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2014"
+msgstr "Copyright (C) 2008–2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
-msgstr "Työkalu näyttöasetusten tekemiseen LXDE:lle"
+msgstr "LXDE:n näyttöasetusohjelma"
 
 #: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
-msgstr "LXRandR:in automaattikäynnistys"
+msgstr "LXRandRin automaattikäynnistys"
 
 #: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
@@ -84,6 +86,8 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Ovatko asetukset sopivat? Hyväksy muutokset 15 sekunnin kuluessa, tai odota, "
+"että edelliset asetukset palautetaan."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
@@ -98,6 +102,8 @@ msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
+"Kaikkia näyttölaitteita ei voi poistaa käytöstä. Niitä ei saisi enää "
+"käyttöön, sillä tätä työkalua ei voi käyttää ilman näyttölaitetta."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
@@ -105,7 +111,7 @@ msgstr "Asetukset tallennettu"
 
 #: ../src/lxrandr.c:693
 msgid "Unable to get monitor information!"
-msgstr "Näytön tietoja ei saatu."
+msgstr "Näytön tietojen lukeminen epäonnistui!"
 
 #: ../src/lxrandr.c:699
 msgid "Display Settings"
@@ -198,6 +204,8 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"näyttö;näytön;monitori;tv;projektori;virkistystaajuus;hz;sijainti;screen;disp"
+"lay;tv;extend;projector;xrandr;refresh rate;position;enable;disable;"
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Tekijänoikeudet (C) 2008-2011"
