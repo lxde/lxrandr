@@ -199,7 +199,7 @@ msgstr "Definições do monitor"
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
-msgstr "ecrã;exibição;tv;expandir;projetor;xrandr;taxa;posição;ativar;desativar"
+msgstr "ecrã;exibição;tv;expandir;projetor;xrandr;taxa;posição;ativar;desativar;"
 
 #~ msgid "Copyright (C) 2008-2011"
 #~ msgstr "Direitos de autor (C) 2008-2011"
