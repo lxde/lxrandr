@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXRandR.\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2017-05-22 22:56+0000\n"
+"PO-Revision-Date: 2017-05-22 23:07+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495493767.121293\n"
+"X-POOTLE-MTIME: 1495494439.710160\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -83,13 +83,14 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Er alt OK? Bekræft inden 15 sekunder ellers vil den forrige tilstand blive "
+"gendannet."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
 msgstr "_OK"
 
 #: ../src/lxrandr.c:515
-#, fuzzy
 msgid "_Abort"
 msgstr "_Afbryd"
 
