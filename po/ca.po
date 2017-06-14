@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-12-05 10:26+0000\n"
-"Last-Translator: system user <>\n"
+"PO-Revision-Date: 2017-06-09 11:37+0000\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1417775208.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1497008268.944472\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -28,18 +28,16 @@ msgid "External VGA Monitor"
 msgstr "Monitor extern VGA"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Monitor extern VGA"
+msgstr "Monitor VGA"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Monitor extern DVI"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Monitor extern DVI"
+msgstr "Monitor DVI"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -65,9 +63,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -75,38 +72,39 @@ msgstr "Eina de configuració del monitor per a LXDE"
 
 #: ../src/lxrandr.c:466
 msgid "LXRandR autostart"
-msgstr ""
+msgstr "Inici automàtic de LXRandR"
 
 #: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
-msgstr ""
+msgstr "Inicia xrandr amb paràmetres fets a LXRandR"
 
 #: ../src/lxrandr.c:511
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Tot és correcte? Confirmeu-ho abans de 15 segons; si no, es tornarà a "
+"l'estat anterior."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
-msgstr ""
+msgstr "_D'acord"
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Interromp"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"No podeu apagar tots els monitors. D'altra manera, no podrieu tornar-los a "
-"engegar donat que aquesta eina no és accessible sense monitor."
+"No podeu apagar tots els monitors. Si no, no podríeu tornar-los a engegar ja "
+"que aquesta eina no és accessible sense monitor."
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
-msgstr ""
+msgstr "La configuració s'ha desat"
 
 #: ../src/lxrandr.c:693
 msgid "Unable to get monitor information!"
@@ -130,14 +128,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Apaga el monitor extern i empra només la pantalla LCD del portàtil"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "Apaga el monitor extern i empra només la pantalla LCD del portàtil"
+msgstr "Ubica el monitor extern a la dreta de la pantalla LCD del portàtil"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "Apaga el monitor extern i empra només la pantalla LCD del portàtil"
+msgstr "Ubica el monitor extern sobre la pantalla LCD del portàtil"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -158,30 +154,28 @@ msgid "Turn On"
 msgstr "Engega"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "Ressolució:"
+msgstr "Posició:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
-#, fuzzy
 msgid "Default"
-msgstr "Monitor predeterminat"
+msgstr "Predeterminat"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "A la dreta"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "A sobre"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "A l'esquerra"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "A sota"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"
@@ -197,10 +191,12 @@ msgstr "Canvieu la resolució i configureu els monitors externs"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
-msgstr "Paràmetres de la pantalla"
+msgstr "Paràmetres del monitor"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"pantalla;visualització;tv;extensió;projector;xrandr;ràtio de "
+"refresc;posició;habilita;inhabilita;"
