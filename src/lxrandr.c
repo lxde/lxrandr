@@ -213,6 +213,12 @@ static gboolean get_xrandr_info()
     setlocale( LC_ALL, ori_locale );
     g_free( ori_locale );
 
+    // Handle the case actually no monitor is added
+    if (! monitors)
+    {
+        return FALSE;
+    }
+
     return TRUE;
 }
 
