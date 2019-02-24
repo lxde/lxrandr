@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXRandR.\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2017-08-16 02:11+0000\n"
+"PO-Revision-Date: 2018-10-01 23:09+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1502849464.895934\n"
+"X-POOTLE-MTIME: 1538435368.520749\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -120,11 +120,11 @@ msgstr "Vis det samme billede på både bærbar-LCD og eksterne skærm"
 
 #: ../src/lxrandr.c:739
 msgid "Turn off laptop LCD and use external monitor only"
-msgstr "Anvend kun ekstern skærm"
+msgstr "Sluk bærbarens LCD og anvend kun ekstern skærm"
 
 #: ../src/lxrandr.c:744
 msgid "Turn off external monitor and use laptop LCD only"
-msgstr "Anvend kun bærbarens skærm"
+msgstr "Sluk ekstern skærm og anvend kun bærbarens LCD"
 
 #: ../src/lxrandr.c:749
 msgid "Place external monitor to the right of laptop LCD"

@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2014-12-05 10:51+0000\n"
-"Last-Translator: system user <>\n"
+"PO-Revision-Date: 2019-01-18 00:04+0000\n"
+"Last-Translator: mirek <mirek@cnl.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1417776675.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1547769858.085138\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -27,18 +27,16 @@ msgid "External VGA Monitor"
 msgstr "Externý VGA monitor"
 
 #: ../src/lxrandr.c:89
-#, fuzzy
 msgid "VGA Monitor"
-msgstr "Externý VGA monitor"
+msgstr "VGA monitor"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
 msgstr "Externý DVI monitor"
 
 #: ../src/lxrandr.c:91
-#, fuzzy
 msgid "DVI Monitor"
-msgstr "Externý DVI monitor"
+msgstr "DVI monitor"
 
 #: ../src/lxrandr.c:93
 msgid "TV"
@@ -56,7 +54,9 @@ msgstr "Auto"
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:286
 msgid "translator-credits"
-msgstr "Ivan Masár <helix84@centrum.sk>"
+msgstr ""
+"Ivan Masár <helix84@centrum.sk>\n"
+"Miroslav Biňas <mirek@cnl.sk>, 2019"
 
 #: ../src/lxrandr.c:294
 msgid "LXRandR"
@@ -64,9 +64,8 @@ msgstr "LXRandR"
 
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
-#, fuzzy
 msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2014"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
@@ -85,6 +84,8 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"Je všetko v poriadku? Potvrďte do 15 sekúnd, ináč sa obnoví predchádzajúci "
+"stav."
 
 #: ../src/lxrandr.c:514
 msgid "_OK"
@@ -92,10 +93,9 @@ msgstr ""
 
 #: ../src/lxrandr.c:515
 msgid "_Abort"
-msgstr ""
+msgstr "_Zrušiť"
 
 #: ../src/lxrandr.c:644
-#, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
-msgstr ""
+msgstr "Konfigurácia bola uložená"
 
 #: ../src/lxrandr.c:693
 msgid "Unable to get monitor information!"
@@ -128,14 +128,12 @@ msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Vypnúť externý monitor a používať iba LCD notebooku"
 
 #: ../src/lxrandr.c:749
-#, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
-msgstr "Vypnúť externý monitor a používať iba LCD notebooku"
+msgstr "Umiestnite externý monitor napravo od obrazovky prenosného počítača"
 
 #: ../src/lxrandr.c:754
-#, fuzzy
 msgid "Place external monitor above of laptop LCD"
-msgstr "Vypnúť externý monitor a používať iba LCD notebooku"
+msgstr "Umiestnite externý monitor nad obrazovku prenosného počítača"
 
 #: ../src/lxrandr.c:758
 msgid "Quick Options"
@@ -157,9 +155,8 @@ msgid "Turn On"
 msgstr "Zapnúť"
 
 #: ../src/lxrandr.c:837
-#, fuzzy
 msgid "Position:"
-msgstr "Rozlíšenie:"
+msgstr "Pozícia:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 #, fuzzy
@@ -168,19 +165,19 @@ msgstr "Štandardný monitor"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
-msgstr ""
+msgstr "Napravo"
 
 #: ../src/lxrandr.c:843 ../src/lxrandr.c:851
 msgid "Above"
-msgstr ""
+msgstr "Nad"
 
 #: ../src/lxrandr.c:844 ../src/lxrandr.c:852
 msgid "On left"
-msgstr ""
+msgstr "Naľavo"
 
 #: ../src/lxrandr.c:845 ../src/lxrandr.c:853
 msgid "Below"
-msgstr ""
+msgstr "Pod"
 
 #: ../src/lxrandr.c:861
 msgid "Resolution:"

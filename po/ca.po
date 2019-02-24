@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2017-06-09 11:37+0000\n"
+"PO-Revision-Date: 2018-09-28 11:20+0000\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1497008268.944472\n"
+"X-POOTLE-MTIME: 1538133606.906051\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -76,7 +76,7 @@ msgstr "Inici automàtic de LXRandR"
 
 #: ../src/lxrandr.c:467
 msgid "Start xrandr with settings done in LXRandR"
-msgstr "Inicia xrandr amb paràmetres fets a LXRandR"
+msgstr "Inicia xrandr amb la configuració feta a LXRandR"
 
 #: ../src/lxrandr.c:511
 msgid ""
@@ -112,7 +112,7 @@ msgstr "No s'ha pogout obtenir la informació del monitor!"
 
 #: ../src/lxrandr.c:699
 msgid "Display Settings"
-msgstr "Paràmetres de la pantalla"
+msgstr "Configuració de la pantalla"
 
 #: ../src/lxrandr.c:734
 msgid "Show the same screen on both laptop LCD and external monitor"
@@ -191,7 +191,7 @@ msgstr "Canvieu la resolució i configureu els monitors externs"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
-msgstr "Paràmetres del monitor"
+msgstr "Configuració del monitor"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""
