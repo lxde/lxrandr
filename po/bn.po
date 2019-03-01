@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Sankarshan <sankarshan.mukhopadhyay@gmail.com>, 2009.
 # Loba Yeasmeen <loba@ankur.org.bd>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
@@ -12,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2014-12-05 10:26+0000\n"
 "Last-Translator: system user <>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
-"Language: bn\n"
+"Language: templates\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1417775182.000000\n"
+"X-POOTLE-MTIME: 1410630615.000000\n"
 
 #: ../src/lxrandr.c:87
 msgid "Laptop LCD Monitor"
@@ -104,8 +103,8 @@ msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
 msgstr ""
-"আপনি সকল মনিটর বন্ধ করতে পারবেন না। অন্যথায়, আপনি পুনরায় এদেরকে চালু করতে পারবেন "
-"না কারণ এই টুলটি মনিটর ব্যতিত কাজ করে না।"
+"আপনি সকল মনিটর বন্ধ করতে পারবেন না। অন্যথায়, আপনি পুনরায় এদেরকে চালু করতে "
+"পারবেন না কারণ এই টুলটি মনিটর ব্যতিত কাজ করে না।"
 
 #: ../src/lxrandr.c:665
 msgid "Configuration Saved"
