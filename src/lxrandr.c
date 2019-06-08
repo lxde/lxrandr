@@ -954,6 +954,8 @@ int main(int argc, char** argv)
             m->active_mode++; /* let it stay -1 for inactive button */
     }
 
+    gtk_window_set_position(GTK_WINDOW(dlg), GTK_WIN_POS_CENTER_ALWAYS);
+
     gtk_widget_show_all( dlg );
 
     gtk_dialog_run((GtkDialog*)dlg);
