@@ -151,7 +151,8 @@ static gboolean get_xrandr_info()
                 m->placement = PLACEMENT_RIGHT;
 
             // check if this is the built-in LCD of laptop
-            if (! LVDS && (g_str_has_prefix(m->name, "LVDS") ||
+            if (! LVDS && (g_str_has_prefix(m->name, "eDP") ||
+                           g_str_has_prefix(m->name, "LVDS") ||
                            g_str_has_prefix(m->name, "PANEL")))
                 LVDS = m;
 
