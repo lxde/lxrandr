@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-26 01:07+0300\n"
-"PO-Revision-Date: 2021-04-13 13:37+0200\n"
+"PO-Revision-Date: 2021-04-14 14:27+0200\n"
 "Last-Translator: Ingo Brückl <ib@wupperonline.de>\n"
 "Language-Team: German <LL@li.org>\n"
 "Language: templates\n"
@@ -159,7 +159,7 @@ msgstr "Anordnung:"
 
 #: ../src/lxrandr.c:841 ../src/lxrandr.c:849
 msgid "Default"
-msgstr "Gleiche"
+msgstr "Gleich"
 
 #: ../src/lxrandr.c:842 ../src/lxrandr.c:850
 msgid "On right"
