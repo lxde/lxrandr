@@ -64,8 +64,8 @@ msgstr "LXRandR"
 #. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
 #: ../src/lxrandr.c:296
 #, fuzzy
-msgid "Copyright (C) 2008-2014"
-msgstr "Copyright (C) 2008-2011"
+msgid "Copyright (C) 2008-2023"
+msgstr "Copyright (C) 2008-2023"
 
 #: ../src/lxrandr.c:297
 msgid "Monitor configuration tool for LXDE"
