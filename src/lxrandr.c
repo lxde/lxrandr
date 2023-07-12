@@ -477,9 +477,9 @@ static void save_configuration()
     g_key_file_set_string( kf, grp, "OnlyShowIn", "LXDE" );
 
     data = g_key_file_to_data(kf, &len, NULL);
-    file = g_build_filename(  g_get_user_config_dir(), 
-                              "autostart", 
-                              "lxrandr-autostart.desktop", 
+    file = g_build_filename(  g_get_user_config_dir(),
+                              "autostart",
+                              "lxrandr-autostart.desktop",
                               NULL );
     /* save it to user-specific autostart dir */
     g_debug("save to: %s", file);
@@ -666,10 +666,10 @@ static void on_response( GtkDialog* dialog, int response, gpointer user_data )
 
         save_configuration();
 
-        msg = gtk_message_dialog_new( GTK_WINDOW(dialog), 
+        msg = gtk_message_dialog_new( GTK_WINDOW(dialog),
                                       0,
-                                      GTK_MESSAGE_INFO, 
-                                      GTK_BUTTONS_OK, 
+                                      GTK_MESSAGE_INFO,
+                                      GTK_BUTTONS_OK,
                                       _("Configuration Saved") );
         gtk_dialog_run( GTK_DIALOG(msg) );
         gtk_widget_destroy( msg );
@@ -695,7 +695,7 @@ int main(int argc, char** argv)
     if( ! get_xrandr_info() )
     {
         dlg = gtk_message_dialog_new( NULL,
-                                      0, 
+                                      0,
                                       GTK_MESSAGE_ERROR,
                                       GTK_BUTTONS_OK,
                                       _("Unable to get monitor information!"));
