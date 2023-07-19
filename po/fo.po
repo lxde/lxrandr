@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2014-12-05 10:28+0000\n"
 "Last-Translator: system user <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: templates\n"
+"Language: fo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,13 +48,13 @@ msgstr "Sjónvarp"
 msgid "Default Monitor"
 msgstr "Forsettur skíggi"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "Sjálvvirkandi"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr ""
 "Gunleif Joensen\n"
@@ -62,43 +62,42 @@ msgstr ""
 "Sjónarmið viðvíkjandi týðingini kunnu sendast til:\n"
 "<fo.umseting@gmail.com>"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 #, fuzzy
 msgid "Copyright (C) 2008-2023"
 msgstr "Upphavsrættindi (C) 2008-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "Skígga samansetingar-amboð hjá LXDE"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr ""
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr ""
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr ""
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr ""
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 #, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
@@ -107,99 +106,99 @@ msgstr ""
 "Tú kannst ikki sløkkja allar skíggjar. Teir kunnu ikki tendrast aftur, tí "
 "hettar amboðið ikki er tøkt uttan skíggja."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr ""
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "Ikki før fyri at fáa kunning um skíggjan!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "Skíggja setingar"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Vís somu mynd, bæði á fartelduni og á ytra skíggjanum"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Sløkk fartelduskíggjan, og nýt einans ytra skíggjan"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Sløkk ytra skíggjan, og nýt einans fartelduskíggjan"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 #, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
 msgstr "Sløkk ytra skíggjan, og nýt einans fartelduskíggjan"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 #, fuzzy
 msgid "Place external monitor above of laptop LCD"
 msgstr "Sløkk ytra skíggjan, og nýt einans fartelduskíggjan"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "Skjótir kostir"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "Framkomið"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Hesin skíggin er funnin:"
 msgstr[1] "Hesir skíggjarnir eru funnir:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "Tendra"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 #, fuzzy
 msgid "Position:"
 msgstr "Loysni:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 #, fuzzy
 msgid "Default"
 msgstr "Forsettur skíggi"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr ""
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr ""
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr ""
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr ""
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "Loysni:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "Afturkomuferð:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Broyt skíggjaloysni, og samanset ytru skíggjar"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Skíggjasetingar"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Broyt skíggjaloysni, og samanset ytru skíggjar"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""

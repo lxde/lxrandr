@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2014-12-05 10:32+0000\n"
 "Last-Translator: system user <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: templates\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,54 +46,53 @@ msgstr "טלויזיה"
 msgid "Default Monitor"
 msgstr "צג בררת המחדל"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "אוטומטי"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr ""
 "ירון שהרבני <sh.yaron@gmail.com>\n"
 "ליאל פרידמן <lielft@gmail.com>"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "תוכנת הצגים LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 msgid "Copyright (C) 2008-2023"
 msgstr "כל הזכויות שמורות (C) ‏2008‏-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "כלי לתצורת צגים עבור LXDE"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr "הפעלת אוטומטית של LXRandR"
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "הפעלת xrandr עם ההגדרות שהוגדרו ל־LXRandR"
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr "האם הכול בסדר? יש לאשר בתוך 15 שניות, אחרת ישוחזר המצב הקודם."
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr "_אישור"
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr "_ביטול"
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
@@ -101,95 +100,95 @@ msgstr ""
 "אי אפשר לכבות את כל הצגים. במצב שכזה, לא תהיה לך אפשרות להפעיל אותם בחזרה "
 "כיוון שכלי זה אינו נגיש ללא צג."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr "התצורה נשמרה"
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "לא ניתן לאחזר את נתוני הצג!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "הגדרות תצוגה"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "אותה התצוגה תופיע גם ב־LCD של המחשב הנייד וגם בצג החיצוני"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "כיבוי ה־LCD של המחשב הנייד ושימוש בצג החיצוני בלבד"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "כיבוי הצג החיצוני ושימוש ב־LCD בלבד"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 msgid "Place external monitor to the right of laptop LCD"
 msgstr "הצבת צג חיצוני לימין צג המחשב הנייד"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 msgid "Place external monitor above of laptop LCD"
 msgstr "הצבת צג חיצוני מעל צג המחשב הנייד"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "אפשרויות מהירות"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "מתקדם"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "אותר הצג הבא:"
 msgstr[1] "אותרו הצגים הבאים:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "הפעלה"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 msgid "Position:"
 msgstr "מיקום:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
 msgstr "בררת מחדל"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr "לימין"
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr "מעל"
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr "לשמאל"
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr "מתחת"
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "רזולוציה:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "קצב הרענון:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "שינוי רזולוציית הצג והגדרת צגים חיצוניים"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "הגדרות הצג"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "שינוי רזולוציית הצג והגדרת צגים חיצוניים"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""

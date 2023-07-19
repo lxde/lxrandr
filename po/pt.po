@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2015-03-26 13:32+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
-"Language: templates\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,40 +48,39 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "Monitor pré-definido"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "Automático"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr ""
 "Álvaro Morais <alvarommorais@gmail.com>\n"
 "Sérgio Marques <smarquespt@gmail.com>"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 msgid "Copyright (C) 2008-2023"
 msgstr "Copyright (C) 2008-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "Ferramenta de configuração do monitor para o LXDE"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr "Inicio automático do LXRandR"
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "Iniciar xrandr com as definições de LXrandR"
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
@@ -89,15 +88,15 @@ msgstr ""
 "Parece-lhe bem? Confirme nos próximos 15 segundos ou o estado anterior será "
 "restaurado."
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr "_OK"
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr "_Abortar"
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
@@ -105,95 +104,95 @@ msgstr ""
 "Não pode desativar todos os monitores. Se o fizer, não os poderá ligar "
 "novamente pois esta ferramenta não está disponível sem monitor."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr "Configuração gravada"
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "Não foi possível obter as informações do monitor!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "Definições de exibição"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "Mostrar o mesmo ecrã no LCD do portátil e no monitor externo"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "Desligar o LCD do portátil e usar apenas o monitor externo"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "Desligar o monitor externo e usar apenas o LCD do portátil"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 msgid "Place external monitor to the right of laptop LCD"
 msgstr "Posicionar monitor externo à direita do LCD do portátil"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 msgid "Place external monitor above of laptop LCD"
 msgstr "Posicionar monitor externo por cima do LCD do portátil"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "Opções rápidas"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "Avançado"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Foi detetado o seguinte monitor:"
 msgstr[1] "Foram detetados os seguintes monitores:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "Ligar"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 msgid "Position:"
 msgstr "Posição:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
 msgstr "Pré-definido"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr "À direita"
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr "Acima"
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr "À esquerda"
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr "Abaixo"
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "Resolução:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "Taxa de atualização:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Alterar a resolução do ecrã e configurar monitores externos"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Definições do monitor"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Alterar a resolução do ecrã e configurar monitores externos"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""

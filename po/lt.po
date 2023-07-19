@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2017-05-30 21:51+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: templates\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1410630615.000000\n"
 
@@ -47,40 +47,39 @@ msgstr "Televizorius"
 msgid "Default Monitor"
 msgstr "Numatytasis monitorius"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "Automatiškai"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr ""
 "Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Moo"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 msgid "Copyright (C) 2008-2023"
 msgstr "Autorių teisės (C) 2008-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE monitorių konfigūracijos įrankis"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr "LXRandR automatinis paleidimas"
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "Paleisti xrandr su LXRandR nustatymais"
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
@@ -88,15 +87,15 @@ msgstr ""
 "Ar viskas gerai? Patvirtinkite per 15 sekundžių arba priešingu atveju bus "
 "atkurta ankstesnė būsena."
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr "_Gerai"
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr "_Nutraukti"
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
@@ -104,106 +103,106 @@ msgstr ""
 "Jūs negalite išjungti visų monitorių. Priešingu atveju, jūs negalėsite vėl "
 "jų įjungti, kadangi šis įrankis be monitoriaus yra neprieinamas."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr "Konfigūracija įrašyta"
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "Nepavyko gauti monitoriaus informacijos!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "Ekrano nustatymai"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr ""
 "Rodyti tą patį vaizdą nešiojamojo kompiuterio ekrane ir išoriniame "
 "monitoriuje"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr ""
 "Išjungti nešiojamojo kompiuterio ekraną ir naudoti tik išorinį monitorių"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr ""
 "Išjungti išorinį monitorių ir naudoti tik nešiojamojo kompiuterio ekraną"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 msgid "Place external monitor to the right of laptop LCD"
 msgstr ""
 "Patalpinti išorinį monitorių dešinėje nuo nešiojamojo kompiuterio ekrano"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 msgid "Place external monitor above of laptop LCD"
 msgstr "Patalpinti išorinį monitorių virš nešiojamojo kompiuterio ekrano"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "Sparčiosios parinktys"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "Išplėstiniai"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Aptiktas šis monitorius:"
 msgstr[1] "Aptikti šie monitoriai:"
 msgstr[2] "Aptikti šie monitoriai:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "Įjungti"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 msgid "Position:"
 msgstr "Pozicija:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
 msgstr "Numatytoji"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr "Dešinėje"
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr "Viršuje"
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr "Kairėje"
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr "Žemiau"
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "Raiška:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "Atnaujinimo dažnis:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Keisti ekrano raišką ir konfigūruoti išorinius ekranus"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Monitoriaus nustatymai"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Keisti ekrano raišką ir konfigūruoti išorinius ekranus"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
-"ekranas;televizorius;išplėsti;projektorius;xrandr;atnaujinimo "
-"dažnis;pozicija;monitorius;įjungti;išjungti;"
+"ekranas;televizorius;išplėsti;projektorius;xrandr;atnaujinimo dažnis;"
+"pozicija;monitorius;įjungti;išjungti;"

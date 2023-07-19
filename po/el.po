@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2015-08-17 01:30+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Greek <LL@li.org>\n"
-"Language: templates\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,56 +48,55 @@ msgstr "Τηλεόραση"
 msgid "Default Monitor"
 msgstr "Προεπιλεγμένη οθόνη"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "Αυτόματο"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr ""
 "Κούτσικος Γιώργος <oege89@hotmail.com>\n"
 "Βασιλάκος Γιώργος  <forfolias@linuxteam.cs.teilar.gr>\n"
 "Ριζόπουλος Γιώργος <georgerizopoulos28@gmail.com>"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 #, fuzzy
 msgid "Copyright (C) 2008-2023"
 msgstr "Copyright (C) 2008-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "Εργαλείο διαμόρφωσης οθόνης για το LXDE"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr "Αυτόματη εκκίνηση του LXRandR"
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "Εκκίνηση του xrandr με τις ρυθμίσεις του LXRandR"
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr ""
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr ""
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 #, fuzzy
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
@@ -107,108 +106,108 @@ msgstr ""
 "την δυνατότητα να τις ενεργοποιήσετε ξανά δεδομένου ότι αυτό το εργαλείο δεν "
 "είναι διαθέσιμο χωρίς οθόνη."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr "Οι ρυθμίσεις αποθηκεύτηκαν"
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "Αδύνατο να δείτε τις πληροφορίες της οθόνης!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "Ρυθμίσεις οθόνης"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr ""
 "Εμφάνισε το ίδιο στην οθόνη του φορητού υπολογιστή και στην εξωτερική οθόνη"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr ""
 "Απενεργοποιήστε την LCD οθόνη του φορητού υπολογιστή και χρησιμοποιήστε την "
 "εξωτερική οθόνη μόνο"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr ""
 "Απενεργοποιήστε την εξωτερική οθόνη και χρησιμοποιήστε την LCD οθόνη του "
 "φορητού υπολογιστή μόνο"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 #, fuzzy
 msgid "Place external monitor to the right of laptop LCD"
 msgstr ""
 "Απενεργοποιήστε την εξωτερική οθόνη και χρησιμοποιήστε την LCD οθόνη του "
 "φορητού υπολογιστή μόνο"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 #, fuzzy
 msgid "Place external monitor above of laptop LCD"
 msgstr ""
 "Απενεργοποιήστε την εξωτερική οθόνη και χρησιμοποιήστε την LCD οθόνη του "
 "φορητού υπολογιστή μόνο"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "Γρήγορες επιλογές"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "Προχωρημένος"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "Βρέθηκε η ακόλουθη οθόνη:"
 msgstr[1] "Βρέθηκαν οι ακόλουθες οθόνες:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "Ενεργοποίηση"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 #, fuzzy
 msgid "Position:"
 msgstr "Ανάλυση:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 #, fuzzy
 msgid "Default"
 msgstr "Προεπιλεγμένη οθόνη"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr ""
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr ""
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr ""
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr ""
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "Ανάλυση:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "Ρυθμός ανανέωσης:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "Αλλαγή της ανάλυσης και προσαρμογή στις εξωτερικές οθόνες"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "Ρυθμίσεις οθόνης"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "Αλλαγή της ανάλυσης και προσαρμογή στις εξωτερικές οθόνες"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""

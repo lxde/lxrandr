@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-26 01:07+0300\n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
 "PO-Revision-Date: 2015-07-20 14:39+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: \n"
-"Language: templates\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,150 +46,151 @@ msgstr "TV"
 msgid "Default Monitor"
 msgstr "기본 모니터"
 
-#: ../src/lxrandr.c:247 ../src/lxrandr.c:258 ../src/lxrandr.c:883
-#: ../src/lxrandr.c:885
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
 msgid "Auto"
 msgstr "자동"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
-#: ../src/lxrandr.c:286
+#: ../src/lxrandr.c:293
 msgid "translator-credits"
 msgstr "Seong-ho Cho <shcho@gnome.org>"
 
-#: ../src/lxrandr.c:294
+#: ../src/lxrandr.c:301
 msgid "LXRandR"
 msgstr "LXRandR"
 
-#. gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
-#: ../src/lxrandr.c:296
+#: ../src/lxrandr.c:304
 msgid "Copyright (C) 2008-2023"
 msgstr "Copyright (C) 2008-2023"
 
-#: ../src/lxrandr.c:297
+#: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
 msgstr "LXDE의 모니터 설정 도구"
 
-#: ../src/lxrandr.c:466
+#: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
 msgstr "LXRandR 자동시작"
 
-#: ../src/lxrandr.c:467
+#: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
 msgstr "LXRandR의 설정으로 xrandr 시작하기"
 
-#: ../src/lxrandr.c:511
+#: ../src/lxrandr.c:519
 msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr "모두 괜찮습니까? 15초 안에 확인하지 않으면 이전 상태로 돌아갑니다."
 
-#: ../src/lxrandr.c:514
+#: ../src/lxrandr.c:522
 msgid "_OK"
 msgstr "확인(_O)"
 
-#: ../src/lxrandr.c:515
+#: ../src/lxrandr.c:523
 msgid "_Abort"
 msgstr "중지(_A)"
 
-#: ../src/lxrandr.c:644
+#: ../src/lxrandr.c:652
 msgid ""
 "You cannot turn off all monitors. Otherwise, you will not be able to turn "
 "them on again since this tool is not accessible without monitor."
-msgstr "모든 모니터를 끌 수 없습니다. 그렇지 않으면 모니터 없이 이 도구에 접근할 수가 없어 모니터를 다시 켤 수 없습니다."
+msgstr ""
+"모든 모니터를 끌 수 없습니다. 그렇지 않으면 모니터 없이 이 도구에 접근할 수"
+"가 없어 모니터를 다시 켤 수 없습니다."
 
-#: ../src/lxrandr.c:665
+#: ../src/lxrandr.c:673
 msgid "Configuration Saved"
 msgstr "설정을 저장했습니다"
 
-#: ../src/lxrandr.c:693
+#: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
 msgstr "모니터 정보를 가져올 수 없습니다!"
 
-#: ../src/lxrandr.c:699
+#: ../src/lxrandr.c:707
 msgid "Display Settings"
 msgstr "디스플레이 설정"
 
-#: ../src/lxrandr.c:734
+#: ../src/lxrandr.c:742
 msgid "Show the same screen on both laptop LCD and external monitor"
 msgstr "랩톱 LCD 모니터와 외부 모니터에 같은 화면 표시"
 
-#: ../src/lxrandr.c:739
+#: ../src/lxrandr.c:747
 msgid "Turn off laptop LCD and use external monitor only"
 msgstr "랩톱 LCD 모니터를 끄고 외부 모니터만 사용"
 
-#: ../src/lxrandr.c:744
+#: ../src/lxrandr.c:752
 msgid "Turn off external monitor and use laptop LCD only"
 msgstr "외부 모니터를 끄고 랩톱 LCD만 사용"
 
-#: ../src/lxrandr.c:749
+#: ../src/lxrandr.c:757
 msgid "Place external monitor to the right of laptop LCD"
 msgstr "외부 모니터 랩톱 LCD의 우측에 배치"
 
-#: ../src/lxrandr.c:754
+#: ../src/lxrandr.c:762
 msgid "Place external monitor above of laptop LCD"
 msgstr "외부 모니터를 랩톱 LCD 상단에 배치"
 
-#: ../src/lxrandr.c:758
+#: ../src/lxrandr.c:766
 msgid "Quick Options"
 msgstr "빠른 옵션"
 
-#: ../src/lxrandr.c:767
+#: ../src/lxrandr.c:775
 msgid "Advanced"
 msgstr "고급"
 
-#: ../src/lxrandr.c:771
+#: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
 msgstr[0] "다음 모니터들을 감지함:"
 
-#: ../src/lxrandr.c:823
+#: ../src/lxrandr.c:831
 msgid "Turn On"
 msgstr "켜기"
 
-#: ../src/lxrandr.c:837
+#: ../src/lxrandr.c:845
 msgid "Position:"
 msgstr "위치:"
 
-#: ../src/lxrandr.c:841 ../src/lxrandr.c:849
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
 msgstr "기본"
 
-#: ../src/lxrandr.c:842 ../src/lxrandr.c:850
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
 msgstr "우측"
 
-#: ../src/lxrandr.c:843 ../src/lxrandr.c:851
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
 msgstr "상단"
 
-#: ../src/lxrandr.c:844 ../src/lxrandr.c:852
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
 msgstr "좌측"
 
-#: ../src/lxrandr.c:845 ../src/lxrandr.c:853
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
 msgstr "하단"
 
-#: ../src/lxrandr.c:861
+#: ../src/lxrandr.c:869
 msgid "Resolution:"
 msgstr "해상도:"
 
-#: ../src/lxrandr.c:872
+#: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
 msgstr "주사율:"
 
 #: ../data/lxrandr.desktop.in.h:1
-msgid "Change screen resolution and configure external monitors"
-msgstr "화면 해상도를 바꾸고 외부 모니터를 설정합니다"
-
-#: ../data/lxrandr.desktop.in.h:2
 msgid "Monitor Settings"
 msgstr "모니터 설정"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "화면 해상도를 바꾸고 외부 모니터를 설정합니다"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
-"screen;화면;display;디스플레이;tv;TV;extent;확장;projector;프로젝터;xrandr;refresh rate;"
-"화면 주사율;position;위치;enable;활성;disable;비활성;"
+"screen;화면;display;디스플레이;tv;TV;extent;확장;projector;프로젝터;xrandr;"
+"refresh rate;화면 주사율;position;위치;enable;활성;disable;비활성;"
