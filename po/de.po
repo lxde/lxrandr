@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 16:06+0200\n"
-"PO-Revision-Date: 2023-07-12 16:10+0200\n"
+"PO-Revision-Date: 2023-07-21 17:04+0200\n"
 "Last-Translator: Ingo Brückl <ib@wupperonline.de>\n"
 "Language-Team: German <LL@li.org>\n"
 "Language: de\n"
@@ -188,7 +188,7 @@ msgstr "Bildwiederholfrequenz:"
 
 #: ../data/lxrandr.desktop.in.h:1
 msgid "Monitor Settings"
-msgstr "Bildschirm-Einstellungen"
+msgstr "Bildschirm"
 
 #: ../data/lxrandr.desktop.in.h:2
 msgid "Change screen resolution and configure external monitors"
