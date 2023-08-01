@@ -1,23 +1,24 @@
 # Portuguese translation for lxrandr package.
 # Copyright (C) 2009 THE lxrandr'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxrandr package.
-# <alvarommorais@gmail.com>, 2009.
-# Sérgio Marques <smarquespt@gmail.com>, 2009-2012
+# Álvaro Morais <alvarommorais@gmail.com>, 2009.
+# Sérgio Marques <smarquespt@gmail.com>, 2009-2012.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023.
 # Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 16:06+0200\n"
-"PO-Revision-Date: 2015-03-26 13:32+0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2023-08-02 00:36+0100\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-POOTLE-MTIME: 1410630615.000000\n"
 
 #: ../src/lxrandr.c:87
@@ -46,7 +47,7 @@ msgstr "TV"
 
 #: ../src/lxrandr.c:95
 msgid "Default Monitor"
-msgstr "Monitor pré-definido"
+msgstr "Monitor predefinido"
 
 #: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
 #: ../src/lxrandr.c:893
@@ -58,7 +59,8 @@ msgstr "Automático"
 msgid "translator-credits"
 msgstr ""
 "Álvaro Morais <alvarommorais@gmail.com>\n"
-"Sérgio Marques <smarquespt@gmail.com>"
+"Sérgio Marques <smarquespt@gmail.com>\n"
+"Hugo Carvalho <hugokarvalho@hotmail.com>"
 
 #: ../src/lxrandr.c:301
 msgid "LXRandR"
@@ -66,7 +68,7 @@ msgstr "LXRandR"
 
 #: ../src/lxrandr.c:304
 msgid "Copyright (C) 2008-2023"
-msgstr "Copyright (C) 2008-2023"
+msgstr "Direitos de autor (C) 2008-2023"
 
 #: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
@@ -160,7 +162,7 @@ msgstr "Posição:"
 
 #: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
-msgstr "Pré-definido"
+msgstr "Predefinido"
 
 #: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
