@@ -4,6 +4,7 @@
  *      Copyright (C) 2008 Hong Jen Yee(PCMan) <pcman.tw@gmail.com>
  *      Copyright (C) 2011 Julien Lavergne <julien.lavergne@gmail.com>
  *      Copyright (C) 2014 Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
+ *      Copyright (C) 2021 Ingo Brückl
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
