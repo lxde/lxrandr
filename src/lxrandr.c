@@ -165,8 +165,36 @@ static gboolean get_xrandr_info()
                 GPtrArray* strv;
                 if( ! str )
                     continue;
+
+                // aspect ratio
+
+                gchar *endptr;
+                guint64 width = g_ascii_strtoull(str, &endptr, 10);
+                guint64 height = 0;
+
+                if (endptr && *endptr)
+                    height = g_ascii_strtoull(endptr + 1, NULL, 10);
+
+                if (height == 0)
+                    height = 1;
+
+                // aspect ratio via greatest common divisor
+                guint64 a = width;
+                guint64 b = height;
+                while (b != 0)
+                {
+                    guint64 tmp = a % b;
+                    a = b;
+                    b = tmp;
+                }
+                width = width / a;
+                height = height / a;
+
                 strv = g_ptr_array_sized_new(8);
-                g_ptr_array_add( strv, g_strdup(str) );
+                g_ptr_array_add(strv, g_strdup_printf("%s (%" G_GUINT64_FORMAT ":%" G_GUINT64_FORMAT ")", str, width, height));
+
+                // frequencies
+
                 while ((str = strtok( NULL, " ")))
                 {
                     if( *str )
@@ -376,8 +404,15 @@ static GString* get_command_xrandr_info()
                 gtk_tree_model_get_iter(model, &iter, path);
                 gtk_tree_model_get(model, &iter, text_column, &text, -1);
                 gtk_tree_path_free(path);
+
+                // resolution and aspect ratio are separated by a space
+                gchar *delim = g_strstr_len(text, -1, " ");
+                if (delim)
+                    *delim = 0;
+
                 g_string_append(cmd, text);
                 g_free(text);
+
                 if( m->try_rate >= 1 ) // not auto refresh rate
                 {
                     g_string_append( cmd, " --rate " );
