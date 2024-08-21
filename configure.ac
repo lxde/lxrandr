@@ -44,8 +44,13 @@ if test "x$enable_gtk3" = "xyes" ; then
   CFLAGS="$CFLAGS -DENABLE_GTK3 -Wno-deprecated-declarations"
   gtk_modules="gtk+-3.0 >= 3.0.0"
 else
-  gtk_modules="gtk+-2.0 >= 2.0.0"
+  gtk_modules="gtk+-2.0 >= 2.6.0"
 fi
+
+PKG_CHECK_MODULES(GLIB, glib-2.0 >= 2.14.0)
+AC_SUBST(GLIB_CFLAGS)
+AC_SUBST(GLIB_LIBS)
+
 PKG_CHECK_MODULES(GTK, [$gtk_modules])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)

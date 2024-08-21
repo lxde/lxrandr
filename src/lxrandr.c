@@ -4,7 +4,7 @@
  *      Copyright (C) 2008 Hong Jen Yee(PCMan) <pcman.tw@gmail.com>
  *      Copyright (C) 2011 Julien Lavergne <julien.lavergne@gmail.com>
  *      Copyright (C) 2014 Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
- *      Copyright (C) 2021 Ingo Brückl
+ *      Copyright (C) 2021,2024 Ingo Brückl
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
@@ -328,7 +328,11 @@ static void on_about( GtkButton* btn, gpointer parent )
 
     gtk_container_set_border_width ( ( GtkContainer*)about_dlg , 2 );
     gtk_about_dialog_set_version ( (GtkAboutDialog*)about_dlg, VERSION );
+#if GTK_CHECK_VERSION(2, 12, 0)
     gtk_about_dialog_set_program_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
+#else
+    gtk_about_dialog_set_name ( (GtkAboutDialog*)about_dlg, _( "LXRandR" ) );
+#endif
     //gtk_about_dialog_set_logo( (GtkAboutDialog*)about_dlg, gdk_pixbuf_new_from_file(  PACKAGE_DATA_DIR"/pixmaps/lxrandr.png", NULL ) );
     gtk_about_dialog_set_logo_icon_name( (GtkAboutDialog*)about_dlg, "video-display" );
     gtk_about_dialog_set_copyright ( (GtkAboutDialog*)about_dlg, _( "Copyright (C) 2008-2023" ) );
