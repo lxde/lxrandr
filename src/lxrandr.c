@@ -203,6 +203,13 @@ static gboolean get_xrandr_info()
                 width = width / a;
                 height = height / a;
 
+                // 16:10 is more common than 8:5
+                if (width == 8 && height == 5)
+                {
+                    width = 16;
+                    height = 10;
+                }
+
                 // check for exact or approximate ratio
 
                 gboolean exact = TRUE;
