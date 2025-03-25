@@ -4,7 +4,7 @@
  *      Copyright (C) 2008 Hong Jen Yee(PCMan) <pcman.tw@gmail.com>
  *      Copyright (C) 2011 Julien Lavergne <julien.lavergne@gmail.com>
  *      Copyright (C) 2014 Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
- *      Copyright (C) 2021,2024 Ingo Brückl
+ *      Copyright (C) 2021,2024-2025 Ingo Brückl
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
@@ -103,9 +103,21 @@ static gboolean get_xrandr_info()
 {
     GRegex* regex;
     GMatchInfo* match;
-    int status;
+    int status, i;
     char* output = NULL;
     char* ori_locale;
+
+    const guint64 known_ratios[][2] =
+    {
+         5,  4,
+         4,  3,
+         3,  2,
+        16, 10,
+        16,  9,
+        21,  9,
+        32,  9,
+         0,  0
+    };
 
     ori_locale = g_strdup( setlocale(LC_ALL, "") );
 
@@ -191,8 +203,25 @@ static gboolean get_xrandr_info()
                 width = width / a;
                 height = height / a;
 
+                // check for exact or approximate ratio
+
+                gboolean exact = TRUE;
+
+                for (i = 0; known_ratios[i][0]; i++)
+                {
+                    if (width == known_ratios[i][0] && height == known_ratios[i][1])
+                        break;
+                    else if (ABS((float) width / (float) height - (float) known_ratios[i][0] / (float) known_ratios[i][1]) <= 0.01f)
+                    {
+                        width = known_ratios[i][0];
+                        height = known_ratios[i][1];
+                        exact = FALSE;
+                        break;
+                    }
+                }
+
                 strv = g_ptr_array_sized_new(8);
-                g_ptr_array_add(strv, g_strdup_printf("%s (%" G_GUINT64_FORMAT ":%" G_GUINT64_FORMAT ")", str, width, height));
+                g_ptr_array_add(strv, g_strdup_printf("%s (%s%" G_GUINT64_FORMAT ":%" G_GUINT64_FORMAT ")", str, exact ? "" : "≈", width, height));
 
                 // frequencies
 
