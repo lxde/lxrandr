@@ -65,8 +65,8 @@ msgstr "LIks-RandR"
 
 #: ../src/lxrandr.c:304
 #, fuzzy
-msgid "Copyright (C) 2008-2023"
-msgstr "2008-2023. Neka su prava zadržana."
+msgid "Copyright (C) 2008-2025"
+msgstr "2008-2025. Neka su prava zadržana."
 
 #: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"

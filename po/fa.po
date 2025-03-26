@@ -64,8 +64,8 @@ msgstr "ال‌ایکس‌آر اند آر"
 
 #: ../src/lxrandr.c:304
 #, fuzzy
-msgid "Copyright (C) 2008-2023"
-msgstr "حق نشر)c( 2008-2023"
+msgid "Copyright (C) 2008-2025"
+msgstr "حق نشر)c( 2008-2025"
 
 #: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"

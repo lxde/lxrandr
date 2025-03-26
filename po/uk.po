@@ -64,8 +64,8 @@ msgid "LXRandR"
 msgstr "LXRandR"
 
 #: ../src/lxrandr.c:304
-msgid "Copyright (C) 2008-2023"
-msgstr "Всі права застережено (C) 2008-2023"
+msgid "Copyright (C) 2008-2025"
+msgstr "Всі права застережено (C) 2008-2025"
 
 #: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"

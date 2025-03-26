@@ -68,8 +68,8 @@ msgstr "LXRandR"
 
 #: ../src/lxrandr.c:304
 #, fuzzy
-msgid "Copyright (C) 2008-2023"
-msgstr "Upphavsrættindi (C) 2008-2023"
+msgid "Copyright (C) 2008-2025"
+msgstr "Upphavsrættindi (C) 2008-2025"
 
 #: ../src/lxrandr.c:305
 msgid "Monitor configuration tool for LXDE"
