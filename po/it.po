@@ -5,13 +5,14 @@
 # Alessandro Pellizzari <alex@amiran.it>
 # Andrea Florio <andrea@opensuse.org>, 2010.
 # Daniele Forsi <daniele@forsi.it>, 2012.
+# Giordano Scarso <giordano.scarso@unito.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxrandr 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 16:06+0200\n"
-"PO-Revision-Date: 2012-08-15 18:36+0200\n"
-"Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
+"PO-Revision-Date: 2025-06-27 11:08+0200\n"
+"Last-Translator: Giordano Scarso <giordano.scarso@unito.it>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +64,8 @@ msgstr ""
 "Fabio Barone <phonky@gmx.net>\n"
 "Alessandro Pellizzari <alex@amiran.it>\n"
 "Andrea Florio <andrea@opensuse.org>\n"
-"Daniele Forsi <daniele@forsi.it>"
+"Daniele Forsi <daniele@forsi.it>\n"
+"Giordano Scarso <giordano.scarso@unito.it>"
 
 #: ../src/lxrandr.c:301
 msgid "LXRandR"
@@ -91,6 +93,8 @@ msgid ""
 "Is everything OK? Confirm within 15 seconds, otherwise previous state will "
 "be restored."
 msgstr ""
+"È tutto OK? Conferma entro 15 secondi, altrimenti la precedente "
+"configurazione verrà ripristinata."
 
 #: ../src/lxrandr.c:522
 msgid "_OK"
@@ -98,7 +102,7 @@ msgstr ""
 
 #: ../src/lxrandr.c:523
 msgid "_Abort"
-msgstr ""
+msgstr "_Annulla"
 
 #: ../src/lxrandr.c:652
 #, fuzzy
@@ -135,11 +139,11 @@ msgstr "Disattivare il monitor esterno ed usare solo il LCD del portatile"
 
 #: ../src/lxrandr.c:757
 msgid "Place external monitor to the right of laptop LCD"
-msgstr ""
+msgstr "Piazza il monitor esterno alla destra dell'LCD del portatile"
 
 #: ../src/lxrandr.c:762
 msgid "Place external monitor above of laptop LCD"
-msgstr ""
+msgstr "Piazza il monitor esterno sopra l'LCD del portatile"
 
 #: ../src/lxrandr.c:766
 msgid "Quick Options"
@@ -161,7 +165,7 @@ msgstr "Accendi"
 
 #: ../src/lxrandr.c:845
 msgid "Position:"
-msgstr ""
+msgstr "Posizione:"
 
 #: ../src/lxrandr.c:849 ../src/lxrandr.c:857
 msgid "Default"
@@ -169,19 +173,19 @@ msgstr ""
 
 #: ../src/lxrandr.c:850 ../src/lxrandr.c:858
 msgid "On right"
-msgstr ""
+msgstr "A destra"
 
 #: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
-msgstr ""
+msgstr "Sopra"
 
 #: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
-msgstr ""
+msgstr "A sinistra"
 
 #: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
-msgstr ""
+msgstr "Sotto"
 
 #: ../src/lxrandr.c:869
 msgid "Resolution:"
@@ -204,3 +208,5 @@ msgid ""
 "screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
 "disable;"
 msgstr ""
+"schermo;monitor;tv;estendi;proiettore;xrandr;frequenza di "
+"aggiornamento;posizione;abilita;disabilita;"
