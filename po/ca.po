@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 16:06+0200\n"
-"PO-Revision-Date: 2018-09-28 11:20+0000\n"
+"PO-Revision-Date: 2025-10-30 12:55+0100\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
 "Language: ca\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Poedit 3.6\n"
 "X-POOTLE-MTIME: 1410630615.000000\n"
 
 #: ../src/lxrandr.c:87
@@ -24,7 +24,7 @@ msgstr "Monitor LCD d'un portàtil"
 
 #: ../src/lxrandr.c:89
 msgid "External VGA Monitor"
-msgstr "Monitor extern VGA"
+msgstr "Monitor extern per VGA"
 
 #: ../src/lxrandr.c:89
 msgid "VGA Monitor"
@@ -32,7 +32,7 @@ msgstr "Monitor VGA"
 
 #: ../src/lxrandr.c:91
 msgid "External DVI Monitor"
-msgstr "Monitor extern DVI"
+msgstr "Monitor extern per DVI"
 
 #: ../src/lxrandr.c:91
 msgid "DVI Monitor"
@@ -49,12 +49,12 @@ msgstr "Monitor predeterminat"
 #: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
 #: ../src/lxrandr.c:893
 msgid "Auto"
-msgstr "Auto"
+msgstr "Automàtic"
 
 #. TRANSLATORS: Replace mw string with your names, one name per line.
 #: ../src/lxrandr.c:293
 msgid "translator-credits"
-msgstr "Crèdits dels traductors"
+msgstr "Davidmp"
 
 #: ../src/lxrandr.c:301
 msgid "LXRandR"
@@ -70,11 +70,11 @@ msgstr "Eina de configuració del monitor per a LXDE"
 
 #: ../src/lxrandr.c:474
 msgid "LXRandR autostart"
-msgstr "Inici automàtic de LXRandR"
+msgstr "Inici automàtic de l'LXRandR"
 
 #: ../src/lxrandr.c:475
 msgid "Start xrandr with settings done in LXRandR"
-msgstr "Inicia xrandr amb la configuració feta a LXRandR"
+msgstr "Inicia xrandr amb la configuració feta a l'LXRandR"
 
 #: ../src/lxrandr.c:519
 msgid ""
@@ -90,7 +90,7 @@ msgstr "_D'acord"
 
 #: ../src/lxrandr.c:523
 msgid "_Abort"
-msgstr "_Interromp"
+msgstr "_Avorta"
 
 #: ../src/lxrandr.c:652
 msgid ""
@@ -102,11 +102,11 @@ msgstr ""
 
 #: ../src/lxrandr.c:673
 msgid "Configuration Saved"
-msgstr "La configuració s'ha desat"
+msgstr "Configuració desada"
 
 #: ../src/lxrandr.c:701
 msgid "Unable to get monitor information!"
-msgstr "No s'ha pogout obtenir la informació del monitor!"
+msgstr "No s'ha pogut obtenir la informació del monitor!"
 
 #: ../src/lxrandr.c:707
 msgid "Display Settings"
@@ -144,7 +144,7 @@ msgstr "Avançat"
 #: ../src/lxrandr.c:779
 msgid "The following monitor is detected:"
 msgid_plural "The following monitors are detected:"
-msgstr[0] "S'ha detectat el següent monitor:"
+msgstr[0] "S'ha detectat el monitor següent:"
 msgstr[1] "S'han detectat els següents monitors:"
 
 #: ../src/lxrandr.c:831
@@ -165,7 +165,7 @@ msgstr "A la dreta"
 
 #: ../src/lxrandr.c:851 ../src/lxrandr.c:859
 msgid "Above"
-msgstr "A sobre"
+msgstr "A dalt"
 
 #: ../src/lxrandr.c:852 ../src/lxrandr.c:860
 msgid "On left"
@@ -173,11 +173,11 @@ msgstr "A l'esquerra"
 
 #: ../src/lxrandr.c:853 ../src/lxrandr.c:861
 msgid "Below"
-msgstr "A sota"
+msgstr "A baix"
 
 #: ../src/lxrandr.c:869
 msgid "Resolution:"
-msgstr "Ressolució:"
+msgstr "Resolució:"
 
 #: ../src/lxrandr.c:880
 msgid "Refresh Rate:"
@@ -193,8 +193,8 @@ msgstr "Canvieu la resolució i configureu els monitors externs"
 
 #: ../data/lxrandr.desktop.in.h:3
 msgid ""
-"screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;"
-"disable;"
+"screen;display;tv;extend;projector;xrandr;refresh "
+"rate;position;enable;disable;"
 msgstr ""
-"pantalla;visualització;tv;extensió;projector;xrandr;ràtio de refresc;posició;"
-"habilita;inhabilita;"
+"pantalla;visualització;tv;extensió;projector;xrandr;ràtio de "
+"refresc;posició;habilita;inhabilita;"
