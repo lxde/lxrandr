@@ -551,7 +551,7 @@ static void save_configuration()
     g_key_file_set_string( kf, grp, "Name", _("LXRandR autostart") );
     g_key_file_set_string( kf, grp, "Comment", _("Start xrandr with settings done in LXRandR") );
     g_key_file_set_string( kf, grp, "Exec", cmd->str );
-    g_key_file_set_string( kf, grp, "NotShowIn", "GNOME;KDE;XFCE;MATE;" );
+    g_key_file_set_string( kf, grp, "NotShowIn", "GNOME;KDE;XFCE;MATE;Budgie;COSMIC;Enlightenment;LXQt;X-Cinnamon;" );
 
     data = g_key_file_to_data(kf, &len, NULL);
     file = g_build_filename(  g_get_user_config_dir(),
