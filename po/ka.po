@@ -1,0 +1,199 @@
+# Georgian translation for lxrandr.
+# Copyright (C) 2026 lxrandr authors.
+# This file is distributed under the same license as the lxrandr package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxrandr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 16:06+0200\n"
+"PO-Revision-Date: 2026-02-02 12:33+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../src/lxrandr.c:87
+msgid "Laptop LCD Monitor"
+msgstr "ნოუთბუქის LCD ეკრანი"
+
+#: ../src/lxrandr.c:89
+msgid "External VGA Monitor"
+msgstr "გარე VGA ეკრანი"
+
+#: ../src/lxrandr.c:89
+msgid "VGA Monitor"
+msgstr "VGA ეკრანი"
+
+#: ../src/lxrandr.c:91
+msgid "External DVI Monitor"
+msgstr "გარე DVI ეკრანი"
+
+#: ../src/lxrandr.c:91
+msgid "DVI Monitor"
+msgstr "DVI ეკრანი"
+
+#: ../src/lxrandr.c:93
+msgid "TV"
+msgstr "TV"
+
+#: ../src/lxrandr.c:95
+msgid "Default Monitor"
+msgstr "ნაგულისხმევი ეკრანი"
+
+#: ../src/lxrandr.c:254 ../src/lxrandr.c:265 ../src/lxrandr.c:891
+#: ../src/lxrandr.c:893
+msgid "Auto"
+msgstr "ავტო"
+
+#. TRANSLATORS: Replace mw string with your names, one name per line.
+#: ../src/lxrandr.c:293
+msgid "translator-credits"
+msgstr "ეკატერინე პაპავა"
+
+#: ../src/lxrandr.c:301
+msgid "LXRandR"
+msgstr "LXRandR"
+
+#: ../src/lxrandr.c:304
+msgid "Copyright (C) 2008-2023"
+msgstr "(C) 2008-2023 ყველა უფლება დაცულია"
+
+#: ../src/lxrandr.c:305
+msgid "Monitor configuration tool for LXDE"
+msgstr "ეკრანის მორგების პროგრამა LXDE-ისთვის"
+
+#: ../src/lxrandr.c:474
+msgid "LXRandR autostart"
+msgstr "LXRandR-ის ავტოგასვება"
+
+#: ../src/lxrandr.c:475
+msgid "Start xrandr with settings done in LXRandR"
+msgstr "xrandr-ის გაშვება LXRandR-ში მორგებული პარამეტრებით"
+
+#: ../src/lxrandr.c:519
+msgid ""
+"Is everything OK? Confirm within 15 seconds, otherwise previous state will "
+"be restored."
+msgstr ""
+"ყველაფერი კარგადაა? დაადასტურეთ 15 წამში. წინააღმდეგ შემთხვევაში აღდგება "
+"წინა პარამეტრები."
+
+#: ../src/lxrandr.c:522
+msgid "_OK"
+msgstr "_დიახ"
+
+#: ../src/lxrandr.c:523
+msgid "_Abort"
+msgstr "_შეწყვეტა"
+
+#: ../src/lxrandr.c:652
+msgid ""
+"You cannot turn off all monitors. Otherwise, you will not be able to turn "
+"them on again since this tool is not accessible without monitor."
+msgstr ""
+"ყველა ეკრანს ვერ გამორთავთ. წინააღმდეგ შემთხვევაში მათ ვეღარ ჩართავთ, "
+"რადგან ეს პროგრამა ეკრანის გარეშე ხელმისაწვდომი არაა."
+
+#: ../src/lxrandr.c:673
+msgid "Configuration Saved"
+msgstr "კონფიგურაცია შენახულია"
+
+#: ../src/lxrandr.c:701
+msgid "Unable to get monitor information!"
+msgstr "ეკრანის ინფორმაციის მიღება შეუძლებელია!"
+
+#: ../src/lxrandr.c:707
+msgid "Display Settings"
+msgstr "ეკრანის მორგება"
+
+#: ../src/lxrandr.c:742
+msgid "Show the same screen on both laptop LCD and external monitor"
+msgstr "ერთი და იგივეს ჩვენება ორივე, ნოუთბუქის LCD-ზე და გარე მონიტორზე"
+
+#: ../src/lxrandr.c:747
+msgid "Turn off laptop LCD and use external monitor only"
+msgstr "ნოუთბუქის LCD-ის გამორთვა და, მხოლოდ, გარე ეკრანის გამოყენება"
+
+#: ../src/lxrandr.c:752
+msgid "Turn off external monitor and use laptop LCD only"
+msgstr "გარე ეკრანის გამორთვა და, მხოლოდ, ნოუთბუქის LCD-ის გამოყენება"
+
+#: ../src/lxrandr.c:757
+msgid "Place external monitor to the right of laptop LCD"
+msgstr "მოათავსეთ გარე ეკრანი ნოუთბუქის LCD-ის მარჯვენა მხარეს"
+
+#: ../src/lxrandr.c:762
+msgid "Place external monitor above of laptop LCD"
+msgstr "მოათავსეთ გარე ეკრანი ნოუთბუქის LCD-ის ზედა მხარეს"
+
+#: ../src/lxrandr.c:766
+msgid "Quick Options"
+msgstr "სწრაფი მორგება"
+
+#: ../src/lxrandr.c:775
+msgid "Advanced"
+msgstr "დამატებით"
+
+#: ../src/lxrandr.c:779
+msgid "The following monitor is detected:"
+msgid_plural "The following monitors are detected:"
+msgstr[0] "აღმოჩენილია შემდეგი ეკრანი:"
+msgstr[1] "აღმოჩენილია შემდეგი ეკრანები:"
+
+#: ../src/lxrandr.c:831
+msgid "Turn On"
+msgstr "ჩართვა"
+
+#: ../src/lxrandr.c:845
+msgid "Position:"
+msgstr "მდებარეობა:"
+
+#: ../src/lxrandr.c:849 ../src/lxrandr.c:857
+msgid "Default"
+msgstr "ნაგულისხმევი"
+
+#: ../src/lxrandr.c:850 ../src/lxrandr.c:858
+msgid "On right"
+msgstr "მარჯვნივ"
+
+#: ../src/lxrandr.c:851 ../src/lxrandr.c:859
+msgid "Above"
+msgstr "ზემოდან"
+
+#: ../src/lxrandr.c:852 ../src/lxrandr.c:860
+msgid "On left"
+msgstr "მარცხნივ"
+
+#: ../src/lxrandr.c:853 ../src/lxrandr.c:861
+msgid "Below"
+msgstr "ქვემოდან"
+
+#: ../src/lxrandr.c:869
+msgid "Resolution:"
+msgstr "გარჩევადობა:"
+
+#: ../src/lxrandr.c:880
+msgid "Refresh Rate:"
+msgstr "განახლების სიხშირე:"
+
+#: ../data/lxrandr.desktop.in.h:1
+msgid "Monitor Settings"
+msgstr "ეკრანის მორგება"
+
+#: ../data/lxrandr.desktop.in.h:2
+msgid "Change screen resolution and configure external monitors"
+msgstr "ეკრანის გაფართოების შეცვლა და გარე ეკრანების მოგება"
+
+#: ../data/lxrandr.desktop.in.h:3
+msgid ""
+"screen;display;tv;extend;projector;xrandr;refresh "
+"rate;position;enable;disable;"
+msgstr ""
+"screen;display;tv;extend;projector;xrandr;refresh "
+"rate;position;enable;disable;ეკრანი;გაფართოება;მდებარეობა;ჩართვა;გამორთვა;"
