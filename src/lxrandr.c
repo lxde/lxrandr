@@ -28,6 +28,7 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
+#include <gdk/gdkx.h>
 
 #include <locale.h>
 #include <stdio.h>
@@ -771,6 +772,24 @@ int main(int argc, char** argv)
 #endif
 
     gtk_init( &argc, &argv );
+
+#if GTK_CHECK_VERSION(3, 0, 0)
+    /* check if not running under X11 */
+    if (!GDK_IS_X11_DISPLAY(gdk_display_get_default()))
+    {
+        GtkWidget *dialog = gtk_message_dialog_new(
+            NULL,
+            GTK_DIALOG_MODAL,
+            GTK_MESSAGE_ERROR,
+            GTK_BUTTONS_OK,
+            _("This tool can be used only under X11.")
+        );
+
+        gtk_dialog_run(GTK_DIALOG(dialog));
+        gtk_widget_destroy(dialog);
+        return 1;
+    }
+#endif
 
     if( ! get_xrandr_info() )
     {
