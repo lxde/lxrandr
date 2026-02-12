@@ -6,5 +6,5 @@ Icon=video-display
 Terminal=false
 Type=Application
 Categories=GTK;Settings;HardwareSettings;X-LXDE-Settings;
-NotShowIn=GNOME;KDE;XFCE;MATE;
+NotShowIn=GNOME;KDE;XFCE;MATE;Budgie;COSMIC;Enlightenment;LXQt;X-Cinnamon;
 _Keywords=screen;display;tv;extend;projector;xrandr;refresh rate;position;enable;disable;
